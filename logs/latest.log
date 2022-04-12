@@ -1,0 +1,7 @@
+[18:29:59] [main/INFO]: Loading Minecraft 1.18.2 with Fabric Loader 0.13.3
+[18:29:59] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[18:29:59] [main/INFO]: Loading 3 mods:
+	- fabricloader 0.13.3
+	- java 17
+	- minecraft 1.18.2
+[18:29:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/F:/mcserver/libraries/net/fabricmc/sponge-mixin/0.11.2+mixin.0.8.5/sponge-mixin-0.11.2+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER

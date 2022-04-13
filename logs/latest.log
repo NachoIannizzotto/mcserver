@@ -1,144 +1,1797 @@
-[01:31:40] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:31:41] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:31:41] [ServerMain/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:31:41] [ServerMain/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:31:41] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:31:41] [ServerMain/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:31:41] [ServerMain/INFO]: Reloading ResourceManager: Default
-[01:31:42] [Worker-Main-6/INFO]: Loaded 7 recipes
-[01:31:42] [Worker-Main-6/INFO]: Loaded 1141 advancements
-[01:31:46] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[01:31:46] [Server thread/INFO]: Loading properties
-[01:31:46] [Server thread/INFO]: Default game type: SURVIVAL
-[01:31:46] [Server thread/INFO]: Generating keypair
-[01:31:46] [Server thread/INFO]: Starting Minecraft server on 26.241.111.176:25565
-[01:31:46] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Controlador no válido
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
-	at acj$1.run(SourceFile:101) [server-1.18.1.jar:?]
-[01:31:46] [Server thread/INFO]: Using default channel type
-[01:31:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:31:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:31:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:31:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:31:49] [Server thread/INFO]: Preparing level "world"
-[01:31:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:31:58] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[01:31:58] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[01:31:58] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[01:31:59] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[01:31:59] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[01:32:00] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[01:32:00] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[01:32:01] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[01:32:01] [Worker-Main-5/INFO]: Preparing spawn area: 1%
-[01:32:02] [Worker-Main-5/INFO]: Preparing spawn area: 1%
-[01:32:02] [Worker-Main-4/INFO]: Preparing spawn area: 2%
-[01:32:03] [Worker-Main-5/INFO]: Preparing spawn area: 3%
-[01:32:03] [Worker-Main-4/INFO]: Preparing spawn area: 3%
-[01:32:04] [Worker-Main-4/INFO]: Preparing spawn area: 4%
-[01:32:04] [Worker-Main-4/INFO]: Preparing spawn area: 4%
-[01:32:05] [Worker-Main-6/INFO]: Preparing spawn area: 5%
-[01:32:05] [Worker-Main-5/INFO]: Preparing spawn area: 6%
-[01:32:06] [Worker-Main-5/INFO]: Preparing spawn area: 8%
-[01:32:06] [Worker-Main-4/INFO]: Preparing spawn area: 9%
-[01:32:07] [Worker-Main-6/INFO]: Preparing spawn area: 9%
-[01:32:07] [Worker-Main-6/INFO]: Preparing spawn area: 11%
-[01:32:08] [Worker-Main-4/INFO]: Preparing spawn area: 12%
-[01:32:08] [Worker-Main-6/INFO]: Preparing spawn area: 13%
-[01:32:09] [Worker-Main-6/INFO]: Preparing spawn area: 15%
-[01:32:09] [Worker-Main-4/INFO]: Preparing spawn area: 15%
-[01:32:10] [Worker-Main-4/INFO]: Preparing spawn area: 16%
-[01:32:10] [Worker-Main-4/INFO]: Preparing spawn area: 16%
-[01:32:11] [Worker-Main-6/INFO]: Preparing spawn area: 19%
-[01:32:11] [Worker-Main-5/INFO]: Preparing spawn area: 21%
-[01:32:12] [Worker-Main-6/INFO]: Preparing spawn area: 22%
-[01:32:12] [Worker-Main-4/INFO]: Preparing spawn area: 23%
-[01:32:13] [Worker-Main-6/INFO]: Preparing spawn area: 24%
-[01:32:13] [Worker-Main-6/INFO]: Preparing spawn area: 24%
-[01:32:14] [Worker-Main-4/INFO]: Preparing spawn area: 26%
-[01:32:14] [Worker-Main-5/INFO]: Preparing spawn area: 27%
-[01:32:15] [Worker-Main-6/INFO]: Preparing spawn area: 29%
-[01:32:15] [Worker-Main-6/INFO]: Preparing spawn area: 31%
-[01:32:16] [Worker-Main-6/INFO]: Preparing spawn area: 32%
-[01:32:16] [Worker-Main-4/INFO]: Preparing spawn area: 33%
-[01:32:17] [Worker-Main-6/INFO]: Preparing spawn area: 33%
-[01:32:17] [Worker-Main-4/INFO]: Preparing spawn area: 34%
-[01:32:18] [Worker-Main-5/INFO]: Preparing spawn area: 36%
-[01:32:18] [Worker-Main-5/INFO]: Preparing spawn area: 37%
-[01:32:19] [Worker-Main-4/INFO]: Preparing spawn area: 38%
-[01:32:19] [Worker-Main-5/INFO]: Preparing spawn area: 40%
-[01:32:20] [Worker-Main-6/INFO]: Preparing spawn area: 42%
-[01:32:20] [Worker-Main-5/INFO]: Preparing spawn area: 43%
-[01:32:21] [Worker-Main-5/INFO]: Preparing spawn area: 44%
-[01:32:21] [Worker-Main-5/INFO]: Preparing spawn area: 45%
-[01:32:22] [Worker-Main-4/INFO]: Preparing spawn area: 48%
-[01:32:22] [Worker-Main-5/INFO]: Preparing spawn area: 50%
-[01:32:23] [Worker-Main-6/INFO]: Preparing spawn area: 51%
-[01:32:23] [Worker-Main-4/INFO]: Preparing spawn area: 53%
-[01:32:24] [Worker-Main-4/INFO]: Preparing spawn area: 54%
-[01:32:24] [Worker-Main-4/INFO]: Preparing spawn area: 54%
-[01:32:25] [Worker-Main-5/INFO]: Preparing spawn area: 55%
-[01:32:25] [Worker-Main-5/INFO]: Preparing spawn area: 55%
-[01:32:26] [Worker-Main-5/INFO]: Preparing spawn area: 56%
-[01:32:26] [Worker-Main-4/INFO]: Preparing spawn area: 57%
-[01:32:27] [Worker-Main-5/INFO]: Preparing spawn area: 58%
-[01:32:27] [Worker-Main-4/INFO]: Preparing spawn area: 59%
-[01:32:28] [Worker-Main-5/INFO]: Preparing spawn area: 60%
-[01:32:28] [Worker-Main-6/INFO]: Preparing spawn area: 61%
-[01:32:29] [Worker-Main-4/INFO]: Preparing spawn area: 61%
-[01:32:29] [Worker-Main-4/INFO]: Preparing spawn area: 62%
-[01:32:30] [Worker-Main-5/INFO]: Preparing spawn area: 64%
-[01:32:30] [Worker-Main-5/INFO]: Preparing spawn area: 65%
-[01:32:31] [Worker-Main-6/INFO]: Preparing spawn area: 68%
-[01:32:31] [Worker-Main-5/INFO]: Preparing spawn area: 69%
-[01:32:32] [Worker-Main-6/INFO]: Preparing spawn area: 70%
-[01:32:32] [Worker-Main-6/INFO]: Preparing spawn area: 72%
-[01:32:33] [Worker-Main-5/INFO]: Preparing spawn area: 73%
-[01:32:33] [Worker-Main-6/INFO]: Preparing spawn area: 74%
-[01:32:34] [Worker-Main-5/INFO]: Preparing spawn area: 74%
-[01:32:34] [Worker-Main-6/INFO]: Preparing spawn area: 75%
-[01:32:35] [Worker-Main-6/INFO]: Preparing spawn area: 75%
-[01:32:35] [Worker-Main-5/INFO]: Preparing spawn area: 77%
-[01:32:36] [Worker-Main-6/INFO]: Preparing spawn area: 78%
-[01:32:36] [Worker-Main-4/INFO]: Preparing spawn area: 79%
-[01:32:37] [Worker-Main-6/INFO]: Preparing spawn area: 79%
-[01:32:37] [Worker-Main-6/INFO]: Preparing spawn area: 81%
-[01:32:38] [Worker-Main-4/INFO]: Preparing spawn area: 82%
-[01:32:38] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[01:32:39] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[01:32:39] [Worker-Main-4/INFO]: Preparing spawn area: 85%
-[01:32:40] [Worker-Main-5/INFO]: Preparing spawn area: 86%
-[01:32:40] [Worker-Main-5/INFO]: Preparing spawn area: 86%
-[01:32:41] [Worker-Main-5/INFO]: Preparing spawn area: 87%
-[01:32:41] [Worker-Main-6/INFO]: Preparing spawn area: 89%
-[01:32:42] [Worker-Main-4/INFO]: Preparing spawn area: 90%
-[01:32:42] [Worker-Main-4/INFO]: Preparing spawn area: 91%
-[01:32:43] [Worker-Main-5/INFO]: Preparing spawn area: 92%
-[01:32:43] [Worker-Main-6/INFO]: Preparing spawn area: 93%
-[01:32:44] [Worker-Main-6/INFO]: Preparing spawn area: 94%
-[01:32:44] [Worker-Main-5/INFO]: Preparing spawn area: 96%
-[01:32:45] [Worker-Main-5/INFO]: Preparing spawn area: 97%
-[01:32:45] [Worker-Main-4/INFO]: Preparing spawn area: 98%
-[01:32:51] [Server thread/INFO]: Time elapsed: 54086 ms
-[01:32:51] [Server thread/INFO]: Done (62.573s)! For help, type "help"
-[01:32:51] [Server thread/INFO]: Stopping server
-[01:32:51] [Server thread/INFO]: Saving players
-[01:32:51] [Server thread/INFO]: Saving worlds
-[01:32:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:33:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:33:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:33:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:33:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:33:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:33:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:14:17] [main/INFO]: Loading Minecraft 1.18.1 with Fabric Loader 0.13.3
+[03:14:17] [ForkJoinPool-1-worker-4/WARN]: The mod "thonkutil-customization-v1" contains invalid entries in its mod json:
+- Unsupported root entry "disabled:mixins" at line 11 column 20
+[03:14:18] [main/INFO]: Loading 146 mods:
+	- amplified_nether 1.0.1
+	- apoli 2.2.2 via origins
+	- architectury 3.7.42
+	- awesomedungeon 2.0.8
+	- awesomedungeonend 1.0.0
+	- awesomedungeonnether 1.0.1
+	- awesomedungeonocean 2.0.6
+	- balm-fabric 2.4.3+0
+	- bewitchment 1.18-15
+	- boatcontainer 1.0.4
+	- botania 1.18.1-429-FABRIC
+	- bucolicorigins 3.1
+	- calio 1.4.2 via apoli
+	- capybara 1.0.1
+	- cardinal-components 4.1.3
+	- cardinal-components-base 4.1.3 via cardinal-components
+	- cardinal-components-block 4.1.3 via cardinal-components
+	- cardinal-components-chunk 4.1.3 via cardinal-components
+	- cardinal-components-entity 4.1.3 via cardinal-components
+	- cardinal-components-item 4.1.3 via cardinal-components
+	- cardinal-components-level 4.1.3 via cardinal-components
+	- cardinal-components-scoreboard 4.1.3 via cardinal-components
+	- cardinal-components-world 4.1.3 via cardinal-components
+	- chas 1.18-1.8-Fabric
+	- chipped 1.2
+	- chord 1.8.0+1.18-fabric via wilderworld
+	- cloth-basic-math 0.6.0 via cloth-config
+	- cloth-config 6.2.57 via travelersbackpack
+	- collective-fabric 4.9
+	- com_electronwill_night-config_core 3.6.3 via forgeconfigapiport
+	- com_electronwill_night-config_toml 3.6.3 via forgeconfigapiport
+	- com_eliotlash_mclib_mclib 18 via geckolib3
+	- com_eliotlash_molang_molang 18 via geckolib3
+	- com_typesafe_config 1.4.1 via confabricate
+	- confabricate 2.2.0-SNAPSHOT+4.1.1 via croptopia
+	- creeperoverhaul 0.3.0
+	- croptopia 1.8.3
+	- drinkbeer 3.0.2
+	- elytratrinket 3.0.0-1.18.1
+	- enchantinginfuser 3.1.1
+	- endgoblintraders 1.4.4
+	- endrem 5.0.0
+	- extrakeybinds 1.18-0.1.0
+	- extraorigins 1.18-9
+	- fabric 0.46.6+1.18
+	- fabric-api-base 0.4.2+d7c144a865 via fabric
+	- fabric-api-lookup-api-v1 1.5.3+d7c144a865 via fabric
+	- fabric-biome-api-v1 6.0.2+d7c144a865 via fabric
+	- fabric-command-api-v1 1.1.7+d7c144a865 via fabric
+	- fabric-commands-v0 0.2.6+b4f4f6cd65 via fabric
+	- fabric-containers-v0 0.1.19+d7c144a865 via fabric
+	- fabric-content-registries-v0 0.4.9+d7c144a865 via fabric
+	- fabric-crash-report-info-v1 0.1.9+3ac43d9565 via fabric
+	- fabric-dimensions-v1 2.1.10+a1d9bbf565 via fabric
+	- fabric-entity-events-v1 1.4.6+d7c144a865 via fabric
+	- fabric-events-interaction-v0 0.4.17+d7c144a865 via fabric
+	- fabric-events-lifecycle-v0 0.2.9+d7c144a865 via fabric
+	- fabric-game-rule-api-v1 1.0.11+d7c144a865 via fabric
+	- fabric-item-api-v1 1.3.1+691a79b565 via fabric
+	- fabric-item-groups-v0 0.3.7+3ac43d9565 via fabric
+	- fabric-lifecycle-events-v1 1.4.13+713c266865 via fabric
+	- fabric-loot-tables-v1 1.0.9+d7c144a865 via fabric
+	- fabric-mining-level-api-v1 1.0.7+d7c144a865 via fabric
+	- fabric-mining-levels-v0 0.1.12+b4f4f6cd65 via fabric
+	- fabric-networking-api-v1 1.0.19+d7c144a865 via fabric
+	- fabric-networking-v0 0.3.6+b4f4f6cd65 via fabric
+	- fabric-object-builder-api-v1 1.11.5+737332ce65 via fabric
+	- fabric-object-builders-v0 0.7.13+d7c144a865 via fabric
+	- fabric-particles-v1 0.2.10+526dc1ac65 via fabric
+	- fabric-permissions-api-v0 0.1-SNAPSHOT via bewitchment
+	- fabric-registry-sync-v0 0.9.2+ad01bfbd65 via fabric
+	- fabric-rendering-data-attachment-v1 0.3.5+d7c144a865 via fabric
+	- fabric-rendering-fluids-v1 0.1.19+3ac43d9565 via fabric
+	- fabric-resource-conditions-api-v1 1.0.2+d7c144a865 via fabric
+	- fabric-resource-loader-v0 0.4.15+8906aafd65 via fabric
+	- fabric-screen-handler-api-v1 1.1.12+d7c144a865 via fabric
+	- fabric-structure-api-v1 2.1.3+d7c144a865 via fabric
+	- fabric-tag-extensions-v0 1.2.9+d7c144a865 via fabric
+	- fabric-tool-attribute-api-v1 1.3.9+fb3b57b465 via fabric
+	- fabric-transfer-api-v1 1.5.10+c329913d65 via fabric
+	- fabricloader 0.13.3
+	- fallingtree 3.2.1
+	- farmingforblockheads 9.0.3
+	- feature_nbt_deadlock_be_gone 1.0.1+1.18.1
+	- fiber 0.23.0-2 via botania
+	- forgeconfigapiport 3.1.1
+	- friendsandfoes 1.2.5
+	- geckolib3 3.0.33
+	- goblintraders 1.4.1
+	- graveyard 1.6
+	- guild 0.3.8
+	- ikwid_fabric 1.1+1.18.2 via william-wythers-overhauled-overworld
+	- immersive_weathering 2.1.1
+	- impersonate 2.4.0 via bewitchment
+	- io_leangen_geantyref_geantyref 1.3.11 via confabricate
+	- java 17
+	- kanos_config 0.1.5+1.14.4-1.18.2 via pehkui
+	- libraryferret 1.0.3
+	- minecraft 1.18.1
+	- more-axolotls 1.0.2
+	- morevillagers-fabric 3.1.1-SNAPSHOT
+	- mrplaguewarper 1.0.3
+	- naturescompass 1.18.1-2.0.3-fabric
+	- no_null_processors 2.0.1+1.18.1
+	- omega-config 1.2.2-1.18.1 via friendsandfoes
+	- org_spongepowered_configurate-core 4.1.1 via confabricate
+	- org_spongepowered_configurate-extra-dfu4 4.1.1 via confabricate
+	- org_spongepowered_configurate-gson 4.1.1 via confabricate
+	- org_spongepowered_configurate-hocon 4.1.1 via confabricate
+	- origins 1.3.1
+	- origins-classes 1.2.4
+	- patchouli 1.18.1-65-FABRIC
+	- pehkui 3.2.1+1.14.4-1.19
+	- pickupnotifier 3.1.0
+	- playerabilitylib 1.5.0 via bewitchment
+	- polymorph 0.0.18-1.18.1
+	- puzzleslib 3.2.1
+	- ratsmischief 1.3.5
+	- reach-entity-attributes 2.1.1 via bewitchment
+	- repurposed_structures 3.3.12+1.18.1
+	- ringsofascension 1.0
+	- roughlyenoughitems 7.3.443
+	- rpgz 0.4.11
+	- seedfix 1.0.0 via amplified_nether
+	- step-height-entity-attribute 1.0.0 via bewitchment
+	- terraform-wood-api-v1 2.0.2 via bewitchment
+	- thonkutil 2.12.0+1.18
+	- thonkutil-base 1.12.0+93f5607360 via thonkutil
+	- thonkutil-capes-v1 1.3.1+974d16dd60 via thonkutil
+	- thonkutil-customization-v1 1.0.13+4c66479160 via thonkutil
+	- thonkutil-legacy 1.0.19+aa74e18060 via thonkutil
+	- thonkutil-modchecker-v1 1.0.11+4c66479160 via thonkutil
+	- thonkutil-potions-v0 1.4.0+6d0d59d760 via thonkutil
+	- thonkutil-trades-v1 1.1.19+4c66479160 via thonkutil
+	- tradingpost 3.1.2
+	- trashslot 11.0.2
+	- travelersbackpack 1.18.1-7.0.0
+	- treehollows 1.1
+	- trinketofundying 2.0.1-1.18
+	- trinkets 3.2.0
+	- visualworkbench 3.1.0
+	- wilderworld 1.1.1
+	- william-wythers-overhauled-overworld 2.0
+	- wthit 4.5.5
+	- xaerominimap 22.3.0
+	- xaeroworldmap 1.20.3.1
+[03:14:18] [main/WARN]: Mod `xaeroworldmap` (1.20.3.1) uses more dot-separated version components than SemVer allows; support for this is currently not guaranteed.
+[03:14:18] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/F:/mcserver/libraries/net/fabricmc/sponge-mixin/0.11.2+mixin.0.8.5/sponge-mixin-0.11.2+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[03:14:18] [main/INFO]: Compatibility level set to JAVA_16
+[03:14:18] [main/INFO]: Compatibility level set to JAVA_17
+[03:14:22] [main/WARN]: Method overwrite conflict for getStructureSpawns in graveyard.mixins.json:NoiseChunkGeneratorMixin, previously written by com.endremastered.endrem.mixin.world.NoiseChunkGeneratorMixin. Skipping method.
+[03:14:28] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$bdm000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[03:14:31] [main/INFO]: Apoli 2.2.2 has initialized. Ready to power up your game!
+[03:14:31] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
+[03:14:31] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
+[03:14:31] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
+[03:14:31] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
+[03:14:31] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
+[03:14:31] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
+[03:14:33] [main/ERROR]: No data fixer registered for botania:mana_burst
+[03:14:33] [main/ERROR]: No data fixer registered for botania:pixie
+[03:14:33] [main/ERROR]: No data fixer registered for botania:flame_ring
+[03:14:33] [main/ERROR]: No data fixer registered for botania:vine_ball
+[03:14:33] [main/ERROR]: No data fixer registered for botania:doppleganger
+[03:14:33] [main/ERROR]: No data fixer registered for botania:magic_landmine
+[03:14:33] [main/ERROR]: No data fixer registered for botania:spark
+[03:14:33] [main/ERROR]: No data fixer registered for botania:thrown_item
+[03:14:33] [main/ERROR]: No data fixer registered for botania:magic_missile
+[03:14:33] [main/ERROR]: No data fixer registered for botania:thorn_chakram
+[03:14:33] [main/ERROR]: No data fixer registered for botania:corporea_spark
+[03:14:33] [main/ERROR]: No data fixer registered for botania:ender_air_bottle
+[03:14:33] [main/ERROR]: No data fixer registered for botania:pool_minecart
+[03:14:33] [main/ERROR]: No data fixer registered for botania:pink_wither
+[03:14:33] [main/ERROR]: No data fixer registered for botania:player_mover
+[03:14:33] [main/ERROR]: No data fixer registered for botania:mana_storm
+[03:14:33] [main/ERROR]: No data fixer registered for botania:babylon_weapon
+[03:14:33] [main/ERROR]: No data fixer registered for botania:falling_star
+[03:14:33] [main/ERROR]: No data fixer registered for botania:ender_air
+[03:14:34] [main/INFO]: Capybara is downloaded, loading now! Thanks for installing! <3
+[03:14:34] [main/INFO]: [Chord] Initializing
+[03:14:34] [main/INFO]: [Chord] Initialized
+[03:14:34] [main/INFO]: [STDOUT]: Loading Collective (Fabric) version 4.9.
+[03:14:35] [main/INFO]: Creating registry manager for mod id enchantinginfuser
+[03:14:36] [main/ERROR]: No data fixer registered for farmingforblockheads:merchant
+[03:14:36] [main/INFO]: Disabling Experimental Warnings!
+[03:14:36] [main/INFO]: libraryferret - > init ...
+[03:14:36] [main/INFO]: Origins 1.3.1 is initializing. Have fun!
+[03:14:38] [main/INFO]: Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[03:14:38] [main/INFO]: Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[03:14:39] [main/INFO]: Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[03:14:39] [main/INFO]: Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[03:14:39] [main/INFO]: Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[03:14:39] [main/INFO]: Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[03:14:39] [main/INFO]: Loaded seedfix v1.0.0 by Justsnoopy30!
+[03:14:39] [main/INFO]: [STDOUT]: thonkutil-capes-v1 Init
+[03:14:39] [main/INFO]: Creating registry manager for mod id tradingpost
+[03:14:39] [main/INFO]: Creating registry manager for mod id visualworkbench
+[03:14:39] [main/ERROR]: No data fixer registered for wisteria_sign
+[03:14:39] [main/INFO]: Things are gettin' wild!
+[03:14:39] [main/INFO]: [WTHIT] Registering plugin waila:core at mcp.mobius.waila.plugin.core.WailaCore
+[03:14:39] [main/INFO]: [WTHIT] Registering plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.WailaVanilla
+[03:14:39] [main/INFO]: [WTHIT] Plugin config reloaded
+[03:14:39] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[03:14:39] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[03:14:41] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:14:42] [main/INFO]: Found new data pack Fabric Mods, loading it automatically
+[03:14:43] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:14:43] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:14:43] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:14:43] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:14:43] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:14:43] [main/WARN]: Ambiguity between arguments [scale, get, scale_type] and [scale, get, entity] with inputs: [base]
+[03:14:43] [main/WARN]: Ambiguity between arguments [scale, get, scale_type, entity] and [scale, get, scale_type, scalingFactor] with inputs: [0123]
+[03:14:43] [main/WARN]: Ambiguity between arguments [scale, get, scale_type, scalingFactor] and [scale, get, scale_type, entity] with inputs: [0, -1, -.5, 1.2, .5, -1234.56]
+[03:14:43] [main/WARN]: Ambiguity between arguments [scale, get, scalingFactor] and [scale, get, entity] with inputs: [0, -1, -.5, 1.2, .5, -1234.56]
+[03:14:43] [main/WARN]: Ambiguity between arguments [scale, get, entity] and [scale, get, scalingFactor] with inputs: [0123]
+[03:14:43] [main/WARN]: Ambiguity between arguments [scale, compute, scale_type, entity] and [scale, compute, scale_type, scalingFactor] with inputs: [0123]
+[03:14:43] [main/WARN]: Ambiguity between arguments [scale, compute, scale_type, scalingFactor] and [scale, compute, scale_type, entity] with inputs: [0, -1, -.5, 1.2, .5, -1234.56]
+[03:14:43] [main/WARN]: Ambiguity between arguments [scale, reset, scale_type] and [scale, reset, targets] with inputs: [base]
+[03:14:43] [main/WARN]: Ambiguity between arguments [scale, delay, get, scale_type] and [scale, delay, get, entity] with inputs: [base]
+[03:14:43] [main/WARN]: Ambiguity between arguments [scale, persist, reset, scale_type] and [scale, persist, reset, targets] with inputs: [base]
+[03:14:43] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Amplified Nether for Fabric, Apoli, Awesome Dungeon, Awesome Dungeon Edition end, Awesome Dungeon Edition Nether, Awesome Dungeon Edition Ocean, Balm, Bewitchment, BoatContainer, Botania, Bucolic_Origins[FABRIC], Craftable Horse Armour & Saddle, Chipped, Chord, Creeper Overhaul, Croptopia, Drink Beer, Elytra Trinket, Enchanting Infuser, End Goblin Traders, End Remastered, Extra Origins, Fabric Tool Attribute API (v1), Farming for Blockheads, Friends&Foes, Goblin Traders, The Graveyard, Guild, Immersive Weathering, MoreVillagersFabric, MrPlague's Warper Origin, Nature's Compass, Origins, Origins: Classes, Patchouli, Rat's Mischief, Repurposed Structures, Rings of Ascension, RPGZ, ThonkUtil Capes (v1), Trading Post, Traveler's Backpack, Tree Hollows, Trinket of Undying, Trinkets, WilderWorld, William Wythers Overhauled Overworld)
+[03:14:44] [Worker-Main-4/ERROR]: Couldn't load tag minecraft:boats as it is missing following references: wilderworld:wisteria_boat (from WilderWorld)
+[03:14:45] [Worker-Main-5/INFO]: [STDOUT]: endgoblintraders:trades/end_goblin_trader/common.json
+[03:14:45] [Worker-Main-5/INFO]: [STDOUT]: endgoblintraders:trades/end_goblin_trader/epic.json
+[03:14:45] [Worker-Main-5/INFO]: [STDOUT]: endgoblintraders:trades/end_goblin_trader/legendary.json
+[03:14:45] [Worker-Main-5/INFO]: [STDOUT]: endgoblintraders:trades/end_goblin_trader/rare.json
+[03:14:45] [Worker-Main-5/INFO]: [STDOUT]: endgoblintraders:trades/end_goblin_trader/uncommon.json
+[03:14:45] [Worker-Main-5/INFO]: [STDOUT]: goblintraders:trades/goblin_trader/common.json
+[03:14:45] [Worker-Main-5/INFO]: [STDOUT]: goblintraders:trades/goblin_trader/legendary.json
+[03:14:45] [Worker-Main-5/INFO]: [STDOUT]: goblintraders:trades/goblin_trader/rare.json
+[03:14:45] [Worker-Main-5/INFO]: [STDOUT]: goblintraders:trades/goblin_trader/uncommon.json
+[03:14:45] [Worker-Main-5/INFO]: [STDOUT]: goblintraders:trades/vein_goblin_trader/common.json
+[03:14:45] [Worker-Main-5/INFO]: [STDOUT]: goblintraders:trades/vein_goblin_trader/epic.json
+[03:14:45] [Worker-Main-5/INFO]: [STDOUT]: goblintraders:trades/vein_goblin_trader/legendary.json
+[03:14:45] [Worker-Main-5/INFO]: [STDOUT]: goblintraders:trades/vein_goblin_trader/rare.json
+[03:14:45] [Worker-Main-5/INFO]: [STDOUT]: goblintraders:trades/vein_goblin_trader/uncommon.json
+[03:14:45] [Worker-Main-5/ERROR]: Parsing error loading recipe boatcontainer:stripped_bamboo_ender_chest_boat
+com.google.gson.JsonSyntaxException: Unknown item 'twigs:stripped_bamboo_boat'
+	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8144(class_1867.java:98) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8142(class_1867.java:83) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8121(class_1867.java:79) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:126) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:46] [Worker-Main-5/ERROR]: Parsing error loading recipe endrem:compat/create/crushing/end_crystal_horse_armor
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:125) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:125) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:46] [Worker-Main-5/ERROR]: Parsing error loading recipe bucolicraces:glowworm_silk
+com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:glowshroom'
+	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8144(class_1867.java:98) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8142(class_1867.java:83) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8121(class_1867.java:79) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:126) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:46] [Worker-Main-5/ERROR]: Parsing error loading recipe endrem:compat/create/crushing/end_crystal_ore
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:125) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:125) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:46] [Worker-Main-5/ERROR]: Parsing error loading recipe bucolicraces:glowing_moss_block
+com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:glowshroom'
+	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8144(class_1867.java:98) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8142(class_1867.java:83) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8121(class_1867.java:79) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:126) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:46] [Worker-Main-5/ERROR]: Parsing error loading recipe boatcontainer:stripped_bamboo_chest_boat
+com.google.gson.JsonSyntaxException: Unknown item 'twigs:stripped_bamboo_boat'
+	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:253) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8144(class_1867.java:98) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8142(class_1867.java:83) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8121(class_1867.java:79) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:126) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:34) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:46] [Worker-Main-5/INFO]: Loaded 31 recipes
+[03:14:46] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_12
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_12'
+	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:138) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:456) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:466) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:209) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_60.method_20711(class_60.java:44) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_20712(class_60.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_18788(class_60.java:17) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:46] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_11
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_11'
+	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:138) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:456) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:466) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:209) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_60.method_20711(class_60.java:44) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_20712(class_60.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_18788(class_60.java:17) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:46] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_10
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_10'
+	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:138) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:456) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:466) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:209) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_60.method_20711(class_60.java:44) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_20712(class_60.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_18788(class_60.java:17) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:47] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_7
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_7'
+	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:138) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:456) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:466) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:209) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_60.method_20711(class_60.java:44) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_20712(class_60.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_18788(class_60.java:17) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:47] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_6
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_6'
+	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:138) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:456) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:466) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:209) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_60.method_20711(class_60.java:44) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_20712(class_60.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_18788(class_60.java:17) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:47] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_5
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_5'
+	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:138) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:456) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:466) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:209) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_60.method_20711(class_60.java:44) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_20712(class_60.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_18788(class_60.java:17) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:47] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_4
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_4'
+	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:138) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:456) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:466) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:209) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_60.method_20711(class_60.java:44) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_20712(class_60.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_18788(class_60.java:17) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:47] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_3
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_3'
+	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:138) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:456) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:466) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:209) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_60.method_20711(class_60.java:44) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_20712(class_60.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_18788(class_60.java:17) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:47] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_2
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_2'
+	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:138) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:456) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:466) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:209) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_60.method_20711(class_60.java:44) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_20712(class_60.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_18788(class_60.java:17) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:47] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_1
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_1'
+	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:138) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:456) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:466) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:209) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_60.method_20711(class_60.java:44) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_20712(class_60.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_18788(class_60.java:17) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:47] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_9
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_9'
+	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:138) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:456) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:466) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:209) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_60.method_20711(class_60.java:44) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_20712(class_60.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_18788(class_60.java:17) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:47] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_8
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_8'
+	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:130) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:138) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:456) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:448) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:466) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:213) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:209) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:932) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1003) ~[gson-2.8.8.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.8.jar:?]
+	at net.minecraft.class_60.method_20711(class_60.java:44) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_20712(class_60.java:42) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_18788(class_60.java:17) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[03:14:47] [Worker-Main-5/INFO]: Loaded 2685 advancements
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/metal_bar_0" in power file "bucolicraces:diet_modifiers/irongolem/metal_bar": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "engineersdecore:metal_bar" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/metal_bar_grow" in power file "bucolicraces:diet_modifiers/irongolem/metal_bar": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "engineersdecore:metal_bar" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/metal_bar_particle" in power file "bucolicraces:diet_modifiers/irongolem/metal_bar": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "engineersdecore:metal_bar" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_slime_balls_0" in power file "bucolicraces:diet_modifiers/vampire/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_slime_balls_grow" in power file "bucolicraces:diet_modifiers/vampire/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_slime_balls_particle" in power file "bucolicraces:diet_modifiers/vampire/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/fireelemental/blazingbucket_0" in power file "bucolicraces:diet_modifiers/fireelemental/blazingbucket": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blazing_blood_bucket" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/fireelemental/blazingbucket_grow" in power file "bucolicraces:diet_modifiers/fireelemental/blazingbucket": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blazing_blood_bucket" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/fireelemental/blazingbucket_particle" in power file "bucolicraces:diet_modifiers/fireelemental/blazingbucket": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blazing_blood_bucket" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/scortchedbrick_0" in power file "bucolicraces:diet_modifiers/relic/scortchedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:scortched_brick" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/scortchedbrick_grow" in power file "bucolicraces:diet_modifiers/relic/scortchedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:scortched_brick" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/scortchedbrick_particle" in power file "bucolicraces:diet_modifiers/relic/scortchedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:scortched_brick" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/tallow_0" in power file "bucolicraces:diet_modifiers/candle/tallow": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "occultism:tallow" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/tallow_grow" in power file "bucolicraces:diet_modifiers/candle/tallow": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "occultism:tallow" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/tallow_particle" in power file "bucolicraces:diet_modifiers/candle/tallow": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "occultism:tallow" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/ashbrick_0" in power file "bucolicraces:diet_modifiers/relic/ashbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "supplementaries:ash_brick" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/ashbrick_grow" in power file "bucolicraces:diet_modifiers/relic/ashbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "supplementaries:ash_brick" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/ashbrick_particle" in power file "bucolicraces:diet_modifiers/relic/ashbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "supplementaries:ash_brick" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_heart_0" in power file "bucolicraces:diet_modifiers/poltergeist/soul_heart": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:soul_heart" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_heart_grow" in power file "bucolicraces:diet_modifiers/poltergeist/soul_heart": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:soul_heart" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_heart_particle" in power file "bucolicraces:diet_modifiers/poltergeist/soul_heart": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:soul_heart" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/inedibles_slow" in power file "bucolicraces:diet_modifiers/inedibles": Error reading data field at modifier.operation: JSON requires field: operation
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:biome_modifiers/iceelemental_largest" in power file "bucolicraces:biome_modifiers/iceelemental": Error reading data field at condition: EntityCondition json type "origins:temperature" is not defined.
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore_0" in power file "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:crushed_iron_ore" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore_grow" in power file "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:crushed_iron_ore" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore_particle" in power file "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:crushed_iron_ore" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/searedbrick_0" in power file "bucolicraces:diet_modifiers/relic/searedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:seared_brick" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/searedbrick_grow" in power file "bucolicraces:diet_modifiers/relic/searedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:seared_brick" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/searedbrick_particle" in power file "bucolicraces:diet_modifiers/relic/searedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:seared_brick" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket1_0" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket1_grow" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket1_particle" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket2_0" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket2_grow" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket2_particle" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/animalfat_0" in power file "bucolicraces:diet_modifiers/candle/animalfat": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:animal_fat" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/animalfat_grow" in power file "bucolicraces:diet_modifiers/candle/animalfat": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:animal_fat" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/animalfat_particle" in power file "bucolicraces:diet_modifiers/candle/animalfat": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:animal_fat" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading power file ratsmischief:ratified (skipping): Power type "requiem:soul_type" is not defined.
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bottle_0" in power file "bucolicraces:diet_modifiers/ghoul/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bottle_grow" in power file "bucolicraces:diet_modifiers/ghoul/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bottle_particle" in power file "bucolicraces:diet_modifiers/ghoul/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_bottle_0" in power file "bucolicraces:diet_modifiers/poltergeist/soul_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "dungeonsmod:soul_bottle" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_bottle_grow" in power file "bucolicraces:diet_modifiers/poltergeist/soul_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "dungeonsmod:soul_bottle" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_bottle_particle" in power file "bucolicraces:diet_modifiers/poltergeist/soul_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "dungeonsmod:soul_bottle" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/iron_sheet_0" in power file "bucolicraces:diet_modifiers/irongolem/iron_sheet": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:iron_sheet" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/iron_sheet_grow" in power file "bucolicraces:diet_modifiers/irongolem/iron_sheet": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:iron_sheet" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/iron_sheet_particle" in power file "bucolicraces:diet_modifiers/irongolem/iron_sheet": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:iron_sheet" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket1_0" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket1_grow" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket1_particle" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bottle_0" in power file "bucolicraces:diet_modifiers/vampire/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bottle_grow" in power file "bucolicraces:diet_modifiers/vampire/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bottle_particle" in power file "bucolicraces:diet_modifiers/vampire/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading power file bucolicraces:diet_modifiers/dietnone (skipping): Error reading data field at item_condition: ItemCondition json type "minecraft:in_tag" is not defined.
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket2_0" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket2_grow" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket2_particle" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/ootheca_0" in power file "bucolicraces:diet_modifiers/ghoul/ootheca": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:cockroach_ootheca" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/ootheca_grow" in power file "bucolicraces:diet_modifiers/ghoul/ootheca": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:cockroach_ootheca" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/ootheca_particle" in power file "bucolicraces:diet_modifiers/ghoul/ootheca": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:cockroach_ootheca" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_slime_balls_0" in power file "bucolicraces:diet_modifiers/ghoul/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_slime_balls_grow" in power file "bucolicraces:diet_modifiers/ghoul/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_slime_balls_particle" in power file "bucolicraces:diet_modifiers/ghoul/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/INFO]: Finished loading powers from data files. Registry contains 926 powers.
+[03:14:48] [Worker-Main-5/ERROR]: There was a problem reading Origin file bucolicraces:treant (skipping): Error reading data field at icon: Identifier "biomesoplenty:mahogany_sapling" was not registered in registry "minecraft:item".
+[03:14:48] [Worker-Main-5/ERROR]: Origin "bucolicraces:gunling" contained unregistered power: "bucolicraces:diet_modifiers/dietnone"
+[03:14:48] [Worker-Main-5/ERROR]: Origin "ratsmischief:rat" contained unregistered power: "ratsmischief:ratified"
+[03:14:48] [Worker-Main-5/ERROR]: Origin "bucolicraces:demon" contained unregistered power: "bucolicraces:diet_modifiers/dietnone"
+[03:14:48] [Worker-Main-5/INFO]: Finished loading origins from data files. Registry contains 85 origins.
+[03:14:48] [Worker-Main-5/INFO]: Trying to read layer file: origins-classes:class
+[03:14:49] [Worker-Main-5/INFO]: Trying to read layer file: origins:origin
+[03:14:49] [Worker-Main-5/INFO]: Trying to read layer file: origins:origin
+[03:14:49] [Worker-Main-5/INFO]: Trying to read layer file: origins:origin
+[03:14:49] [Worker-Main-5/INFO]: Trying to read layer file: origins:origin
+[03:14:49] [Worker-Main-5/INFO]: Trying to read layer file: origins:origin
+[03:14:49] [Worker-Main-5/INFO]: Finished loading origin layers from data files. Read 2 layers.
+[03:14:49] [Worker-Main-5/INFO]: Reloading Plugin Manager [REIPlugin] stage [START], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
+[03:14:49] [Worker-Main-5/INFO]: Reloaded Plugin Manager [REIPlugin] with 2 entry types, 5 item comparators, 0 fluid comparators and 2 fluid support providers in 28ms.
+[03:14:49] [Worker-Main-5/INFO]: Reloading Plugin Manager [REIServerPlugin] stage [START], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
+[03:14:49] [Worker-Main-5/INFO]: Reloaded Plugin Manager [REIServerPlugin] with 0 menu infos in 3ms.
+[03:14:49] [Worker-Main-5/INFO]: Reloading Plugin Manager [REIPlugin] stage [END], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
+[03:14:49] [Worker-Main-5/INFO]: Reloaded Plugin Manager [REIPlugin] with 2 entry types, 5 item comparators, 0 fluid comparators and 2 fluid support providers in 44ms.
+[03:14:49] [Worker-Main-5/INFO]: Reloading Plugin Manager [REIServerPlugin] stage [END], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
+[03:14:49] [Worker-Main-5/INFO]: Reloaded Plugin Manager [REIServerPlugin] with 4 menu infos in 15ms.
+[03:14:54] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[03:14:56] [main/INFO]: Applied 1216 biome modifications to 62 of 62 new biomes in 1.352 s
+[03:14:56] [Server thread/WARN]: Configuration file .\world\serverconfig\enchantinginfuser-server.toml is not correct. Correcting
+[03:14:56] [Server thread/WARN]: Incorrect key maximum_power_advanced was corrected from null to its default, 30. 
+[03:14:56] [Server thread/WARN]: Incorrect key power was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03:14:56] [Server thread/WARN]: Incorrect key power.rare_multiplier was corrected from null to its default, 0.4. 
+[03:14:56] [Server thread/WARN]: Incorrect key power.undiscoverable_multiplier was corrected from null to its default, 0.9. 
+[03:14:56] [Server thread/WARN]: Incorrect key power.treasure_multiplier was corrected from null to its default, 0.95. 
+[03:14:56] [Server thread/WARN]: Incorrect key power.curse_multiplier was corrected from null to its default, 1.0. 
+[03:14:56] [Server thread/WARN]: Incorrect key power.common_multiplier was corrected from null to its default, -0.2. 
+[03:14:56] [Server thread/WARN]: Incorrect key power.very_rare_multiplier was corrected from null to its default, 0.6. 
+[03:14:56] [Server thread/WARN]: Incorrect key power.level_multiplier was corrected from null to its default, 0.4. 
+[03:14:56] [Server thread/WARN]: Incorrect key power.uncommon_multiplier was corrected from null to its default, 0.2. 
+[03:14:56] [Server thread/WARN]: Incorrect key types was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03:14:56] [Server thread/WARN]: Incorrect key types.treasure was corrected from null to its default, false. 
+[03:14:56] [Server thread/WARN]: Incorrect key types.undiscoverable was corrected from null to its default, false. 
+[03:14:56] [Server thread/WARN]: Incorrect key types.curses was corrected from null to its default, false. 
+[03:14:56] [Server thread/WARN]: Incorrect key maximum_power_normal was corrected from null to its default, 30. 
+[03:14:56] [Server thread/WARN]: Incorrect key costs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03:14:56] [Server thread/WARN]: Incorrect key costs.vanilla_cost_only was corrected from null to its default, true. 
+[03:14:56] [Server thread/WARN]: Incorrect key costs.uncommon_cost was corrected from null to its default, 3. 
+[03:14:56] [Server thread/WARN]: Incorrect key costs.rare_cost was corrected from null to its default, 4. 
+[03:14:56] [Server thread/WARN]: Incorrect key costs.double_uniques was corrected from null to its default, true. 
+[03:14:56] [Server thread/WARN]: Incorrect key costs.maximum_cost_advanced was corrected from null to its default, 15. 
+[03:14:56] [Server thread/WARN]: Incorrect key costs.very_rare_cost was corrected from null to its default, 5. 
+[03:14:56] [Server thread/WARN]: Incorrect key costs.common_cost was corrected from null to its default, 2. 
+[03:14:56] [Server thread/WARN]: Incorrect key costs.maximum_cost_normal was corrected from null to its default, 25. 
+[03:14:56] [Server thread/INFO]: Loading server config for enchantinginfuser
+[03:14:56] [Server thread/WARN]: Configuration file .\world\serverconfig\pickupnotifier-server.toml is not correct. Correcting
+[03:14:56] [Server thread/WARN]: Incorrect key partial_pick_ups was corrected from null to its default, true. 
+[03:14:56] [Server thread/INFO]: Loading server config for pickupnotifier
+[03:14:56] [Server thread/WARN]: Configuration file .\world\serverconfig\tradingpost-server.toml is not correct. Correcting
+[03:14:56] [Server thread/WARN]: Incorrect key horizontal_range was corrected from null to its default, 24. 
+[03:14:56] [Server thread/WARN]: Incorrect key enforce_range was corrected from null to its default, false. 
+[03:14:56] [Server thread/WARN]: Incorrect key teleport_xp was corrected from null to its default, true. 
+[03:14:56] [Server thread/WARN]: Incorrect key vertical_range was corrected from null to its default, 16. 
+[03:14:56] [Server thread/WARN]: Incorrect key Trader Blacklist was corrected from null to its default, []. 
+[03:14:56] [Server thread/WARN]: Incorrect key Close Empty Screen was corrected from null to its default, true. 
+[03:14:56] [Server thread/INFO]: Loading server config for tradingpost
+[03:14:56] [Server thread/INFO]: [WTHIT] Plugin config reloaded
+[03:14:56] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[03:14:56] [Server thread/INFO]: Loading properties
+[03:14:56] [Server thread/INFO]: Default game type: SURVIVAL
+[03:14:56] [Server thread/INFO]: Generating keypair
+[03:14:56] [Server thread/INFO]: Starting Minecraft server on 26.241.111.176:25565
+[03:14:56] [Server thread/INFO]: Using default channel type
+[03:14:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:14:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:14:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:14:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:14:57] [Server thread/INFO]: Preparing level "world"
+[03:14:57] [Server thread/INFO]: [STDOUT]: minecraft:overworld: [net.hat.gt.spawning.GoblinTraderSpawner@5c424080]
+[03:14:57] [Server thread/INFO]: [STDOUT]: minecraft:the_end: [net.hat.gt.spawning.GoblinTraderSpawner@5438ee3d]
+[03:14:57] [Server thread/INFO]: [STDOUT]: minecraft:the_nether: [net.hat.gt.spawning.GoblinTraderSpawner@402b1b35]
+[03:15:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:15:09] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[03:15:09] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[03:15:09] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[03:15:09] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[03:15:10] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[03:15:10] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[03:15:11] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[03:15:12] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[03:15:12] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[03:15:12] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[03:15:13] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[03:15:13] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[03:15:14] [Worker-Main-5/INFO]: Preparing spawn area: 1%
+[03:15:14] [Worker-Main-5/INFO]: Preparing spawn area: 1%
+[03:15:15] [Worker-Main-5/INFO]: Preparing spawn area: 3%
+[03:15:15] [Worker-Main-5/INFO]: Preparing spawn area: 4%
+[03:15:16] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[03:15:16] [Worker-Main-6/INFO]: Preparing spawn area: 5%
+[03:15:17] [Worker-Main-6/INFO]: Preparing spawn area: 6%
+[03:15:17] [Worker-Main-5/INFO]: Preparing spawn area: 6%
+[03:15:18] [Worker-Main-6/INFO]: Preparing spawn area: 6%
+[03:15:18] [Worker-Main-4/INFO]: Preparing spawn area: 6%
+[03:15:19] [Worker-Main-4/INFO]: Preparing spawn area: 9%
+[03:15:19] [Worker-Main-5/INFO]: Preparing spawn area: 10%
+[03:15:20] [Worker-Main-6/INFO]: Preparing spawn area: 10%
+[03:15:20] [Worker-Main-4/INFO]: Preparing spawn area: 11%
+[03:15:21] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:15:21] [Worker-Main-5/INFO]: Preparing spawn area: 14%
+[03:15:22] [Worker-Main-5/INFO]: Preparing spawn area: 16%
+[03:15:22] [Worker-Main-6/INFO]: Preparing spawn area: 16%
+[03:15:23] [Worker-Main-6/INFO]: Preparing spawn area: 16%
+[03:15:23] [Worker-Main-6/INFO]: Preparing spawn area: 18%
+[03:15:24] [Worker-Main-4/INFO]: Preparing spawn area: 20%
+[03:15:24] [Worker-Main-4/INFO]: Preparing spawn area: 22%
+[03:15:25] [Worker-Main-6/INFO]: Preparing spawn area: 22%
+[03:15:25] [Worker-Main-5/INFO]: Preparing spawn area: 23%
+[03:15:26] [Worker-Main-4/INFO]: Preparing spawn area: 24%
+[03:15:26] [Worker-Main-4/INFO]: Preparing spawn area: 24%
+[03:15:27] [Worker-Main-4/INFO]: Preparing spawn area: 26%
+[03:15:27] [Worker-Main-6/INFO]: Preparing spawn area: 27%
+[03:15:28] [Worker-Main-6/INFO]: Preparing spawn area: 28%
+[03:15:28] [Worker-Main-4/INFO]: Preparing spawn area: 30%
+[03:15:29] [Worker-Main-6/INFO]: Preparing spawn area: 31%
+[03:15:29] [Worker-Main-4/INFO]: Preparing spawn area: 32%
+[03:15:30] [Worker-Main-6/INFO]: Preparing spawn area: 32%
+[03:15:30] [Worker-Main-5/INFO]: Preparing spawn area: 33%
+[03:15:31] [Worker-Main-5/INFO]: Preparing spawn area: 34%
+[03:15:31] [Worker-Main-5/INFO]: Preparing spawn area: 36%
+[03:15:32] [Worker-Main-5/INFO]: Preparing spawn area: 37%
+[03:15:32] [Worker-Main-6/INFO]: Preparing spawn area: 39%
+[03:15:33] [Worker-Main-5/INFO]: Preparing spawn area: 39%
+[03:15:33] [Worker-Main-5/INFO]: Preparing spawn area: 41%
+[03:15:34] [Worker-Main-5/INFO]: Preparing spawn area: 42%
+[03:15:34] [Worker-Main-4/INFO]: Preparing spawn area: 43%
+[03:15:35] [Worker-Main-6/INFO]: Preparing spawn area: 44%
+[03:15:35] [Worker-Main-5/INFO]: Preparing spawn area: 45%
+[03:15:36] [Worker-Main-4/INFO]: Preparing spawn area: 45%
+[03:15:36] [Worker-Main-4/INFO]: Preparing spawn area: 47%
+[03:15:37] [Worker-Main-4/INFO]: Preparing spawn area: 49%
+[03:15:37] [Worker-Main-5/INFO]: Preparing spawn area: 51%
+[03:15:38] [Worker-Main-4/INFO]: Preparing spawn area: 52%
+[03:15:38] [Worker-Main-6/INFO]: Preparing spawn area: 54%
+[03:15:39] [Worker-Main-5/INFO]: Preparing spawn area: 55%
+[03:15:39] [Worker-Main-4/INFO]: Preparing spawn area: 56%
+[03:15:40] [Worker-Main-4/INFO]: Preparing spawn area: 57%
+[03:15:40] [Worker-Main-4/INFO]: Preparing spawn area: 58%
+[03:15:41] [Worker-Main-5/INFO]: Preparing spawn area: 58%
+[03:15:41] [Worker-Main-4/INFO]: Preparing spawn area: 61%
+[03:15:42] [Worker-Main-5/INFO]: Preparing spawn area: 63%
+[03:15:42] [Worker-Main-5/INFO]: Preparing spawn area: 64%
+[03:15:43] [Worker-Main-5/INFO]: Preparing spawn area: 65%
+[03:15:43] [Worker-Main-6/INFO]: Preparing spawn area: 67%
+[03:15:44] [Worker-Main-5/INFO]: Preparing spawn area: 68%
+[03:15:44] [Worker-Main-6/INFO]: Preparing spawn area: 68%
+[03:15:45] [Worker-Main-4/INFO]: Preparing spawn area: 69%
+[03:15:45] [Worker-Main-4/INFO]: Preparing spawn area: 70%
+[03:15:46] [Worker-Main-5/INFO]: Preparing spawn area: 71%
+[03:15:46] [Worker-Main-5/INFO]: Preparing spawn area: 72%
+[03:15:47] [Worker-Main-5/INFO]: Preparing spawn area: 73%
+[03:15:47] [Worker-Main-5/INFO]: Preparing spawn area: 75%
+[03:15:48] [Worker-Main-4/INFO]: Preparing spawn area: 77%
+[03:15:48] [Worker-Main-5/INFO]: Preparing spawn area: 79%
+[03:15:49] [Worker-Main-4/INFO]: Preparing spawn area: 80%
+[03:15:49] [Worker-Main-6/INFO]: Preparing spawn area: 82%
+[03:15:50] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[03:15:50] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[03:15:51] [Worker-Main-6/INFO]: Preparing spawn area: 85%
+[03:15:51] [Worker-Main-4/INFO]: Preparing spawn area: 86%
+[03:15:52] [Worker-Main-4/INFO]: Preparing spawn area: 87%
+[03:15:52] [Worker-Main-6/INFO]: Preparing spawn area: 89%
+[03:15:53] [Worker-Main-6/INFO]: Preparing spawn area: 90%
+[03:15:53] [Worker-Main-6/INFO]: Preparing spawn area: 91%
+[03:15:54] [Worker-Main-6/INFO]: Preparing spawn area: 93%
+[03:15:54] [Worker-Main-6/INFO]: Preparing spawn area: 94%
+[03:15:55] [Worker-Main-5/INFO]: Preparing spawn area: 95%
+[03:15:55] [Worker-Main-4/INFO]: Preparing spawn area: 98%
+[03:15:56] [Server thread/INFO]: Time elapsed: 47990 ms
+[03:15:56] [Server thread/INFO]: Done (58.984s)! For help, type "help"
+[03:15:56] [Server thread/INFO]: [STDOUT]: PREPARING FOR RELOAD
+[03:15:56] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[03:15:56] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[03:16:13] [Server thread/INFO]: Stopping the server
+[03:16:13] [Server thread/INFO]: Stopping server
+[03:16:13] [Server thread/INFO]: Saving players
+[03:16:13] [Server thread/INFO]: Saving worlds
+[03:16:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:16:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:16:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:16:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:16:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:16:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:16:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

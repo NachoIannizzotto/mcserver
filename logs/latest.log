@@ -1,7 +1,26 @@
-[18:29:59] [main/INFO]: Loading Minecraft 1.18.2 with Fabric Loader 0.13.3
-[18:29:59] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
-[18:29:59] [main/INFO]: Loading 3 mods:
-	- fabricloader 0.13.3
-	- java 17
-	- minecraft 1.18.2
-[18:29:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/F:/mcserver/libraries/net/fabricmc/sponge-mixin/0.11.2+mixin.0.8.5/sponge-mixin-0.11.2+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[23:16:25] [main/INFO]: Loading Minecraft 1.18.2 with Fabric Loader 0.13.3
+[23:16:26] [ForkJoinPool-1-worker-3/WARN]: The mod "thonkutil-customization-v1" contains invalid entries in its mod json:
+- Unsupported root entry "disabled:mixins" at line 11 column 20
+[23:16:26] [main/WARN]: Mod resolution failed
+[23:16:26] [main/INFO]: Immediate reason: [HARD_DEP_INCOMPATIBLE_PRESELECTED architectury 3.7.42 {depends minecraft @ [~1.18- <1.18.2-]}, ROOT_FORCELOAD_SINGLE architectury 3.7.42]
+[23:16:26] [main/INFO]: Reason: [HARD_DEP architectury 3.7.42 {depends minecraft @ [~1.18- <1.18.2-]}, HARD_DEP fabric 0.46.6+1.18 {depends minecraft @ [1.18.1]}, HARD_DEP libraryferret 1.0.3 {depends minecraft @ [1.18.1]}, HARD_DEP william-wythers-overhauled-overworld 2.0 {depends minecraft @ [1.18.1]}]
+[23:16:26] [main/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, logical_zoom, fabric-keybindings-v0, fabric-textures-v0, modmenu, fabric-screen-api-v1, impactfulweather, thonkutil-titlescreen-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1, fabric-renderer-registries-v1, smoothswapping, fabric-models-v0, fabric-rendering-v0, thonkutil-coords-v1, fabric-rendering-v1, fabric-key-binding-api-v1]
+[23:16:26] [main/INFO]: Fix: add [], remove [], replace [[minecraft 1.18.2] -> add:minecraft 1.18.1 ([[1.18.1,1.18.1]])]
+[23:16:26] [main/ERROR]: Incompatible mod set!
+net.fabricmc.loader.impl.FormattedException: Mod resolution encountered an incompatible mod set!
+A potential solution has been determined:
+	 - Replace 'Minecraft' (minecraft) 1.18.2 with version 1.18.1.
+Unmet dependency listing:
+	 - Mod 'Architectury' (architectury) 3.7.42 requires any version between 1.18- (inclusive) and 1.18.2- (exclusive) of 'Minecraft' (minecraft), but only the wrong version is present: 1.18.2!
+	 - Mod 'Fabric API' (fabric) 0.46.6+1.18 requires version 1.18.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.18.2!
+	 - Mod 'Library Ferret' (libraryferret) 1.0.3 requires version 1.18.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.18.2!
+	 - Mod 'William Wythers Overhauled Overworld' (william-wythers-overhauled-overworld) 2.0 requires version 1.18.1 of 'Minecraft' (minecraft), but only the wrong version is present: 1.18.2!
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:190) ~[fabric-loader-0.13.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142) ~[fabric-loader-0.13.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:71) [fabric-loader-0.13.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.13.3.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:66) [fabric-loader-0.13.3.jar:?]

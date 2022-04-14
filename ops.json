@@ -12,6 +12,12 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "55a13b11-adc2-3113-ab01-cd29bbaa5afe",
+    "name": "PrimeArrow",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "3e3f8a4a-ae6e-39c0-9c54-6b394e8234fb",
     "name": "SammyMushroom",
     "level": 4,

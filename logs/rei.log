@@ -1,286 +1,286 @@
-[16:06:04] [main/INFO] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
-[16:06:04] [main/INFO] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[16:06:04] [main/INFO] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
-[16:06:04] [main/INFO] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[16:06:05] [main/INFO] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
-[16:06:05] [main/INFO] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "pre-register/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "pre-register/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "pre-register/DefaultPlugin [roughlyenoughitems]/" done in 711.2 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/" done in 9.900 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "pre-register/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "pre-register/DefaultRuntimePlugin [roughlyenoughitems]/" done in 7.700 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "pre-register/" done in 18.52 ms
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "pre-register/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "pre-register/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "pre-register/DefaultPlugin [roughlyenoughitems]/" done in 15.10 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/" done in 12.40 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "pre-register/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "pre-register/DefaultRuntimePlugin [roughlyenoughitems]/" done in 6.100 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "pre-register/" done in 552.2 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/EntryTypeRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/EntryTypeRegistryImpl/" done in 269.4 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/EntrySettingsAdapterRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/EntrySettingsAdapterRegistryImpl/" done in 10.00 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/RecipeManagerContextImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/RecipeManagerContextImpl/" done in 6.700 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/ItemComparatorRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/ItemComparatorRegistryImpl/" done in 33.80 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/FluidComparatorRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/FluidComparatorRegistryImpl/" done in 8.600 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/DisplaySerializerRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/DisplaySerializerRegistryImpl/" done in 6.100 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/FluidSupportProviderImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/FluidSupportProviderImpl/" done in 29.50 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/" done in 1.666 ms
-[16:06:13] [Worker-Main-14/INFO] Reloading Plugin Manager [REIPlugin] stage [START], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 47.70 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/FabricFluidAPISupportPlugin/" done in 9.600 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 8.437 ms
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/" done in 10.42 ms
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 11.90 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/FabricFluidAPISupportPlugin/" done in 10.00 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 8.600 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/" done in 584.8 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultPlugin [roughlyenoughitems]/" done in 8.000 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/FabricFluidAPISupportPlugin/" done in 9.500 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 9.300 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/" done in 784.4 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 908.9 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/FabricFluidAPISupportPlugin/" done in 11.50 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 9.900 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/" done in 2.933 ms
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 89.10 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/FabricFluidAPISupportPlugin/" done in 8.600 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 8.600 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/" done in 795.3 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 8.700 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/FabricFluidAPISupportPlugin/" done in 10.30 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 9.400 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/" done in 1.395 ms
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultPlugin [roughlyenoughitems]/" done in 466.8 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/FabricFluidAPISupportPlugin/" done in 156.3 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 9.300 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/" done in 1.114 ms
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/EntryTypeRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/EntryTypeRegistryImpl/" done in 11.90 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/EntrySettingsAdapterRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/EntrySettingsAdapterRegistryImpl/" done in 6.500 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/RecipeManagerContextImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/RecipeManagerContextImpl/" done in 6.000 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/ItemComparatorRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/ItemComparatorRegistryImpl/" done in 5.900 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/FluidComparatorRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/FluidComparatorRegistryImpl/" done in 6.000 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/DisplaySerializerRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/DisplaySerializerRegistryImpl/" done in 8.400 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/FluidSupportProviderImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/FluidSupportProviderImpl/" done in 5.700 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/" done in 1.121 ms
-[16:06:13] [Worker-Main-14/INFO] Reloaded Plugin Manager [REIPlugin] with 2 entry types, 5 item comparators, 0 fluid comparators and 2 fluid support providers in 48ms.
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/MenuInfoRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/MenuInfoRegistryImpl/" done in 13.00 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "start-reload/" done in 203.7 μs
-[16:06:13] [Worker-Main-14/INFO] Reloading Plugin Manager [REIServerPlugin] stage [START], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 12.90 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/FabricFluidAPISupportPlugin/" done in 32.50 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 8.500 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/" done in 1.209 ms
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/MenuInfoRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/MenuInfoRegistryImpl/" done in 5.600 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "end-reload/" done in 199.0 μs
-[16:06:13] [Worker-Main-14/INFO] Reloaded Plugin Manager [REIServerPlugin] with 0 menu infos in 2ms.
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "post-register/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "post-register/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "post-register/DefaultPlugin [roughlyenoughitems]/" done in 14.90 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "post-register/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "post-register/FabricFluidAPISupportPlugin/" done in 5.800 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "post-register/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "post-register/DefaultRuntimePlugin [roughlyenoughitems]/" done in 5.900 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "post-register/" done in 734.6 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "post-register/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "post-register/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "post-register/DefaultPlugin [roughlyenoughitems]/" done in 5.600 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "post-register/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "post-register/FabricFluidAPISupportPlugin/" done in 5.800 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "post-register/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "post-register/DefaultRuntimePlugin [roughlyenoughitems]/" done in 5.800 μs
-[16:06:13] [Worker-Main-14/DEBUG] [START] Reloading Section: "post-register/" done in 451.5 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "pre-register/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "pre-register/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "pre-register/DefaultPlugin [roughlyenoughitems]/" done in 7.200 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/" done in 5.400 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "pre-register/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "pre-register/DefaultRuntimePlugin [roughlyenoughitems]/" done in 5.500 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "pre-register/" done in 400.6 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "pre-register/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "pre-register/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "pre-register/DefaultPlugin [roughlyenoughitems]/" done in 5.700 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/" done in 5.100 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "pre-register/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "pre-register/DefaultRuntimePlugin [roughlyenoughitems]/" done in 6.000 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "pre-register/" done in 408.0 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/EntryTypeRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/EntryTypeRegistryImpl/" done in 7.100 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/EntrySettingsAdapterRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/EntrySettingsAdapterRegistryImpl/" done in 18.40 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/RecipeManagerContextImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/RecipeManagerContextImpl/" done in 6.900 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/ItemComparatorRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/ItemComparatorRegistryImpl/" done in 5.700 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/FluidComparatorRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/FluidComparatorRegistryImpl/" done in 4.800 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/DisplaySerializerRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/DisplaySerializerRegistryImpl/" done in 11.50 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/FluidSupportProviderImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/FluidSupportProviderImpl/" done in 6.100 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/" done in 979.3 μs
-[16:06:13] [Worker-Main-14/INFO] Reloading Plugin Manager [REIPlugin] stage [END], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 8.700 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/FabricFluidAPISupportPlugin/" done in 8.800 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 8.700 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/" done in 387.1 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 17.20 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/FabricFluidAPISupportPlugin/" done in 8.200 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 8.000 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/" done in 384.6 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultPlugin [roughlyenoughitems]/" done in 8.700 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/FabricFluidAPISupportPlugin/" done in 8.000 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 7.900 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/" done in 401.8 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 7.600 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/FabricFluidAPISupportPlugin/" done in 8.000 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 8.800 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/" done in 354.1 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 70.00 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/FabricFluidAPISupportPlugin/" done in 8.700 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 9.600 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/" done in 513.9 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 54.18 ms
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/FabricFluidAPISupportPlugin/" done in 25.40 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 9.300 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/" done in 55.20 ms
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultPlugin [roughlyenoughitems]/" done in 8.900 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/FabricFluidAPISupportPlugin/" done in 8.500 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 8.500 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/" done in 355.0 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/EntryTypeRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/EntryTypeRegistryImpl/" done in 8.600 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/EntrySettingsAdapterRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/EntrySettingsAdapterRegistryImpl/" done in 5.600 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/RecipeManagerContextImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/RecipeManagerContextImpl/" done in 5.800 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/ItemComparatorRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/ItemComparatorRegistryImpl/" done in 6.000 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/FluidComparatorRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/FluidComparatorRegistryImpl/" done in 4.700 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/DisplaySerializerRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/DisplaySerializerRegistryImpl/" done in 10.80 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/FluidSupportProviderImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/FluidSupportProviderImpl/" done in 4.900 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/" done in 746.1 μs
-[16:06:13] [Worker-Main-14/INFO] Reloaded Plugin Manager [REIPlugin] with 2 entry types, 5 item comparators, 0 fluid comparators and 2 fluid support providers in 60ms.
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/MenuInfoRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/MenuInfoRegistryImpl/" done in 26.70 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "start-reload/" done in 197.4 μs
-[16:06:13] [Worker-Main-14/INFO] Reloading Plugin Manager [REIServerPlugin] stage [END], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 6.310 ms
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/FabricFluidAPISupportPlugin/" done in 15.70 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 10.40 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/" done in 7.016 ms
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/MenuInfoRegistryImpl/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/MenuInfoRegistryImpl/" done in 6.600 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "end-reload/" done in 106.5 μs
-[16:06:13] [Worker-Main-14/INFO] Reloaded Plugin Manager [REIServerPlugin] with 4 menu infos in 9ms.
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "post-register/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "post-register/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "post-register/DefaultPlugin [roughlyenoughitems]/" done in 8.900 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "post-register/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "post-register/FabricFluidAPISupportPlugin/" done in 6.400 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "post-register/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "post-register/DefaultRuntimePlugin [roughlyenoughitems]/" done in 6.100 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "post-register/" done in 475.6 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "post-register/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "post-register/DefaultPlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "post-register/DefaultPlugin [roughlyenoughitems]/" done in 6.500 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "post-register/FabricFluidAPISupportPlugin/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "post-register/FabricFluidAPISupportPlugin/" done in 5.000 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "post-register/DefaultRuntimePlugin [roughlyenoughitems]/"
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "post-register/DefaultRuntimePlugin [roughlyenoughitems]/" done in 5.200 μs
-[16:06:13] [Worker-Main-14/DEBUG] [END] Reloading Section: "post-register/" done in 289.8 μs
+[21:00:13] [main/INFO] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[21:00:13] [main/INFO] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[21:00:13] [main/INFO] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[21:00:13] [main/INFO] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[21:00:13] [main/INFO] Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[21:00:13] [main/INFO] Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "pre-register/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "pre-register/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "pre-register/DefaultPlugin [roughlyenoughitems]/" done in 693.8 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/" done in 13.00 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "pre-register/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "pre-register/DefaultRuntimePlugin [roughlyenoughitems]/" done in 7.000 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "pre-register/" done in 14.74 ms
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "pre-register/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "pre-register/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "pre-register/DefaultPlugin [roughlyenoughitems]/" done in 6.500 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/" done in 9.200 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "pre-register/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "pre-register/DefaultRuntimePlugin [roughlyenoughitems]/" done in 5.900 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "pre-register/" done in 443.6 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/EntryTypeRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/EntryTypeRegistryImpl/" done in 348.9 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/EntrySettingsAdapterRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/EntrySettingsAdapterRegistryImpl/" done in 9.500 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/RecipeManagerContextImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/RecipeManagerContextImpl/" done in 7.000 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/ItemComparatorRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/ItemComparatorRegistryImpl/" done in 28.50 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/FluidComparatorRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/FluidComparatorRegistryImpl/" done in 7.500 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/DisplaySerializerRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/DisplaySerializerRegistryImpl/" done in 7.300 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/FluidSupportProviderImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/FluidSupportProviderImpl/" done in 18.50 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/" done in 1.922 ms
+[21:00:24] [Worker-Main-17/INFO] Reloading Plugin Manager [REIPlugin] stage [START], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 29.70 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/FabricFluidAPISupportPlugin/" done in 9.300 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 34.03 ms
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/" done in 35.22 ms
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 10.10 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/FabricFluidAPISupportPlugin/" done in 8.700 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 8.400 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/" done in 467.5 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultPlugin [roughlyenoughitems]/" done in 8.000 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/FabricFluidAPISupportPlugin/" done in 8.700 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 77.20 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/" done in 560.1 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 616.3 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/FabricFluidAPISupportPlugin/" done in 11.30 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 8.500 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/" done in 1.091 ms
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 16.00 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/FabricFluidAPISupportPlugin/" done in 8.600 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 8.400 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/" done in 381.6 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 7.600 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/FabricFluidAPISupportPlugin/" done in 8.500 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 8.500 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/" done in 391.5 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultPlugin [roughlyenoughitems]/" done in 1.043 ms
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/FabricFluidAPISupportPlugin/" done in 300.6 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 13.10 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/" done in 2.007 ms
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/EntryTypeRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/EntryTypeRegistryImpl/" done in 20.10 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/EntrySettingsAdapterRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/EntrySettingsAdapterRegistryImpl/" done in 5.900 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/RecipeManagerContextImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/RecipeManagerContextImpl/" done in 5.700 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/ItemComparatorRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/ItemComparatorRegistryImpl/" done in 6.000 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/FluidComparatorRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/FluidComparatorRegistryImpl/" done in 5.800 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/DisplaySerializerRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/DisplaySerializerRegistryImpl/" done in 5.700 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/FluidSupportProviderImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/FluidSupportProviderImpl/" done in 6.500 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/" done in 1.026 ms
+[21:00:24] [Worker-Main-17/INFO] Reloaded Plugin Manager [REIPlugin] with 2 entry types, 5 item comparators, 0 fluid comparators and 2 fluid support providers in 80ms.
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/MenuInfoRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/MenuInfoRegistryImpl/" done in 24.70 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "start-reload/" done in 271.5 μs
+[21:00:24] [Worker-Main-17/INFO] Reloading Plugin Manager [REIServerPlugin] stage [START], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 16.30 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/FabricFluidAPISupportPlugin/" done in 17.50 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 83.40 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/" done in 678.7 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/MenuInfoRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/MenuInfoRegistryImpl/" done in 6.000 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "end-reload/" done in 109.6 μs
+[21:00:24] [Worker-Main-17/INFO] Reloaded Plugin Manager [REIServerPlugin] with 0 menu infos in 3ms.
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "post-register/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "post-register/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "post-register/DefaultPlugin [roughlyenoughitems]/" done in 19.50 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "post-register/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "post-register/FabricFluidAPISupportPlugin/" done in 6.000 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "post-register/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "post-register/DefaultRuntimePlugin [roughlyenoughitems]/" done in 5.500 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "post-register/" done in 825.3 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "post-register/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "post-register/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "post-register/DefaultPlugin [roughlyenoughitems]/" done in 5.600 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "post-register/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "post-register/FabricFluidAPISupportPlugin/" done in 5.800 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "post-register/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "post-register/DefaultRuntimePlugin [roughlyenoughitems]/" done in 4.900 μs
+[21:00:24] [Worker-Main-17/DEBUG] [START] Reloading Section: "post-register/" done in 307.3 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "pre-register/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "pre-register/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "pre-register/DefaultPlugin [roughlyenoughitems]/" done in 5.600 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/" done in 5.100 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "pre-register/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "pre-register/DefaultRuntimePlugin [roughlyenoughitems]/" done in 4.800 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "pre-register/" done in 291.8 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "pre-register/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "pre-register/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "pre-register/DefaultPlugin [roughlyenoughitems]/" done in 5.000 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/" done in 5.500 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "pre-register/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "pre-register/DefaultRuntimePlugin [roughlyenoughitems]/" done in 5.400 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "pre-register/" done in 398.6 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/EntryTypeRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/EntryTypeRegistryImpl/" done in 6.200 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/EntrySettingsAdapterRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/EntrySettingsAdapterRegistryImpl/" done in 17.40 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/RecipeManagerContextImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/RecipeManagerContextImpl/" done in 6.000 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/ItemComparatorRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/ItemComparatorRegistryImpl/" done in 5.100 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/FluidComparatorRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/FluidComparatorRegistryImpl/" done in 4.600 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/DisplaySerializerRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/DisplaySerializerRegistryImpl/" done in 11.00 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/FluidSupportProviderImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/FluidSupportProviderImpl/" done in 5.000 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/" done in 722.1 μs
+[21:00:24] [Worker-Main-17/INFO] Reloading Plugin Manager [REIPlugin] stage [END], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 12.90 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/FabricFluidAPISupportPlugin/" done in 8.100 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 7.900 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/" done in 363.8 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 18.90 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/FabricFluidAPISupportPlugin/" done in 7.400 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 7.700 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/" done in 335.5 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultPlugin [roughlyenoughitems]/" done in 8.400 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/FabricFluidAPISupportPlugin/" done in 7.400 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 7.900 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/RecipeManagerContextImpl/" done in 325.0 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 7.500 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/FabricFluidAPISupportPlugin/" done in 7.500 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 7.400 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/" done in 325.1 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 7.000 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/FabricFluidAPISupportPlugin/" done in 7.000 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 9.200 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/" done in 306.6 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 27.74 ms
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/FabricFluidAPISupportPlugin/" done in 18.80 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 8.400 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/" done in 28.40 ms
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultPlugin [roughlyenoughitems]/" done in 7.800 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/FabricFluidAPISupportPlugin/" done in 10.60 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 8.100 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/" done in 305.2 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/EntryTypeRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/EntryTypeRegistryImpl/" done in 5.700 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/EntrySettingsAdapterRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/EntrySettingsAdapterRegistryImpl/" done in 4.600 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/RecipeManagerContextImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/RecipeManagerContextImpl/" done in 4.400 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/ItemComparatorRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/ItemComparatorRegistryImpl/" done in 4.900 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/FluidComparatorRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/FluidComparatorRegistryImpl/" done in 4.300 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/DisplaySerializerRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/DisplaySerializerRegistryImpl/" done in 5.700 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/FluidSupportProviderImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/FluidSupportProviderImpl/" done in 4.400 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/" done in 548.2 μs
+[21:00:24] [Worker-Main-17/INFO] Reloaded Plugin Manager [REIPlugin] with 2 entry types, 5 item comparators, 0 fluid comparators and 2 fluid support providers in 33ms.
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/MenuInfoRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/MenuInfoRegistryImpl/" done in 18.60 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "start-reload/" done in 111.6 μs
+[21:00:24] [Worker-Main-17/INFO] Reloading Plugin Manager [REIServerPlugin] stage [END], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultPlugin [roughlyenoughitems]/" done in 5.149 ms
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/FabricFluidAPISupportPlugin/" done in 11.90 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/DefaultRuntimePlugin [roughlyenoughitems]/" done in 12.80 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "reloadable-plugin/MenuInfoRegistryImpl/" done in 5.662 ms
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/MenuInfoRegistryImpl/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/MenuInfoRegistryImpl/" done in 5.500 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "end-reload/" done in 91.20 μs
+[21:00:24] [Worker-Main-17/INFO] Reloaded Plugin Manager [REIServerPlugin] with 4 menu infos in 7ms.
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "post-register/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "post-register/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "post-register/DefaultPlugin [roughlyenoughitems]/" done in 15.30 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "post-register/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "post-register/FabricFluidAPISupportPlugin/" done in 10.80 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "post-register/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "post-register/DefaultRuntimePlugin [roughlyenoughitems]/" done in 7.700 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "post-register/" done in 716.9 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "post-register/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "post-register/DefaultPlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "post-register/DefaultPlugin [roughlyenoughitems]/" done in 5.600 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "post-register/FabricFluidAPISupportPlugin/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "post-register/FabricFluidAPISupportPlugin/" done in 4.700 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "post-register/DefaultRuntimePlugin [roughlyenoughitems]/"
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "post-register/DefaultRuntimePlugin [roughlyenoughitems]/" done in 4.700 μs
+[21:00:24] [Worker-Main-17/DEBUG] [END] Reloading Section: "post-register/" done in 297.3 μs

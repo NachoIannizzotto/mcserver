@@ -5,8 +5,8 @@
   "default_skin": {
     "// Whether to apply the default skin to ALL new players, not just those without skin.": "(default: false)",
     "apply_to_all": false,
-    "value": "",
-    "signature": ""
+    "value": "ewogICJ0aW1lc3RhbXAiIDogMTYxMTY3NTIwMjM2NSwKICAicHJvZmlsZUlkIiA6ICJmMjc0YzRkNjI1MDQ0ZTQxOGVmYmYwNmM3NWIyMDIxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIeXBpZ3NlbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYTM3Yzg3MjkwNmVhODAxYjRjNGYxNDg4NzNhMGRiYTE2ZWZjMjVlZDNiNDIwOTliMWYxNDY4MWMwNWY3Mzg3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+    "signature": "I6XBxcmYLuTetEKjR2Sqf0LlkX3DHg+JmwPciSMxt6v6nvnTSo1W6zVKXPQkUdYtqLWRWVkrgkM5ZF4L8tL4cmc9P+QoY2jXBNzHDCyXUwytjzGpg4vdk3Paf+WFAXUBCR0FJoBjE9xotSjozH8+PNDCOMjkmwoHMwbEpfOiHRZ/gMwOjKONZ9aYXKxtgI+f2PnNgdXK4dPj17WZWZlWnavfNHQdfiyBFj84bk4C6c9y2chDI6RyySj7Nr8fC6Fl2yFBOtJz0hHyA3KXUxPNMwrHs8jmFcUlNAk9T0n/hFZocElrWhPfwqYD1PjRAoLhJJ5aZ5X4V8DuyYBD/OFH92VOJ/XkBebsj5L80zGK1mPFwUmIE156oGw63cFZtf0kqx4THsB/6idW26wKfwjg6TXzoMiy693mnquNAkdPq9GYKvfDBDesFgjRqBlpaAgUBhlZ4AmoX3E01P8GKV1dD/eArRvCJsa4kEyy16ftP7HxT0ypp6f+hhQhTIx4KrG48gDo8A4DxqYB7hblmCoXt0uEbZoq3bEWEs0mUl5b5rVVRQ47lP0Trp+ucUcsntyzOaozTZ0YRGb/U/MELAo0l37CKLEZ9naZTsAey10YO1dNzuTyIcWrW3I3HBLeLn3E1Dl/GZyilg7kyW48mc4ui3mGFW5Pw5SSyEpywN/3lEk="
   },
   "// How quickly can player change the skin, in seconds. -1 for no limit. If using this in server environment, -1 is not recommended.": "(default in singleplayer: -1, default for server: 60)",
   "skin_change_timer": 60

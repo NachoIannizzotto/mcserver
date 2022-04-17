@@ -317,6 +317,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2022-04-16 19:47:39 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2022-04-16 20:02:52 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/raisins_smoker": {
+    "criteria": {
+      "has_grapes": "2022-04-16 19:56:42 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2022-04-14 21:27:03 -0300"
@@ -449,6 +467,12 @@
     },
     "done": true
   },
+  "croptopia:recipes/wine": {
+    "criteria": {
+      "has_grapes": "2022-04-16 19:56:42 -0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/green_pavement": {
     "criteria": {
       "has_item": "2022-04-14 22:31:24 -0300"
@@ -554,6 +578,12 @@
   "minecraft:recipes/building_blocks/spruce_planks": {
     "criteria": {
       "has_logs": "2022-04-14 20:00:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2022-04-16 19:47:39 -0300"
     },
     "done": true
   },
@@ -665,6 +695,12 @@
   "botania:recipes/botania/livingrock_bricks": {
     "criteria": {
       "has_item": "2022-04-14 22:31:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2022-04-16 20:05:11 -0300"
     },
     "done": true
   },
@@ -962,6 +998,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2022-04-16 20:05:11 -0300"
+    },
+    "done": true
+  },
   "bewitchment:recipes/decorations/golden_candelabra": {
     "criteria": {
       "has_item": "2022-04-14 22:43:56 -0300"
@@ -1082,6 +1124,12 @@
     },
     "done": true
   },
+  "croptopia:recipes/apple_to_apple_sapling_shapless": {
+    "criteria": {
+      "has_apple": "2022-04-16 19:58:18 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2022-04-14 20:05:16 -0300"
@@ -1091,6 +1139,12 @@
   "botania:recipes/botania/gray_shiny_flower": {
     "criteria": {
       "has_item": "2022-04-14 22:27:34 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/grape_juice": {
+    "criteria": {
+      "has_grape": "2022-04-16 19:56:42 -0300"
     },
     "done": true
   },
@@ -1117,6 +1171,7 @@
       "minecraft:taiga": "2022-04-14 18:11:14 -0300",
       "minecraft:frozen_river": "2022-04-14 21:28:36 -0300",
       "minecraft:snowy_taiga": "2022-04-14 18:01:40 -0300",
+      "minecraft:forest": "2022-04-16 19:46:45 -0300",
       "minecraft:lush_caves": "2022-04-14 21:05:23 -0300",
       "minecraft:windswept_forest": "2022-04-14 22:04:48 -0300"
     },
@@ -1269,6 +1324,12 @@
   "botania:recipes/botania/mushroom_0": {
     "criteria": {
       "has_alt_item": "2022-04-14 22:03:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2022-04-16 19:57:48 -0300"
     },
     "done": true
   },
@@ -1464,9 +1525,21 @@
     },
     "done": true
   },
+  "croptopia:recipes/raisins": {
+    "criteria": {
+      "has_grapes": "2022-04-16 19:56:42 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2022-04-14 21:29:05 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/grape_jam": {
+    "criteria": {
+      "has_grape": "2022-04-16 19:56:42 -0300"
     },
     "done": true
   },
@@ -1764,6 +1837,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2022-04-16 20:02:52 -0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/red_string_container": {
     "criteria": {
       "has_base_block": "2022-04-14 20:05:51 -0300"
@@ -1944,9 +2023,27 @@
     },
     "done": true
   },
+  "croptopia:recipes/apple_juice": {
+    "criteria": {
+      "has_apple": "2022-04-16 19:58:18 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/grape_to_grape_seed_shapless": {
+    "criteria": {
+      "has_grape": "2022-04-16 19:56:42 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2022-04-14 22:43:56 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/campfire_raisins": {
+    "criteria": {
+      "has_grapes": "2022-04-16 19:56:42 -0300"
     },
     "done": true
   },
@@ -1995,6 +2092,12 @@
   "botania:recipes/botania/mana_detector": {
     "criteria": {
       "has_alt_item": "2022-04-14 22:31:24 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/apple_pie": {
+    "criteria": {
+      "has_apple": "2022-04-16 19:58:18 -0300"
     },
     "done": true
   },
@@ -2172,6 +2275,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2022-04-16 19:47:39 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2022-04-14 21:28:16 -0300"
@@ -2247,6 +2356,12 @@
   "bewitchment:recipes/decorations/iron_candelabra": {
     "criteria": {
       "has_item": "2022-04-14 21:27:03 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2022-04-16 20:20:59 -0300"
     },
     "done": true
   },
@@ -2410,6 +2525,12 @@
   "repurposed_structures:root": {
     "criteria": {
       "always": "2022-04-14 18:01:40 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/fruit_salad": {
+    "criteria": {
+      "has_grapes": "2022-04-16 19:56:42 -0300"
     },
     "done": true
   },

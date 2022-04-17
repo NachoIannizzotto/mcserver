@@ -35,6 +35,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2022-04-17 07:12:28 -0300"
+    },
+    "done": true
+  },
   "bewitchment:recipes/transportation/elder_boat": {
     "criteria": {
       "in_water": "2022-04-14 01:26:00 -0300"
@@ -119,6 +125,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2022-04-17 01:02:37 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
     "criteria": {
       "has_tag": "2022-04-14 03:22:40 -0300"
@@ -164,6 +176,12 @@
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2022-04-14 03:21:12 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2022-04-17 01:02:37 -0300"
     },
     "done": true
   },
@@ -294,6 +312,12 @@
     },
     "done": true
   },
+  "botania:recipes/botania/apothecary_default": {
+    "criteria": {
+      "has_item": "2022-04-17 01:02:37 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2022-04-14 17:38:11 -0300"
@@ -303,9 +327,13 @@
   "croptopia:gather_all": {
     "criteria": {
       "cauliflower_seed": "2022-04-15 21:19:31 -0300",
+      "chile_pepper_seed": "2022-04-17 00:19:51 -0300",
+      "kale_seed": "2022-04-17 00:22:06 -0300",
       "blueberry_seed": "2022-04-14 22:48:07 -0300",
       "rutabaga_seed": "2022-04-14 01:27:49 -0300",
       "strawberry_seed": "2022-04-14 01:26:12 -0300",
+      "celery_seed": "2022-04-16 20:16:03 -0300",
+      "broccoli_seed": "2022-04-17 00:20:57 -0300",
       "barley_seed": "2022-04-14 03:00:37 -0300",
       "raspberry_seed": "2022-04-14 02:27:54 -0300",
       "squash_seed": "2022-04-14 02:36:20 -0300",
@@ -364,9 +392,16 @@
   "morevillagers:all_villages": {
     "criteria": {
       "taiga_village": "2022-04-14 01:38:29 -0300",
-      "snowy_village": "2022-04-14 03:33:08 -0300"
+      "snowy_village": "2022-04-14 03:33:08 -0300",
+      "plains_village": "2022-04-17 00:16:38 -0300"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2022-04-17 01:02:37 -0300"
+    },
+    "done": true
   },
   "botania:recipes/botania/quartz_sunny": {
     "criteria": {
@@ -395,6 +430,24 @@
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2022-04-14 01:46:49 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2022-04-16 20:02:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2022-04-16 20:02:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2022-04-16 22:46:21 -0300"
     },
     "done": true
   },
@@ -449,6 +502,18 @@
   "bewitchment:recipes/decorations/cypress_chest": {
     "criteria": {
       "has_lots_of_items": "2022-04-14 01:17:44 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_steamed_broccoli": {
+    "criteria": {
+      "has_broccoli": "2022-04-17 00:20:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-17 01:08:52 -0300"
     },
     "done": true
   },
@@ -560,6 +625,12 @@
     },
     "done": true
   },
+  "bosses_of_mass_destruction:recipes/blast_amplifier": {
+    "criteria": {
+      "has_blazing_eye": "2022-04-17 01:03:03 -0300"
+    },
+    "done": true
+  },
   "croptopia:recipes/shaped_water_bottle": {
     "criteria": {
       "has_water": "2022-04-14 02:21:54 -0300"
@@ -608,6 +679,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2022-04-17 00:17:08 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2022-04-17 01:19:47 -0300"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/charged_ender_pearl": {
+    "criteria": {
+      "has_ancient_anima": "2022-04-17 00:45:46 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2022-04-14 03:06:33 -0300"
@@ -650,6 +739,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2022-04-17 07:12:20 -0300"
+    },
+    "done": true
+  },
   "botania:challenge/root": {
     "criteria": {
       "flower": "2022-04-14 01:09:49 -0300"
@@ -671,6 +766,12 @@
   "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
     "criteria": {
       "has_pink_dye": "2022-04-15 19:50:55 -0300"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:adventure/void_blossom_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:lich": "2022-04-17 00:53:23 -0300"
     },
     "done": true
   },
@@ -704,6 +805,12 @@
     },
     "done": true
   },
+  "immersive_weathering:recipes/oak_bark": {
+    "criteria": {
+      "has_copper_block": "2022-04-16 21:09:39 -0300"
+    },
+    "done": true
+  },
   "croptopia:recipes/rutabaga_to_rutabaga_seed_shapless": {
     "criteria": {
       "has_rutabaga": "2022-04-14 01:27:49 -0300"
@@ -731,6 +838,12 @@
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2022-04-14 02:21:54 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2022-04-17 03:52:26 -0300"
     },
     "done": true
   },
@@ -836,6 +949,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2022-04-17 01:19:47 -0300"
+    },
+    "done": true
+  },
   "bewitchment:recipes/decorations/juniper_poppet_shelf": {
     "criteria": {
       "has_item": "2022-04-14 18:12:47 -0300"
@@ -845,6 +964,12 @@
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_sand": "2022-04-14 03:01:48 -0300"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/levitation_block": {
+    "criteria": {
+      "has_ancient_anima": "2022-04-17 00:45:46 -0300"
     },
     "done": true
   },
@@ -872,6 +997,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2022-04-17 01:02:37 -0300"
+    },
+    "done": true
+  },
   "croptopia:recipes/molasses": {
     "criteria": {
       "has_sugar_cane": "2022-04-14 01:29:02 -0300"
@@ -890,12 +1021,26 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2022-04-17 03:52:26 -0300"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2022-04-14 02:07:15 -0300",
       "minecraft:skeleton": "2022-04-14 01:15:58 -0300",
+      "minecraft:ravager": "2022-04-17 04:41:58 -0300",
+      "minecraft:vindicator": "2022-04-17 04:41:04 -0300",
       "minecraft:spider": "2022-04-14 01:37:35 -0300",
+      "minecraft:creeper": "2022-04-16 23:20:19 -0300",
+      "minecraft:wither": "2022-04-17 04:38:25 -0300",
+      "minecraft:evoker": "2022-04-17 04:44:39 -0300",
+      "minecraft:phantom": "2022-04-17 00:48:32 -0300",
+      "minecraft:witch": "2022-04-17 04:44:43 -0300",
       "minecraft:enderman": "2022-04-14 02:20:48 -0300",
+      "minecraft:vex": "2022-04-17 04:44:47 -0300",
       "minecraft:zombie": "2022-04-14 01:33:56 -0300",
       "minecraft:zombie_villager": "2022-04-14 02:59:52 -0300"
     },
@@ -904,6 +1049,12 @@
   "croptopia:recipes/mortar_and_pestle": {
     "criteria": {
       "has_bowl": "2022-04-14 02:28:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2022-04-16 20:37:00 -0300"
     },
     "done": true
   },
@@ -928,6 +1079,12 @@
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2022-04-14 03:21:11 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2022-04-17 03:00:19 -0300"
     },
     "done": true
   },
@@ -997,6 +1154,18 @@
     },
     "done": true
   },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2022-04-17 04:41:04 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-17 01:08:52 -0300"
+    },
+    "done": true
+  },
   "bewitchment:recipes/building_blocks/cypress_planks": {
     "criteria": {
       "has_item": "2022-04-14 01:18:03 -0300"
@@ -1027,6 +1196,12 @@
     },
     "done": true
   },
+  "morevillagers:kill_villager": {
+    "criteria": {
+      "killedvillager": "2022-04-17 00:17:57 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2022-04-14 03:31:21 -0300"
@@ -1048,6 +1223,12 @@
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2022-04-14 04:27:40 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-17 01:08:52 -0300"
     },
     "done": true
   },
@@ -1081,9 +1262,21 @@
     },
     "done": true
   },
+  "botania:recipes/botania/twig_wand": {
+    "criteria": {
+      "has_item": "2022-04-17 01:02:37 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2022-04-14 04:27:40 -0300"
+    },
+    "done": true
+  },
+  "bewitchment:recipes/tools/elder_broom": {
+    "criteria": {
+      "has_item": "2022-04-16 20:01:05 -0300"
     },
     "done": true
   },
@@ -1123,6 +1316,12 @@
     },
     "done": true
   },
+  "immersive_weathering:recipes/stone_brick": {
+    "criteria": {
+      "has_copper_block": "2022-04-16 21:36:20 -0300"
+    },
+    "done": true
+  },
   "bewitchment:recipes/food/grilled_garlic_from_smoking": {
     "criteria": {
       "has_item": "2022-04-14 16:37:51 -0300"
@@ -1147,6 +1346,12 @@
     },
     "done": true
   },
+  "croptopia:recipes/egg_roll": {
+    "criteria": {
+      "has_egg": "2022-04-16 20:02:26 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2022-04-14 01:39:23 -0300"
@@ -1168,6 +1373,12 @@
   "bewitchment:recipes/building_blocks/dragons_blood_wood": {
     "criteria": {
       "has_item": "2022-04-14 22:46:49 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2022-04-16 20:03:37 -0300"
     },
     "done": true
   },
@@ -1237,9 +1448,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-17 01:08:52 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_poppy": "2022-04-14 01:45:50 -0300"
+    },
+    "done": true
+  },
+  "bewitchment:hidden_unlocks/taglock": {
+    "criteria": {
+      "has_item": "2022-04-17 00:07:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2022-04-17 01:08:52 -0300"
     },
     "done": true
   },
@@ -1264,6 +1493,12 @@
   "bewitchment:recipes/decorations/dragons_blood_sign": {
     "criteria": {
       "has_item": "2022-04-14 22:50:22 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2022-04-17 01:02:37 -0300"
     },
     "done": true
   },
@@ -1303,6 +1538,12 @@
     },
     "done": true
   },
+  "botania:recipes/botania/ghost_rail": {
+    "criteria": {
+      "has_item": "2022-04-16 22:46:21 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2022-04-14 01:10:38 -0300"
@@ -1311,9 +1552,18 @@
   },
   "croptopia:gather_plains": {
     "criteria": {
+      "chile_pepper_seed": "2022-04-17 00:19:51 -0300",
+      "broccoli_seed": "2022-04-17 00:20:57 -0300",
+      "kale_seed": "2022-04-17 00:22:06 -0300",
       "barley_seed": "2022-04-14 03:00:37 -0300"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-17 01:08:52 -0300"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
@@ -1327,9 +1577,21 @@
     },
     "done": true
   },
+  "croptopia:recipes/plum_to_plum_sapling_shapless": {
+    "criteria": {
+      "has_plum": "2022-04-16 20:38:10 -0300"
+    },
+    "done": true
+  },
   "botania:main/root": {
     "criteria": {
       "flower": "2022-04-14 01:09:49 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2022-04-17 00:17:08 -0300"
     },
     "done": true
   },
@@ -1393,9 +1655,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/deepslate_tile_wall": {
+    "criteria": {
+      "has_deepslate_tiles": "2022-04-17 03:52:26 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_gold_block": {
     "criteria": {
       "has_raw_gold": "2022-04-14 03:59:45 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2022-04-17 07:17:50 -0300"
     },
     "done": true
   },
@@ -1408,6 +1682,12 @@
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2022-04-14 01:16:00 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2022-04-16 20:37:00 -0300"
     },
     "done": true
   },
@@ -1435,9 +1715,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2022-04-17 00:17:30 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_carpet_from_white_carpet": {
     "criteria": {
       "has_orange_dye": "2022-04-15 19:50:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-17 01:08:52 -0300"
     },
     "done": true
   },
@@ -1477,6 +1769,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-17 01:08:52 -0300"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:adventure/night_lich_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:lich": "2022-04-17 00:45:25 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_pressure_plate": {
     "criteria": {
       "has_planks": "2022-04-14 01:10:21 -0300"
@@ -1492,6 +1796,12 @@
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_planks": "2022-04-14 04:27:40 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2022-04-17 03:52:26 -0300"
     },
     "done": true
   },
@@ -1516,6 +1826,18 @@
   "endrem:main/black_eye": {
     "criteria": {
       "black_eye": "2022-04-15 20:39:15 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/broccoli_to_broccoli_seed_shapless": {
+    "criteria": {
+      "has_broccoli": "2022-04-17 00:20:57 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/kale_smoothie": {
+    "criteria": {
+      "has_kale": "2022-04-17 00:22:06 -0300"
     },
     "done": true
   },
@@ -1573,6 +1895,12 @@
     },
     "done": true
   },
+  "bosses_of_mass_destruction:nether/gauntlet_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:gauntlet": "2022-04-17 01:02:57 -0300"
+    },
+    "done": true
+  },
   "croptopia:recipes/apple_to_apple_sapling_shapless": {
     "criteria": {
       "has_apple": "2022-04-15 21:43:05 -0300"
@@ -1612,6 +1940,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2022-04-14 01:25:46 -0300",
+      "minecraft:deep_ocean": "2022-04-17 00:28:58 -0300",
       "minecraft:frozen_river": "2022-04-14 01:25:01 -0300",
       "minecraft:birch_forest": "2022-04-15 21:15:36 -0300",
       "minecraft:beach": "2022-04-15 21:10:02 -0300",
@@ -1647,6 +1976,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2022-04-17 00:17:30 -0300"
+    },
+    "done": true
+  },
   "bewitchment:recipes/decorations/mossy_cobblestone_witch_altar": {
     "criteria": {
       "has_item": "2022-04-14 02:40:29 -0300"
@@ -1659,9 +1994,21 @@
     },
     "done": true
   },
+  "croptopia:recipes/pepperoni": {
+    "criteria": {
+      "has_pepper": "2022-04-17 00:19:51 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2022-04-14 01:11:05 -0300"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/speed_up_belt": {
+    "criteria": {
+      "has_item": "2022-04-17 00:17:29 -0300"
     },
     "done": true
   },
@@ -1674,6 +2021,12 @@
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2022-04-14 01:11:05 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/celery_to_celery_seed_shapless": {
+    "criteria": {
+      "has_celery": "2022-04-16 20:16:03 -0300"
     },
     "done": true
   },
@@ -1692,6 +2045,12 @@
   "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2022-04-14 01:19:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2022-04-16 22:44:12 -0300"
     },
     "done": true
   },
@@ -1728,6 +2087,12 @@
   "botania:recipes/botania/alchemy_catalyst": {
     "criteria": {
       "has_alt_item": "2022-04-14 01:57:08 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2022-04-17 03:52:26 -0300"
     },
     "done": true
   },
@@ -1797,9 +2162,21 @@
     },
     "done": true
   },
+  "croptopia:recipes/orange_to_orange_sapling_shapless": {
+    "criteria": {
+      "has_orange": "2022-04-17 04:46:40 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2022-04-14 03:06:33 -0300"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/mob_ward": {
+    "criteria": {
+      "has_ancient_anima": "2022-04-17 00:45:46 -0300"
     },
     "done": true
   },
@@ -1824,6 +2201,12 @@
   "botania:recipes/botania/mushroom_4": {
     "criteria": {
       "has_item": "2022-04-14 22:03:31 -0300"
+    },
+    "done": true
+  },
+  "bewitchment:recipes/tools/waystone": {
+    "criteria": {
+      "has_item": "2022-04-16 23:54:53 -0300"
     },
     "done": true
   },
@@ -1866,6 +2249,12 @@
   "croptopia:recipes/shaped_ratatouille": {
     "criteria": {
       "has_squash": "2022-04-14 02:36:20 -0300"
+    },
+    "done": true
+  },
+  "croptopia:eatbig": {
+    "criteria": {
+      "eat_big": "2022-04-17 00:07:20 -0300"
     },
     "done": true
   },
@@ -1929,6 +2318,14 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2022-04-17 00:56:44 -0300",
+      "minecraft:nether_wastes": "2022-04-17 00:57:24 -0300",
+      "minecraft:warped_forest": "2022-04-17 00:57:20 -0300"
+    },
+    "done": false
+  },
   "bewitchment:recipes/redstone/cypress_fence_gate": {
     "criteria": {
       "has_item": "2022-04-14 19:46:30 -0300"
@@ -1938,6 +2335,12 @@
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_chestplate": "2022-04-15 20:55:24 -0300"
+    },
+    "done": true
+  },
+  "immersive_weathering:recipes/deepslate_tiles": {
+    "criteria": {
+      "has_copper_block": "2022-04-17 03:52:26 -0300"
     },
     "done": true
   },
@@ -2013,7 +2416,8 @@
       "cauliflower_seed": "2022-04-15 21:19:31 -0300",
       "blueberry_seed": "2022-04-14 22:48:07 -0300",
       "strawberry_seed": "2022-04-14 01:26:12 -0300",
-      "raspberry_seed": "2022-04-14 02:27:54 -0300"
+      "raspberry_seed": "2022-04-14 02:27:54 -0300",
+      "celery_seed": "2022-04-16 20:16:03 -0300"
     },
     "done": false
   },
@@ -2032,6 +2436,18 @@
   "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
     "criteria": {
       "has_white_dye": "2022-04-15 19:50:59 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
+    "criteria": {
+      "has_deepslate_tiles": "2022-04-17 03:52:26 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/kale_chips": {
+    "criteria": {
+      "has_kale": "2022-04-17 00:22:06 -0300"
     },
     "done": true
   },
@@ -2089,15 +2505,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2022-04-17 00:17:08 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_hay_block": "2022-04-15 19:54:34 -0300"
     },
     "done": true
   },
+  "bewitchment:recipes/decorations/blackstone_witch_altar": {
+    "criteria": {
+      "has_item": "2022-04-17 01:08:52 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2022-04-14 17:11:11 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2022-04-17 03:00:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2022-04-17 00:56:44 -0300"
     },
     "done": true
   },
@@ -2116,6 +2556,12 @@
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2022-04-15 20:28:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2022-04-17 04:47:18 -0300"
     },
     "done": true
   },
@@ -2239,6 +2685,12 @@
     },
     "done": true
   },
+  "croptopia:recipes/chilli_relleno": {
+    "criteria": {
+      "has_egg": "2022-04-16 20:02:26 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2022-04-14 01:24:40 -0300"
@@ -2263,6 +2715,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2022-04-17 03:00:19 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2022-04-15 20:35:42 -0300"
@@ -2278,6 +2736,12 @@
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
       "has_gunpowder": "2022-04-14 04:25:28 -0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2022-04-17 04:38:06 -0300"
     },
     "done": true
   },
@@ -2333,8 +2797,10 @@
     "criteria": {
       "sweet_berries": "2022-04-14 01:27:25 -0300",
       "baked_potato": "2022-04-14 03:04:07 -0300",
+      "apple": "2022-04-16 20:01:20 -0300",
       "bread": "2022-04-14 01:47:33 -0300",
       "glow_berries": "2022-04-14 17:22:48 -0300",
+      "beetroot": "2022-04-16 22:41:49 -0300",
       "cooked_chicken": "2022-04-14 02:42:31 -0300",
       "carrot": "2022-04-14 03:51:21 -0300"
     },
@@ -2364,6 +2830,12 @@
     },
     "done": true
   },
+  "bewitchment:recipes/building_blocks/elder_wood": {
+    "criteria": {
+      "has_item": "2022-04-16 20:01:05 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
       "has_cobblestone": "2022-04-14 01:11:05 -0300"
@@ -2373,6 +2845,18 @@
   "minecraft:recipes/building_blocks/diorite_slab": {
     "criteria": {
       "has_diorite": "2022-04-14 03:34:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2022-04-17 03:00:19 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_beef_stir_fry": {
+    "criteria": {
+      "has_broccoli": "2022-04-17 00:20:57 -0300"
     },
     "done": true
   },
@@ -2418,6 +2902,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-17 01:08:52 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
     "criteria": {
       "has_sand": "2022-04-14 03:01:48 -0300"
@@ -2451,6 +2941,12 @@
   "bewitchment:recipes/tools/voodoo_protection_poppet": {
     "criteria": {
       "has_item": "2022-04-15 19:54:34 -0300"
+    },
+    "done": true
+  },
+  "bewitchment:recipes/building_blocks/elder_planks": {
+    "criteria": {
+      "has_item": "2022-04-16 20:01:05 -0300"
     },
     "done": true
   },
@@ -2604,6 +3100,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2022-04-17 04:38:26 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/beetroot_soup": {
     "criteria": {
       "has_beetroot": "2022-04-14 19:32:47 -0300"
@@ -2613,6 +3115,12 @@
   "bewitchment:recipes/misc/silver_ingot_from_smelting_raw_silver": {
     "criteria": {
       "has_item": "2022-04-14 04:03:36 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/orange_juice": {
+    "criteria": {
+      "has_orange": "2022-04-17 04:46:40 -0300"
     },
     "done": true
   },
@@ -2742,6 +3250,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2022-04-16 20:02:24 -0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/red_string_container": {
     "criteria": {
       "has_base_block": "2022-04-14 02:06:39 -0300"
@@ -2754,9 +3268,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2022-04-17 01:08:52 -0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/green_shiny_flower": {
     "criteria": {
       "has_item": "2022-04-14 17:51:24 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/pepper_to_pepper_seed_shapless": {
+    "criteria": {
+      "has_pepper": "2022-04-17 00:19:51 -0300"
     },
     "done": true
   },
@@ -2826,6 +3352,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2022-04-16 22:46:21 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
       "has_diamond": "2022-04-14 01:24:40 -0300"
@@ -2835,6 +3367,12 @@
   "minecraft:recipes/building_blocks/dark_oak_stairs": {
     "criteria": {
       "has_planks": "2022-04-14 17:38:11 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2022-04-17 00:56:44 -0300"
     },
     "done": true
   },
@@ -2918,10 +3456,16 @@
   },
   "morevillagers:all_workstations_get": {
     "criteria": {
+      "barrel": "2022-04-17 02:44:40 -0300",
       "cartographytable": "2022-04-14 02:57:06 -0300",
       "oceanographytable": "2022-04-14 02:55:36 -0300",
       "brewingstand": "2022-04-14 01:57:08 -0300",
+      "grindstone": "2022-04-16 23:26:12 -0300",
+      "smoker": "2022-04-17 00:24:15 -0300",
+      "smithingtable": "2022-04-17 00:24:53 -0300",
       "blastfurnace": "2022-04-14 03:25:29 -0300",
+      "loom": "2022-04-17 00:32:21 -0300",
+      "lectern": "2022-04-17 00:17:05 -0300",
       "woodworkingtable": "2022-04-14 02:55:27 -0300",
       "stonecutter": "2022-04-14 03:52:23 -0300",
       "cauldron": "2022-04-14 03:39:23 -0300",
@@ -2990,6 +3534,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2022-04-17 01:02:37 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/snow": {
     "criteria": {
       "has_snowball": "2022-04-14 16:39:17 -0300"
@@ -3044,6 +3594,12 @@
     },
     "done": true
   },
+  "croptopia:recipes/kale_to_kale_seed_shapless": {
+    "criteria": {
+      "has_kale": "2022-04-17 00:22:06 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2022-04-14 01:10:38 -0300"
@@ -3083,6 +3639,12 @@
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2022-04-14 01:29:02 -0300"
+    },
+    "done": true
+  },
+  "bewitchment:recipes/misc/black_dye_from_snake_tongue": {
+    "criteria": {
+      "has_item": "2022-04-17 00:22:38 -0300"
     },
     "done": true
   },
@@ -3128,9 +3690,27 @@
     },
     "done": true
   },
+  "croptopia:recipes/peach_to_peach_sapling_shapless": {
+    "criteria": {
+      "has_peach": "2022-04-17 00:21:36 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2022-04-14 01:24:40 -0300"
+    },
+    "done": true
+  },
+  "immersive_weathering:recipes/polished_blackstone_bricks": {
+    "criteria": {
+      "has_copper_block": "2022-04-17 01:02:37 -0300"
+    },
+    "done": true
+  },
+  "immersive_weathering:recipes/stone_bricks": {
+    "criteria": {
+      "has_copper_block": "2022-04-17 03:00:19 -0300"
     },
     "done": true
   },
@@ -3140,9 +3720,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2022-04-17 03:00:19 -0300"
+    },
+    "done": true
+  },
   "bewitchment:recipes/decorations/dragons_blood_poppet_shelf": {
     "criteria": {
       "has_item": "2022-04-14 18:12:47 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2022-04-17 03:00:19 -0300"
     },
     "done": true
   },
@@ -3161,6 +3753,12 @@
   "botania:recipes/botania/magenta_shiny_flower": {
     "criteria": {
       "has_item": "2022-04-14 16:34:07 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/scrambled_eggs": {
+    "criteria": {
+      "has_egg": "2022-04-16 20:02:26 -0300"
     },
     "done": true
   },
@@ -3185,6 +3783,12 @@
   "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
     "criteria": {
       "has_moss_block": "2022-04-14 17:15:44 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2022-04-17 00:57:51 -0300"
     },
     "done": true
   },
@@ -3242,6 +3846,12 @@
     },
     "done": true
   },
+  "croptopia:recipes/leafy_salad": {
+    "criteria": {
+      "has_kale": "2022-04-17 00:22:06 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_concrete_powder": {
     "criteria": {
       "has_sand": "2022-04-14 03:01:48 -0300"
@@ -3269,6 +3879,12 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2022-04-14 01:10:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-17 01:08:52 -0300"
     },
     "done": true
   },
@@ -3344,6 +3960,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2022-04-17 01:08:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2022-04-17 01:19:47 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2022-04-14 01:29:10 -0300"
@@ -3359,6 +3987,12 @@
   "croptopia:recipes/nectarine_to_nectarine_sapling_shapless": {
     "criteria": {
       "has_nectarine": "2022-04-14 03:22:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2022-04-17 01:08:52 -0300"
     },
     "done": true
   },
@@ -3401,6 +4035,12 @@
   "bewitchment:recipes/building_blocks/cypress_stairs": {
     "criteria": {
       "has_item": "2022-04-14 19:46:30 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/paprika": {
+    "criteria": {
+      "has_chile_peppers": "2022-04-17 00:19:51 -0300"
     },
     "done": true
   },
@@ -3464,6 +4104,12 @@
     },
     "done": true
   },
+  "immersive_weathering:recipes/dark_oak_bark": {
+    "criteria": {
+      "has_copper_block": "2022-04-17 03:17:03 -0300"
+    },
+    "done": true
+  },
   "croptopia:recipes/shaped_roasted_squash": {
     "criteria": {
       "has_squash": "2022-04-14 02:36:20 -0300"
@@ -3500,6 +4146,12 @@
     },
     "done": true
   },
+  "croptopia:recipes/peach_jam": {
+    "criteria": {
+      "has_peach": "2022-04-17 00:21:36 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2022-04-14 01:35:03 -0300"
@@ -3526,9 +4178,16 @@
   },
   "repurposed_structures:outposts": {
     "criteria": {
-      "in_outpost_icy": "2022-04-15 20:54:50 -0300"
+      "in_outpost_icy": "2022-04-15 20:54:50 -0300",
+      "in_outpost_taiga": "2022-04-17 00:29:52 -0300"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-17 01:08:52 -0300"
+    },
+    "done": true
   },
   "botania:recipes/botania/virus_nullodermal": {
     "criteria": {
@@ -3542,9 +4201,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2022-04-16 22:46:21 -0300"
+    },
+    "done": true
+  },
   "awesomedungeon:abandoned_oak/find_normal": {
     "criteria": {
       "requirement": "2022-04-15 21:16:42 -0300"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_stir_fry": {
+    "criteria": {
+      "has_broccoli": "2022-04-17 00:20:57 -0300"
     },
     "done": true
   },
@@ -3560,9 +4231,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-17 01:08:52 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2022-04-14 04:27:40 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_tiles": "2022-04-17 03:52:26 -0300"
     },
     "done": true
   },
@@ -3660,6 +4343,18 @@
   "croptopia:recipes/blackberry_to_blackberry_seed_shapless": {
     "criteria": {
       "has_blackberry": "2022-04-14 01:44:14 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2022-04-16 22:43:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2022-04-17 01:08:52 -0300"
     },
     "done": true
   },
@@ -3771,9 +4466,21 @@
     },
     "done": true
   },
+  "croptopia:eatcrafted": {
+    "criteria": {
+      "eat_crafted": "2022-04-17 00:07:20 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_carpet_from_white_carpet": {
     "criteria": {
       "has_gray_dye": "2022-04-15 19:50:56 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2022-04-17 01:02:37 -0300"
     },
     "done": true
   },

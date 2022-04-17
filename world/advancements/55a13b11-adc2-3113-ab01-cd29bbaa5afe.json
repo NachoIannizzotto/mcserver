@@ -943,6 +943,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/cutting_board": {
+    "criteria": {
+      "has_stick": "2022-04-17 18:29:50 -0300"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2022-04-14 01:15:58 -0300"
@@ -1042,6 +1048,7 @@
       "minecraft:enderman": "2022-04-14 02:20:48 -0300",
       "minecraft:vex": "2022-04-17 04:44:47 -0300",
       "minecraft:zombie": "2022-04-14 01:33:56 -0300",
+      "minecraft:drowned": "2022-04-17 19:04:01 -0300",
       "minecraft:zombie_villager": "2022-04-14 02:59:52 -0300"
     },
     "done": false
@@ -2691,6 +2698,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2022-04-17 18:40:18 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2022-04-14 01:24:40 -0300"
@@ -3310,6 +3323,12 @@
     },
     "done": true
   },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2022-04-17 18:29:50 -0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/mushroom_15": {
     "criteria": {
       "has_item": "2022-04-14 22:03:31 -0300"
@@ -3373,6 +3392,12 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2022-04-17 00:56:44 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cake_from_slices": {
+    "criteria": {
+      "has_cake_slice": "2022-04-17 19:20:47 -0300"
     },
     "done": true
   },
@@ -3546,6 +3571,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/jungle_pantry": {
+    "criteria": {
+      "has_jungle_trapdoor": "2022-04-17 19:34:34 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
       "in_water": "2022-04-14 01:26:00 -0300"
@@ -3633,6 +3664,12 @@
   "croptopia:recipes/cauliflower_to_cauliflower_seed_shapless": {
     "criteria": {
       "has_cauliflower": "2022-04-15 21:19:29 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/spruce_pantry": {
+    "criteria": {
+      "has_spruce_trapdoor": "2022-04-17 18:29:50 -0300"
     },
     "done": true
   },
@@ -4086,6 +4123,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/flint_knife": {
+    "criteria": {
+      "has_stick": "2022-04-17 18:29:50 -0300"
+    },
+    "done": true
+  },
   "bewitchment:recipes/combat/athame": {
     "criteria": {
       "has_item": "2022-04-14 04:39:58 -0300"
@@ -4258,6 +4301,12 @@
   "bewitchment:recipes/building_blocks/raw_silver_block": {
     "criteria": {
       "has_item": "2022-04-14 04:03:36 -0300"
+    },
+    "done": true
+  },
+  "requiem:recipes/opus_daemonium": {
+    "criteria": {
+      "has_phantom_membrane": "2022-04-17 18:50:15 -0300"
     },
     "done": true
   },

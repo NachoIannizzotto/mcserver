@@ -618,6 +618,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/fried_egg_from_smoking": {
+    "criteria": {
+      "fried_egg": "2022-04-17 19:03:42 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2022-04-14 04:12:54 -0300"
@@ -720,6 +726,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/mutton_wrap": {
+    "criteria": {
+      "has_mutton": "2022-04-17 19:03:24 -0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/mana_fluxfield": {
     "criteria": {
       "has_alt_item": "2022-04-14 16:18:49 -0300"
@@ -789,6 +801,12 @@
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2022-04-14 01:17:48 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/fried_egg": {
+    "criteria": {
+      "fried_egg": "2022-04-17 19:03:42 -0300"
     },
     "done": true
   },
@@ -1104,6 +1122,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/wheat_dough": {
+    "criteria": {
+      "has_wheat": "2022-04-17 18:24:48 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
     "criteria": {
       "has_gray_dye": "2022-04-15 17:53:08 -0300"
@@ -1125,6 +1149,12 @@
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2022-04-14 01:15:21 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:main/obtain_netherite_knife": {
+    "criteria": {
+      "obtain_netherite_knife": "2022-04-17 19:12:02 -0300"
     },
     "done": true
   },
@@ -1428,6 +1458,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/netherite_knife_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2022-04-17 19:05:22 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2022-04-14 01:21:34 -0300"
@@ -1437,6 +1473,18 @@
   "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
       "has_sugar_cane": "2022-04-14 01:28:40 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/steak_and_potatoes": {
+    "criteria": {
+      "has_baked_potato": "2022-04-17 19:07:48 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_ham": {
+    "criteria": {
+      "ham": "2022-04-17 19:10:34 -0300"
     },
     "done": true
   },
@@ -1553,6 +1601,12 @@
       "minecraft:chicken": "2022-04-15 00:08:36 -0300"
     },
     "done": false
+  },
+  "farmersdelight:recipes/farmersdelight/smoked_ham": {
+    "criteria": {
+      "has_ham": "2022-04-17 19:10:34 -0300"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/orange_bed_from_white_bed": {
     "criteria": {
@@ -1752,6 +1806,12 @@
     },
     "done": true
   },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2022-04-17 18:22:45 -0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/mushroom_15": {
     "criteria": {
       "has_alt_item": "2022-04-14 04:07:45 -0300"
@@ -1797,6 +1857,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-04-17 04:44:58 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cake_from_slices": {
+    "criteria": {
+      "has_cake_slice": "2022-04-17 19:19:25 -0300"
     },
     "done": true
   },
@@ -1938,6 +2004,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/roast_chicken_block": {
+    "criteria": {
+      "has_cooked_chicken": "2022-04-17 19:03:25 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2022-04-14 01:07:23 -0300"
@@ -1953,6 +2025,12 @@
   "endrem:main/end_crystal_eye": {
     "criteria": {
       "end_crystal_eye": "2022-04-17 01:26:38 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:main/use_cutting_board": {
+    "criteria": {
+      "cutting_board": "2022-04-17 19:12:26 -0300"
     },
     "done": true
   },
@@ -1989,6 +2067,12 @@
   "croptopia:recipes/potato_chips": {
     "criteria": {
       "has_potato": "2022-04-14 02:00:12 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/horse_feed": {
+    "criteria": {
+      "has_golden_carrot": "2022-04-17 18:22:45 -0300"
     },
     "done": true
   },
@@ -2118,6 +2202,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/shepherds_pie_block": {
+    "criteria": {
+      "has_cooked_mutton": "2022-04-17 19:03:24 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2022-04-14 22:50:49 -0300"
@@ -2220,6 +2310,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/flint_knife": {
+    "criteria": {
+      "has_stick": "2022-04-17 18:31:05 -0300"
+    },
+    "done": true
+  },
   "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
       "blaze_rod": "2022-04-14 19:35:20 -0300"
@@ -2235,6 +2331,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_slab_from_polished_blackstone_stonecutting": {
     "criteria": {
       "has_polished_blackstone": "2022-04-17 02:28:17 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/stuffed_potato": {
+    "criteria": {
+      "has_baked_potato": "2022-04-17 19:07:48 -0300"
     },
     "done": true
   },
@@ -2273,6 +2375,12 @@
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2022-04-14 22:50:49 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2022-04-17 18:31:01 -0300"
     },
     "done": true
   },
@@ -2357,6 +2465,12 @@
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
       "has_planks": "2022-04-14 01:07:32 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/barbecue_stick": {
+    "criteria": {
+      "has_cooked_beef": "2022-04-17 19:01:55 -0300"
     },
     "done": true
   },
@@ -2498,6 +2612,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2022-04-17 19:28:08 -0300"
+    },
+    "done": true
+  },
   "morevillagers:first_village": {
     "criteria": {
       "village": "2022-04-14 01:39:39 -0300"
@@ -2636,6 +2756,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/pie_crust": {
+    "criteria": {
+      "has_wheat": "2022-04-17 18:24:48 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
       "has_lots_of_items": "2022-04-14 01:07:59 -0300"
@@ -2759,15 +2885,15 @@
     },
     "done": true
   },
-  "botania:recipes/botania/petal_blue": {
-    "criteria": {
-      "has_item": "2022-04-17 04:31:56 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
       "has_polished_blackstone_bricks": "2022-04-17 03:44:06 -0300"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/petal_blue": {
+    "criteria": {
+      "has_item": "2022-04-17 04:31:56 -0300"
     },
     "done": true
   },
@@ -2894,6 +3020,12 @@
   "minecraft:recipes/building_blocks/dripstone_block": {
     "criteria": {
       "has_pointed_dripstone": "2022-04-14 21:17:35 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/raw_pasta_from_eggs": {
+    "criteria": {
+      "has_wheat": "2022-04-17 18:24:48 -0300"
     },
     "done": true
   },
@@ -3095,6 +3227,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/roasted_mutton_chops": {
+    "criteria": {
+      "has_mutton": "2022-04-17 19:03:24 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2022-04-14 01:25:46 -0300"
@@ -3104,6 +3242,12 @@
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_iron_ingot": "2022-04-14 01:15:21 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cutting_board": {
+    "criteria": {
+      "has_stick": "2022-04-17 18:31:05 -0300"
     },
     "done": true
   },
@@ -3143,6 +3287,12 @@
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_gravel": "2022-04-14 01:26:06 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/chicken_sandwich": {
+    "criteria": {
+      "has_cooked_chicken": "2022-04-17 19:03:25 -0300"
     },
     "done": true
   },
@@ -3392,6 +3542,12 @@
   "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
     "criteria": {
       "has_raw_iron": "2022-04-14 01:14:00 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooked_bacon_from_smoking": {
+    "criteria": {
+      "cooked_bacon": "2022-04-17 19:12:40 -0300"
     },
     "done": true
   },
@@ -4012,6 +4168,12 @@
     },
     "done": true
   },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "netherite_knife": "2022-04-17 19:12:02 -0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/mushroom_8": {
     "criteria": {
       "has_alt_item": "2022-04-14 04:07:45 -0300"
@@ -4138,6 +4300,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/cooked_bacon_from_campfire_cooking": {
+    "criteria": {
+      "cooked_bacon": "2022-04-17 19:12:40 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2022-04-14 01:16:39 -0300"
@@ -4231,6 +4399,12 @@
   "minecraft:recipes/misc/bone_meal_from_bone_block": {
     "criteria": {
       "has_bone_block": "2022-04-14 04:18:51 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/raw_pasta_from_water": {
+    "criteria": {
+      "has_wheat": "2022-04-17 18:24:48 -0300"
     },
     "done": true
   },
@@ -4494,6 +4668,12 @@
   "immersive_weathering:recipes/nether_bricks": {
     "criteria": {
       "has_copper_block": "2022-04-17 02:17:43 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/fried_egg_from_campfire_cooking": {
+    "criteria": {
+      "fried_egg": "2022-04-17 19:03:42 -0300"
     },
     "done": true
   },
@@ -4786,6 +4966,16 @@
     },
     "done": true
   },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "beetroot": "2022-04-17 18:25:43 -0300",
+      "sugar_cane": "2022-04-17 18:26:54 -0300",
+      "potato": "2022-04-17 18:23:42 -0300",
+      "wheat": "2022-04-17 18:25:02 -0300",
+      "carrot": "2022-04-17 18:26:26 -0300"
+    },
+    "done": false
+  },
   "minecraft:recipes/misc/paper": {
     "criteria": {
       "has_reeds": "2022-04-14 01:28:40 -0300"
@@ -4873,6 +5063,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_bricks": {
     "criteria": {
       "has_polished_blackstone": "2022-04-17 02:28:17 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooked_bacon": {
+    "criteria": {
+      "cooked_bacon": "2022-04-17 19:12:40 -0300"
     },
     "done": true
   },

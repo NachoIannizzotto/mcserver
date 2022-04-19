@@ -485,6 +485,12 @@
     },
     "done": true
   },
+  "arachnids:mi_armor": {
+    "criteria": {
+      "mi_armor": "2022-04-19 04:11:50 -0300"
+    },
+    "done": true
+  },
   "bewitchment:recipes/building_blocks/silver_block": {
     "criteria": {
       "has_item": "2022-04-14 05:02:30 -0300"
@@ -3859,6 +3865,12 @@
     },
     "done": true
   },
+  "earth:earthbounds/root": {
+    "criteria": {
+      "belowDeepslate": "2022-04-19 04:17:12 -0300"
+    },
+    "done": true
+  },
   "bewitchment:recipes/decorations/obsidian_witch_altar": {
     "criteria": {
       "has_item": "2022-04-17 00:55:44 -0300"
@@ -4590,6 +4602,12 @@
   "immersive_weathering:recipes/iron_ingot": {
     "criteria": {
       "has_copper_block": "2022-04-14 01:51:36 -0300"
+    },
+    "done": true
+  },
+  "wildlife:grant_book_on_first_join": {
+    "criteria": {
+      "tick": "2022-04-19 04:16:07 -0300"
     },
     "done": true
   },

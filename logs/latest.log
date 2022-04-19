@@ -1,10 +1,11 @@
-[16:15:37] [main/INFO]: Loading Minecraft 1.18.1 with Fabric Loader 0.13.3
-[16:15:41] [ForkJoinPool-1-worker-4/WARN]: The mod "thonkutil-customization-v1" contains invalid entries in its mod json:
+[03:54:54] [main/INFO]: Loading Minecraft 1.18.1 with Fabric Loader 0.13.3
+[03:54:58] [ForkJoinPool-1-worker-3/WARN]: The mod "thonkutil-customization-v1" contains invalid entries in its mod json:
 - Unsupported root entry "disabled:mixins" at line 11 column 20
-[16:15:42] [main/INFO]: Loading 189 mods:
+[03:54:58] [main/INFO]: Loading 199 mods:
 	- advanced_runtime_resource_pack 0.2.9 via carrier
 	- amplified_nether 1.0.1
 	- apoli 2.2.2 via origins
+	- arachnids 0.0.3
 	- architectury 3.7.42
 	- automatone 0.5.0 via requiem
 	- awesomedungeon 2.0.8
@@ -49,6 +50,7 @@
 	- crockpot 0.7.2+1.18.1
 	- croptopia 1.8.3
 	- drinkbeer 3.0.2
+	- earthbounds 1.0.5b
 	- eldritch_mobs 1.10.4
 	- elytratrinket 3.0.0-1.18.1
 	- enchantinginfuser 3.1.1
@@ -124,9 +126,11 @@
 	- multibeds 1.2.2
 	- multipart_entities 1.1.4-1.18-rc3 via bosses_of_mass_destruction
 	- myron 1.6.2+1.18.1 via shetiphiancore
+	- mythicmounts 1.18.1-6.0
 	- naturescompass 1.18.1-2.0.3-fabric
 	- no_null_processors 2.0.1+1.18.1
 	- numismatic-overhaul 0.1.8+1.18
+	- observed 1.2.4-1.18
 	- omega-config 1.2.2-1.18.1 via friendsandfoes
 	- org_jetbrains_kotlin_kotlin-reflect 1.6.10 via fabric-language-kotlin
 	- org_jetbrains_kotlin_kotlin-stdlib 1.6.10 via fabric-language-kotlin
@@ -147,23 +151,28 @@
 	- pandemonium 2.0.0-beta.7
 	- pandemoniumapi 2.0.0-beta.7 via pandemonium
 	- patchouli 1.18.1-65-FABRIC
+	- peepingcreepers 1.1-1.18
 	- pehkui 3.2.1+1.14.4-1.19
 	- pickupnotifier 3.1.0
 	- playerabilitylib 1.5.0 via besmirchment
 	- polymorph 0.0.18-1.18.1
 	- puzzleslib 3.2.1
+	- rare-ice 0.4.0
 	- ratsmischief 1.3.5
 	- reach-entity-attributes 2.1.1 via besmirchment
 	- repurposed_structures 3.3.12+1.18.1
 	- requiem 2.0.0-beta.7
 	- requiem-core 2.0.0-beta.7 via requiem
 	- requiemapi 2.0.0-beta.7 via requiem
+	- revamped_phantoms 0.2.1
 	- ringsofascension 1.0
 	- roughlyenoughitems 7.3.443
 	- rpgz 0.4.11
+	- sculk_worm 0.1.5
 	- seasons 1.3-BETA+1.18
 	- seedfix 1.0.0 via amplified_nether
 	- shetiphiancore 1.2.4
+	- shwfox 1.2+fabric
 	- skylorlib 1.2.1
 	- stacc 1.3.0 via numismatic-overhaul
 	- step-height-entity-attribute 1.0.0 via bewitchment
@@ -187,122 +196,133 @@
 	- trinkets 3.2.0
 	- visualworkbench 3.1.0
 	- wilderworld 1.1.1
+	- wildlife 1.18-1.0
 	- william-wythers-overhauled-overworld 2.0
 	- wthit 4.5.5
 	- xaerominimap 22.3.0
 	- xaeroworldmap 1.20.3.1
-[16:15:47] [main/WARN]: Mod `xaeroworldmap` (1.20.3.1) uses more dot-separated version components than SemVer allows; support for this is currently not guaranteed.
-[16:15:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/F:/mcserver/libraries/net/fabricmc/sponge-mixin/0.11.2+mixin.0.8.5/sponge-mixin-0.11.2+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[16:15:48] [main/INFO]: Compatibility level set to JAVA_16
-[16:15:48] [main/INFO]: Compatibility level set to JAVA_17
-[16:15:49] [main/WARN]: Reference map 'requiem-pandemonium-refmap.json' for mixins.pandemonium.common.json could not be read. If this is a development environment you can ignore this message
-[16:15:49] [main/WARN]: Reference map 'structures_compass-fabric-refmap.json' for structures_compass.mixins.json could not be read. If this is a development environment you can ignore this message
-[16:15:51] [main/WARN]: Error loading class: net/minecraft/class_5684 (java.lang.ClassNotFoundException: net/minecraft/class_5684)
-[16:15:51] [main/WARN]: @Mixin target net.minecraft.class_5684 was not found crockpot.mixins.json:TooltipComponentMixin
-[16:15:54] [main/INFO]: I used the json to destroy the json
-[16:15:57] [main/WARN]: Method overwrite conflict for getStructureSpawns in graveyard.mixins.json:NoiseChunkGeneratorMixin, previously written by com.endremastered.endrem.mixin.world.NoiseChunkGeneratorMixin. Skipping method.
-[16:16:06] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$bgl000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[16:16:09] [main/INFO]: Apoli 2.2.2 has initialized. Ready to power up your game!
-[16:16:09] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
-[16:16:09] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
-[16:16:09] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
-[16:16:09] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
-[16:16:09] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
-[16:16:09] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
-[16:16:13] [main/ERROR]: No data fixer registered for botania:mana_burst
-[16:16:13] [main/ERROR]: No data fixer registered for botania:pixie
-[16:16:13] [main/ERROR]: No data fixer registered for botania:flame_ring
-[16:16:13] [main/ERROR]: No data fixer registered for botania:vine_ball
-[16:16:13] [main/ERROR]: No data fixer registered for botania:doppleganger
-[16:16:13] [main/ERROR]: No data fixer registered for botania:magic_landmine
-[16:16:13] [main/ERROR]: No data fixer registered for botania:spark
-[16:16:13] [main/ERROR]: No data fixer registered for botania:thrown_item
-[16:16:13] [main/ERROR]: No data fixer registered for botania:magic_missile
-[16:16:13] [main/ERROR]: No data fixer registered for botania:thorn_chakram
-[16:16:13] [main/ERROR]: No data fixer registered for botania:corporea_spark
-[16:16:13] [main/ERROR]: No data fixer registered for botania:ender_air_bottle
-[16:16:13] [main/ERROR]: No data fixer registered for botania:pool_minecart
-[16:16:13] [main/ERROR]: No data fixer registered for botania:pink_wither
-[16:16:13] [main/ERROR]: No data fixer registered for botania:player_mover
-[16:16:13] [main/ERROR]: No data fixer registered for botania:mana_storm
-[16:16:13] [main/ERROR]: No data fixer registered for botania:babylon_weapon
-[16:16:13] [main/ERROR]: No data fixer registered for botania:falling_star
-[16:16:13] [main/ERROR]: No data fixer registered for botania:ender_air
-[16:16:13] [main/INFO]: Capybara is downloaded, loading now! Thanks for installing! <3
-[16:16:14] [main/INFO]: [Chord] Initializing
-[16:16:14] [main/INFO]: [Chord] Initialized
-[16:16:14] [main/INFO]: [STDOUT]: Loading Collective (Fabric) version 4.9.
-[16:16:14] [main/INFO]: Loaded C2B lib.
-[16:16:15] [main/INFO]: REV UP THOSE CROCK POTS BOIS
-[16:16:16] [main/INFO]: Creating registry manager for mod id enchantinginfuser
-[16:16:17] [main/ERROR]: No data fixer registered for farmingforblockheads:merchant
-[16:16:18] [main/INFO]: Disabling Experimental Warnings!
-[16:16:18] [main/INFO]: libraryferret - > init ...
-[16:16:18] [main/ERROR]: No data fixer registered for magehand:hostile
-[16:16:18] [main/ERROR]: No data fixer registered for magehand:copper
-[16:16:18] [main/ERROR]: No data fixer registered for magehand:iron
-[16:16:18] [main/ERROR]: No data fixer registered for magehand:gold
-[16:16:18] [main/ERROR]: No data fixer registered for magehand:diamond
-[16:16:18] [main/ERROR]: No data fixer registered for magehand:amethyst
-[16:16:18] [main/INFO]: Origins 1.3.1 is initializing. Have fun!
-[16:16:21] [main/INFO]: Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
-[16:16:21] [main/INFO]: Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
-[16:16:21] [main/INFO]: Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
-[16:16:21] [main/INFO]: Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
-[16:16:21] [main/INFO]: Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
-[16:16:21] [main/INFO]: Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
-[16:16:21] [main/INFO]: Trying to read config file...
-[16:16:21] [main/INFO]: A config file was found, loading it..
-[16:16:21] [main/INFO]: Successfully loaded config file.
-[16:16:21] [main/INFO]: Loaded seedfix v1.0.0 by Justsnoopy30!
-[16:16:21] [main/ERROR]: No data fixer registered for shetiphiancore:gui_item
-[16:16:22] [main/INFO]: Subterrestrial initialized!
-[16:16:22] [main/INFO]: The Extractinator initialized!
-[16:16:22] [main/INFO]: [STDOUT]: thonkutil-capes-v1 Init
-[16:16:22] [main/INFO]: Creating registry manager for mod id tradingpost
-[16:16:22] [main/INFO]: Creating registry manager for mod id visualworkbench
-[16:16:22] [main/ERROR]: No data fixer registered for wisteria_sign
-[16:16:22] [main/INFO]: Things are gettin' wild!
-[16:16:23] [main/INFO]: [WTHIT] Registering plugin waila:core at mcp.mobius.waila.plugin.core.WailaCore
-[16:16:23] [main/INFO]: [WTHIT] Registering plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.WailaVanilla
-[16:16:23] [main/INFO]: [WTHIT] Registering plugin crockpot:wthit at com.github.nosrick.crockpot.compat.wthit.WthitPlugin
-[16:16:23] [main/INFO]: [WTHIT] Plugin config reloaded
-[16:16:23] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[16:16:23] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[16:16:24] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:16:25] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:16:25] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:16:25] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:16:25] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:16:25] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:16:25] [main/WARN]: Ambiguity between arguments [scale, get, scale_type] and [scale, get, entity] with inputs: [base]
-[16:16:25] [main/WARN]: Ambiguity between arguments [scale, get, scale_type, entity] and [scale, get, scale_type, scalingFactor] with inputs: [0123]
-[16:16:25] [main/WARN]: Ambiguity between arguments [scale, get, scale_type, scalingFactor] and [scale, get, scale_type, entity] with inputs: [0, -1, -.5, 1.2, .5, -1234.56]
-[16:16:25] [main/WARN]: Ambiguity between arguments [scale, get, scalingFactor] and [scale, get, entity] with inputs: [0, -1, -.5, 1.2, .5, -1234.56]
-[16:16:26] [main/WARN]: Ambiguity between arguments [scale, get, entity] and [scale, get, scalingFactor] with inputs: [0123]
-[16:16:26] [main/WARN]: Ambiguity between arguments [scale, compute, scale_type, entity] and [scale, compute, scale_type, scalingFactor] with inputs: [0123]
-[16:16:26] [main/WARN]: Ambiguity between arguments [scale, compute, scale_type, scalingFactor] and [scale, compute, scale_type, entity] with inputs: [0, -1, -.5, 1.2, .5, -1234.56]
-[16:16:26] [main/WARN]: Ambiguity between arguments [scale, reset, scale_type] and [scale, reset, targets] with inputs: [base]
-[16:16:26] [main/WARN]: Ambiguity between arguments [scale, delay, get, scale_type] and [scale, delay, get, entity] with inputs: [base]
-[16:16:26] [main/WARN]: Ambiguity between arguments [scale, persist, reset, scale_type] and [scale, persist, reset, targets] with inputs: [base]
-[16:16:26] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Amplified Nether for Fabric, Apoli, Automatone, Awesome Dungeon, Awesome Dungeon Edition end, Awesome Dungeon Edition Nether, Awesome Dungeon Edition Ocean, Balm, Besmirchment, Bewitchment, BoatContainer, Bosses of Mass Destruction (Beta), Botania, Bucolic_Origins[FABRIC], Craftable Horse Armour & Saddle, Chipped, Chord, Config to Brigadier, Creeper Overhaul, Crock Pot, Croptopia, Drink Beer, Eldritch Mobs, Elytra Trinket, Enchanting Infuser, End Goblin Traders, End Remastered, Extra Origins, Fabric Tool Attribute API (v1), Fabric Tailor, Farmer's Delight, Farming for Blockheads, Friends&Foes, Goblin Traders, The Graveyard, Guild, Immersive Weathering, Magehand, MoreVillagersFabric, MrPlague's Warper Origin, MultiBeds, Nature's Compass, Numismatic Overhaul, Origins, Origins: Classes, Requiem: Pandemonium, Patchouli, Rat's Mischief, Repurposed Structures, Requiem, Rings of Ascension, RPGZ, Fabric Seasons, ShetiPhianCore, Structures Compass, Subterrestrial, The Extractinator, ThonkUtil Capes (v1), Trading Post, Traveler's Backpack, Tree Hollows, Trinket of Undying, Trinkets, WilderWorld, William Wythers Overhauled Overworld), ShingekiNoCraftv2bySiegreich.zip, TheSculk.zip
-[16:16:26] [main/INFO]: ARRP register
-[16:16:27] [Worker-Main-4/ERROR]: Couldn't load tag minecraft:boats as it is missing following references: wilderworld:wisteria_boat (from WilderWorld)
-[16:16:28] [Worker-Main-6/INFO]: [STDOUT]: endgoblintraders:trades/end_goblin_trader/common.json
-[16:16:28] [Worker-Main-6/INFO]: [STDOUT]: endgoblintraders:trades/end_goblin_trader/epic.json
-[16:16:28] [Worker-Main-6/INFO]: [STDOUT]: endgoblintraders:trades/end_goblin_trader/legendary.json
-[16:16:28] [Worker-Main-6/INFO]: [STDOUT]: endgoblintraders:trades/end_goblin_trader/rare.json
-[16:16:28] [Worker-Main-6/INFO]: [STDOUT]: endgoblintraders:trades/end_goblin_trader/uncommon.json
-[16:16:28] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/goblin_trader/common.json
-[16:16:28] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/goblin_trader/legendary.json
-[16:16:28] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/goblin_trader/rare.json
-[16:16:28] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/goblin_trader/uncommon.json
-[16:16:28] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/vein_goblin_trader/common.json
-[16:16:28] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/vein_goblin_trader/epic.json
-[16:16:28] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/vein_goblin_trader/legendary.json
-[16:16:28] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/vein_goblin_trader/rare.json
-[16:16:28] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/vein_goblin_trader/uncommon.json
-[16:16:29] [Worker-Main-5/ERROR]: Parsing error loading recipe boatcontainer:stripped_bamboo_ender_chest_boat
+[03:55:04] [main/WARN]: Mod `earthbounds` (1.0.5b) does not respect SemVer - comparison support is limited.
+[03:55:04] [main/WARN]: Mod `xaeroworldmap` (1.20.3.1) uses more dot-separated version components than SemVer allows; support for this is currently not guaranteed.
+[03:55:04] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/F:/mcserver/libraries/net/fabricmc/sponge-mixin/0.11.2+mixin.0.8.5/sponge-mixin-0.11.2+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[03:55:05] [main/INFO]: Compatibility level set to JAVA_16
+[03:55:05] [main/INFO]: Compatibility level set to JAVA_17
+[03:55:05] [main/WARN]: Reference map 'requiem-pandemonium-refmap.json' for mixins.pandemonium.common.json could not be read. If this is a development environment you can ignore this message
+[03:55:06] [main/WARN]: Reference map 'structures_compass-fabric-refmap.json' for structures_compass.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:55:06] [main/WARN]: Reference map 'wildlife-refmap.json' for wildlife.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:55:06] [main/WARN]: Error loading class: net/minecraft/class_759 (java.lang.ClassNotFoundException: net/minecraft/class_759)
+[03:55:06] [main/WARN]: @Mixin target net.minecraft.class_759 was not found arachnids.mixins.json:HeldItemRendererMixin
+[03:55:07] [main/WARN]: Error loading class: net/minecraft/class_5684 (java.lang.ClassNotFoundException: net/minecraft/class_5684)
+[03:55:07] [main/WARN]: @Mixin target net.minecraft.class_5684 was not found crockpot.mixins.json:TooltipComponentMixin
+[03:55:10] [main/INFO]: I used the json to destroy the json
+[03:55:10] [main/INFO]: Loading Shadew's foxes on SERVER in FABRIC_API envionment
+[03:55:10] [main/INFO]: Proxy class: net.shadew.foxes.fabric.FabricFoxes
+[03:55:14] [main/WARN]: Method overwrite conflict for getStructureSpawns in graveyard.mixins.json:NoiseChunkGeneratorMixin, previously written by com.endremastered.endrem.mixin.world.NoiseChunkGeneratorMixin. Skipping method.
+[03:55:24] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$bhc000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[03:55:27] [main/INFO]: Apoli 2.2.2 has initialized. Ready to power up your game!
+[03:55:28] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
+[03:55:28] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
+[03:55:28] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
+[03:55:28] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
+[03:55:28] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
+[03:55:28] [main/INFO]: Hi my friend, unfortunately the key is not correct! The patreon functions are not activated
+[03:55:33] [main/ERROR]: No data fixer registered for botania:mana_burst
+[03:55:33] [main/ERROR]: No data fixer registered for botania:pixie
+[03:55:33] [main/ERROR]: No data fixer registered for botania:flame_ring
+[03:55:33] [main/ERROR]: No data fixer registered for botania:vine_ball
+[03:55:33] [main/ERROR]: No data fixer registered for botania:doppleganger
+[03:55:33] [main/ERROR]: No data fixer registered for botania:magic_landmine
+[03:55:33] [main/ERROR]: No data fixer registered for botania:spark
+[03:55:33] [main/ERROR]: No data fixer registered for botania:thrown_item
+[03:55:33] [main/ERROR]: No data fixer registered for botania:magic_missile
+[03:55:33] [main/ERROR]: No data fixer registered for botania:thorn_chakram
+[03:55:33] [main/ERROR]: No data fixer registered for botania:corporea_spark
+[03:55:33] [main/ERROR]: No data fixer registered for botania:ender_air_bottle
+[03:55:33] [main/ERROR]: No data fixer registered for botania:pool_minecart
+[03:55:33] [main/ERROR]: No data fixer registered for botania:pink_wither
+[03:55:33] [main/ERROR]: No data fixer registered for botania:player_mover
+[03:55:33] [main/ERROR]: No data fixer registered for botania:mana_storm
+[03:55:33] [main/ERROR]: No data fixer registered for botania:babylon_weapon
+[03:55:33] [main/ERROR]: No data fixer registered for botania:falling_star
+[03:55:33] [main/ERROR]: No data fixer registered for botania:ender_air
+[03:55:34] [main/INFO]: Capybara is downloaded, loading now! Thanks for installing! <3
+[03:55:34] [main/INFO]: [Chord] Initializing
+[03:55:34] [main/INFO]: [Chord] Initialized
+[03:55:34] [main/INFO]: [STDOUT]: Loading Collective (Fabric) version 4.9.
+[03:55:35] [main/INFO]: Loaded C2B lib.
+[03:55:35] [main/INFO]: REV UP THOSE CROCK POTS BOIS
+[03:55:36] [main/INFO]: Creating registry manager for mod id enchantinginfuser
+[03:55:36] [main/ERROR]: No data fixer registered for farmingforblockheads:merchant
+[03:55:37] [main/INFO]: Disabling Experimental Warnings!
+[03:55:37] [main/INFO]: libraryferret - > init ...
+[03:55:37] [main/ERROR]: No data fixer registered for magehand:hostile
+[03:55:37] [main/ERROR]: No data fixer registered for magehand:copper
+[03:55:37] [main/ERROR]: No data fixer registered for magehand:iron
+[03:55:37] [main/ERROR]: No data fixer registered for magehand:gold
+[03:55:37] [main/ERROR]: No data fixer registered for magehand:diamond
+[03:55:37] [main/ERROR]: No data fixer registered for magehand:amethyst
+[03:55:38] [main/INFO]: [STDOUT]: No config file found. Created new config file for mythicmounts mod.
+[03:55:38] [main/INFO]: Origins 1.3.1 is initializing. Have fun!
+[03:55:41] [main/ERROR]: No data fixer registered for revamped_phantoms:shockwave
+[03:55:41] [main/INFO]: Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[03:55:41] [main/INFO]: Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[03:55:41] [main/INFO]: Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[03:55:41] [main/INFO]: Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[03:55:41] [main/INFO]: Registered plugin provider FabricFluidAPISupportPlugin for REIServerPlugin
+[03:55:41] [main/INFO]: Registered plugin provider FabricFluidAPISupportPlugin for REIPlugin
+[03:55:42] [main/INFO]: Trying to read config file...
+[03:55:42] [main/INFO]: A config file was found, loading it..
+[03:55:42] [main/INFO]: Successfully loaded config file.
+[03:55:42] [main/INFO]: Loaded seedfix v1.0.0 by Justsnoopy30!
+[03:55:42] [main/ERROR]: No data fixer registered for shetiphiancore:gui_item
+[03:55:42] [main/INFO]: [STDOUT]: Hello Foxy world!
+[03:55:42] [main/INFO]: Subterrestrial initialized!
+[03:55:43] [main/INFO]: The Extractinator initialized!
+[03:55:43] [main/INFO]: [STDOUT]: thonkutil-capes-v1 Init
+[03:55:43] [main/INFO]: Creating registry manager for mod id tradingpost
+[03:55:43] [main/INFO]: Creating registry manager for mod id visualworkbench
+[03:55:43] [main/ERROR]: No data fixer registered for wisteria_sign
+[03:55:43] [main/INFO]: Things are gettin' wild!
+[03:55:43] [main/INFO]: [STDOUT]: No config file found. Created new config file for wildlife mod.
+[03:55:43] [main/INFO]: [WTHIT] Registering plugin crockpot:wthit at com.github.nosrick.crockpot.compat.wthit.WthitPlugin
+[03:55:43] [main/INFO]: [WTHIT] Registering plugin waila:core at mcp.mobius.waila.plugin.core.WailaCore
+[03:55:43] [main/INFO]: [WTHIT] Registering plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.WailaVanilla
+[03:55:43] [main/INFO]: [WTHIT] Plugin config reloaded
+[03:55:43] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[03:55:43] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[03:55:45] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:55:46] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:55:47] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:55:47] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:55:47] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:55:47] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:55:47] [main/WARN]: Ambiguity between arguments [scale, get, scale_type] and [scale, get, entity] with inputs: [base]
+[03:55:47] [main/WARN]: Ambiguity between arguments [scale, get, scale_type, entity] and [scale, get, scale_type, scalingFactor] with inputs: [0123]
+[03:55:47] [main/WARN]: Ambiguity between arguments [scale, get, scale_type, scalingFactor] and [scale, get, scale_type, entity] with inputs: [0, -1, -.5, 1.2, .5, -1234.56]
+[03:55:47] [main/WARN]: Ambiguity between arguments [scale, get, scalingFactor] and [scale, get, entity] with inputs: [0, -1, -.5, 1.2, .5, -1234.56]
+[03:55:47] [main/WARN]: Ambiguity between arguments [scale, get, entity] and [scale, get, scalingFactor] with inputs: [0123]
+[03:55:47] [main/WARN]: Ambiguity between arguments [scale, compute, scale_type, entity] and [scale, compute, scale_type, scalingFactor] with inputs: [0123]
+[03:55:47] [main/WARN]: Ambiguity between arguments [scale, compute, scale_type, scalingFactor] and [scale, compute, scale_type, entity] with inputs: [0, -1, -.5, 1.2, .5, -1234.56]
+[03:55:47] [main/WARN]: Ambiguity between arguments [scale, reset, scale_type] and [scale, reset, targets] with inputs: [base]
+[03:55:47] [main/WARN]: Ambiguity between arguments [scale, delay, get, scale_type] and [scale, delay, get, entity] with inputs: [base]
+[03:55:47] [main/WARN]: Ambiguity between arguments [scale, persist, reset, scale_type] and [scale, persist, reset, targets] with inputs: [base]
+[03:55:47] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Amplified Nether for Fabric, Apoli, Arachnids, Automatone, Awesome Dungeon, Awesome Dungeon Edition end, Awesome Dungeon Edition Nether, Awesome Dungeon Edition Ocean, Balm, Besmirchment, Bewitchment, BoatContainer, Bosses of Mass Destruction (Beta), Botania, Bucolic_Origins[FABRIC], Craftable Horse Armour & Saddle, Chipped, Chord, Config to Brigadier, Creeper Overhaul, Crock Pot, Croptopia, Drink Beer, Earthbounds, Eldritch Mobs, Elytra Trinket, Enchanting Infuser, End Goblin Traders, End Remastered, Extra Origins, Fabric Tool Attribute API (v1), Fabric Tailor, Farmer's Delight, Farming for Blockheads, Friends&Foes, Goblin Traders, The Graveyard, Guild, Immersive Weathering, Magehand, MoreVillagersFabric, MrPlague's Warper Origin, MultiBeds, Mythic Mounts, Nature's Compass, Numismatic Overhaul, Observed, Origins, Origins: Classes, Requiem: Pandemonium, Patchouli, Rare Ice, Rat's Mischief, Repurposed Structures, Requiem, Rings of Ascension, RPGZ, Sculk Worm, Fabric Seasons, ShetiPhianCore, Shadew's Foxes, Structures Compass, Subterrestrial, The Extractinator, ThonkUtil Capes (v1), Trading Post, Traveler's Backpack, Tree Hollows, Trinket of Undying, Trinkets, WilderWorld, Wildlife, William Wythers Overhauled Overworld), ShingekiNoCraftv2bySiegreich.zip, TheSculk.zip
+[03:55:47] [main/INFO]: ARRP register
+[03:55:48] [Worker-Main-4/ERROR]: Couldn't load tag minecraft:boats as it is missing following references: wilderworld:wisteria_boat (from WilderWorld)
+[03:55:50] [Worker-Main-6/INFO]: [STDOUT]: endgoblintraders:trades/end_goblin_trader/common.json
+[03:55:50] [Worker-Main-6/INFO]: [STDOUT]: endgoblintraders:trades/end_goblin_trader/epic.json
+[03:55:50] [Worker-Main-6/INFO]: [STDOUT]: endgoblintraders:trades/end_goblin_trader/legendary.json
+[03:55:50] [Worker-Main-6/INFO]: [STDOUT]: endgoblintraders:trades/end_goblin_trader/rare.json
+[03:55:50] [Worker-Main-6/INFO]: [STDOUT]: endgoblintraders:trades/end_goblin_trader/uncommon.json
+[03:55:50] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/goblin_trader/common.json
+[03:55:50] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/goblin_trader/legendary.json
+[03:55:50] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/goblin_trader/rare.json
+[03:55:50] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/goblin_trader/uncommon.json
+[03:55:50] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/vein_goblin_trader/common.json
+[03:55:50] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/vein_goblin_trader/epic.json
+[03:55:50] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/vein_goblin_trader/legendary.json
+[03:55:50] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/vein_goblin_trader/rare.json
+[03:55:50] [Worker-Main-6/INFO]: [STDOUT]: goblintraders:trades/vein_goblin_trader/uncommon.json
+[03:55:50] [Worker-Main-6/ERROR]: Parsing error loading recipe boatcontainer:stripped_bamboo_ender_chest_boat
 com.google.gson.JsonSyntaxException: Unknown item 'twigs:stripped_bamboo_boat'
 	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -344,14 +364,14 @@ com.google.gson.JsonSyntaxException: Unknown item 'twigs:stripped_bamboo_boat'
 	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
 	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:29] [Worker-Main-5/ERROR]: Parsing error loading recipe endrem:compat/create/crushing/end_crystal_horse_armor
+[03:55:50] [Worker-Main-6/ERROR]: Parsing error loading recipe endrem:compat/create/crushing/end_crystal_horse_armor
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
 	at net.minecraft.class_1863.method_17875(class_1863.java:125) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -387,14 +407,14 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
 	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:29] [Worker-Main-5/ERROR]: Parsing error loading recipe bucolicraces:glowworm_silk
+[03:55:50] [Worker-Main-6/ERROR]: Parsing error loading recipe bucolicraces:glowworm_silk
 com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:glowshroom'
 	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -436,14 +456,14 @@ com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:glowshroom'
 	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
 	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:29] [Worker-Main-5/ERROR]: Parsing error loading recipe endrem:compat/create/crushing/end_crystal_ore
+[03:55:50] [Worker-Main-6/ERROR]: Parsing error loading recipe endrem:compat/create/crushing/end_crystal_ore
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
 	at net.minecraft.class_1863.method_17875(class_1863.java:125) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -479,14 +499,14 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:
 	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
 	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:29] [Worker-Main-5/ERROR]: Parsing error loading recipe bucolicraces:glowing_moss_block
+[03:55:51] [Worker-Main-6/ERROR]: Parsing error loading recipe bucolicraces:glowing_moss_block
 com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:glowshroom'
 	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -528,14 +548,14 @@ com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:glowshroom'
 	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
 	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:29] [Worker-Main-5/ERROR]: Parsing error loading recipe boatcontainer:stripped_bamboo_chest_boat
+[03:55:51] [Worker-Main-6/ERROR]: Parsing error loading recipe boatcontainer:stripped_bamboo_chest_boat
 com.google.gson.JsonSyntaxException: Unknown item 'twigs:stripped_bamboo_boat'
 	at net.minecraft.class_1869.method_17878(class_1869.java:253) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -577,15 +597,15 @@ com.google.gson.JsonSyntaxException: Unknown item 'twigs:stripped_bamboo_boat'
 	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
 	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:29] [Worker-Main-5/INFO]: Loaded 33 recipes
-[16:16:29] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_12
+[03:55:51] [Worker-Main-6/INFO]: Loaded 33 recipes
+[03:55:51] [Worker-Main-6/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_12
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_12'
 	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -631,17 +651,46 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
 	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
 	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:29] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_11
+[03:55:51] [Worker-Main-6/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_11
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_11'
 	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -687,17 +736,46 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
 	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
 	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:29] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_10
+[03:55:51] [Worker-Main-6/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_10
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_10'
 	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -743,17 +821,46 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
 	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
 	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:29] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_7
+[03:55:51] [Worker-Main-6/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_7
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_7'
 	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -799,17 +906,46 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
 	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
 	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:29] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_6
+[03:55:51] [Worker-Main-6/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_6
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_6'
 	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -855,17 +991,46 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
 	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
 	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:29] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_5
+[03:55:51] [Worker-Main-6/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_5
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_5'
 	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -911,17 +1076,46 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
 	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
 	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:30] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_4
+[03:55:51] [Worker-Main-6/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_4
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_4'
 	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -967,17 +1161,46 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
 	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
 	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:30] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_3
+[03:55:51] [Worker-Main-6/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_3
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_3'
 	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1023,17 +1246,46 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
 	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
 	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:30] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_2
+[03:55:51] [Worker-Main-6/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_2
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_2'
 	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1079,17 +1331,46 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
 	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
 	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:30] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_1
+[03:55:51] [Worker-Main-6/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_1
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_1'
 	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1135,17 +1416,46 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
 	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
 	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:30] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_9
+[03:55:51] [Worker-Main-6/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_9
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_9'
 	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1191,17 +1501,46 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
 	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
 	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:30] [Worker-Main-5/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_8
+[03:55:51] [Worker-Main-6/ERROR]: Couldn't parse loot table chipped:blocks/dried_kelp_block_8
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'chipped:dried_kelp_block_8'
 	at net.minecraft.class_3518.method_17995(class_3518.java:130) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1247,22 +1586,51 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
 	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
 	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
-	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:71) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014.method_18367(class_4014.java:70) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2147) ~[?:?]
+	at net.minecraft.class_4014$1.method_18374(class_4014.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4014$1.method_18352(class_4014.java:50) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) [?:?]
 	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1810) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
-[16:16:30] [Worker-Main-5/ERROR]: Failed to load function siegreichtitans:emerge2
+[03:55:52] [Worker-Main-6/ERROR]: Failed to load function siegreichtitans:emerge2
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Unknown or invalid command '/scale set pehkui:view_bobbing 1' on line 15 (did you mean 'scale'? Do not use a preceding forwards slash.)
 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) [?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
@@ -1273,174 +1641,377 @@ Caused by: java.lang.IllegalArgumentException: Unknown or invalid command '/scal
 	at net.minecraft.class_5349.method_29451(class_5349.java:86) ~[server-intermediary.jar:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[16:16:30] [Worker-Main-5/ERROR]: Couldn't load tag minecraft:tick as it is missing following references: usernull:tick (from ShingekiNoCraftv2bySiegreich.zip)
-[16:16:30] [Worker-Main-5/INFO]: Loaded 2861 advancements
-[16:16:30] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/metal_bar_0" in power file "bucolicraces:diet_modifiers/irongolem/metal_bar": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "engineersdecore:metal_bar" was not registered in registry "minecraft:item".
-[16:16:30] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/metal_bar_grow" in power file "bucolicraces:diet_modifiers/irongolem/metal_bar": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "engineersdecore:metal_bar" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/metal_bar_particle" in power file "bucolicraces:diet_modifiers/irongolem/metal_bar": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "engineersdecore:metal_bar" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading power file siegreichtitans:warhammerdamage (skipping): Error reading data field at entity_action_added.source: JSON requires field: source
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_slime_balls_0" in power file "bucolicraces:diet_modifiers/vampire/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_slime_balls_grow" in power file "bucolicraces:diet_modifiers/vampire/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_slime_balls_particle" in power file "bucolicraces:diet_modifiers/vampire/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/fireelemental/blazingbucket_0" in power file "bucolicraces:diet_modifiers/fireelemental/blazingbucket": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blazing_blood_bucket" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/fireelemental/blazingbucket_grow" in power file "bucolicraces:diet_modifiers/fireelemental/blazingbucket": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blazing_blood_bucket" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/fireelemental/blazingbucket_particle" in power file "bucolicraces:diet_modifiers/fireelemental/blazingbucket": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blazing_blood_bucket" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/scortchedbrick_0" in power file "bucolicraces:diet_modifiers/relic/scortchedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:scortched_brick" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/scortchedbrick_grow" in power file "bucolicraces:diet_modifiers/relic/scortchedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:scortched_brick" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/scortchedbrick_particle" in power file "bucolicraces:diet_modifiers/relic/scortchedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:scortched_brick" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading power file sculksieg:bigresource (skipping): Error reading data field at hud_render: JSON requires field: hud_render
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/tallow_0" in power file "bucolicraces:diet_modifiers/candle/tallow": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "occultism:tallow" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/tallow_grow" in power file "bucolicraces:diet_modifiers/candle/tallow": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "occultism:tallow" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/tallow_particle" in power file "bucolicraces:diet_modifiers/candle/tallow": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "occultism:tallow" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/ashbrick_0" in power file "bucolicraces:diet_modifiers/relic/ashbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "supplementaries:ash_brick" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/ashbrick_grow" in power file "bucolicraces:diet_modifiers/relic/ashbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "supplementaries:ash_brick" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/ashbrick_particle" in power file "bucolicraces:diet_modifiers/relic/ashbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "supplementaries:ash_brick" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_heart_0" in power file "bucolicraces:diet_modifiers/poltergeist/soul_heart": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:soul_heart" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_heart_grow" in power file "bucolicraces:diet_modifiers/poltergeist/soul_heart": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:soul_heart" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_heart_particle" in power file "bucolicraces:diet_modifiers/poltergeist/soul_heart": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:soul_heart" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/inedibles_slow" in power file "bucolicraces:diet_modifiers/inedibles": Error reading data field at modifier.operation: JSON requires field: operation
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:biome_modifiers/iceelemental_largest" in power file "bucolicraces:biome_modifiers/iceelemental": Error reading data field at condition: EntityCondition json type "origins:temperature" is not defined.
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore_0" in power file "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:crushed_iron_ore" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore_grow" in power file "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:crushed_iron_ore" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore_particle" in power file "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:crushed_iron_ore" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/searedbrick_0" in power file "bucolicraces:diet_modifiers/relic/searedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:seared_brick" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/searedbrick_grow" in power file "bucolicraces:diet_modifiers/relic/searedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:seared_brick" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/searedbrick_particle" in power file "bucolicraces:diet_modifiers/relic/searedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:seared_brick" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket1_0" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket1_grow" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket1_particle" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket2_0" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket2_grow" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket2_particle" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/animalfat_0" in power file "bucolicraces:diet_modifiers/candle/animalfat": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:animal_fat" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/animalfat_grow" in power file "bucolicraces:diet_modifiers/candle/animalfat": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:animal_fat" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/animalfat_particle" in power file "bucolicraces:diet_modifiers/candle/animalfat": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:animal_fat" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bottle_0" in power file "bucolicraces:diet_modifiers/ghoul/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bottle_grow" in power file "bucolicraces:diet_modifiers/ghoul/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bottle_particle" in power file "bucolicraces:diet_modifiers/ghoul/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_bottle_0" in power file "bucolicraces:diet_modifiers/poltergeist/soul_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "dungeonsmod:soul_bottle" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_bottle_grow" in power file "bucolicraces:diet_modifiers/poltergeist/soul_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "dungeonsmod:soul_bottle" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_bottle_particle" in power file "bucolicraces:diet_modifiers/poltergeist/soul_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "dungeonsmod:soul_bottle" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/iron_sheet_0" in power file "bucolicraces:diet_modifiers/irongolem/iron_sheet": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:iron_sheet" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/iron_sheet_grow" in power file "bucolicraces:diet_modifiers/irongolem/iron_sheet": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:iron_sheet" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/iron_sheet_particle" in power file "bucolicraces:diet_modifiers/irongolem/iron_sheet": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:iron_sheet" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket1_0" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket1_grow" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket1_particle" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bottle_0" in power file "bucolicraces:diet_modifiers/vampire/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bottle_grow" in power file "bucolicraces:diet_modifiers/vampire/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bottle_particle" in power file "bucolicraces:diet_modifiers/vampire/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading power file bucolicraces:diet_modifiers/dietnone (skipping): Error reading data field at item_condition: ItemCondition json type "minecraft:in_tag" is not defined.
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket2_0" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket2_grow" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket2_particle" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/ootheca_0" in power file "bucolicraces:diet_modifiers/ghoul/ootheca": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:cockroach_ootheca" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/ootheca_grow" in power file "bucolicraces:diet_modifiers/ghoul/ootheca": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:cockroach_ootheca" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/ootheca_particle" in power file "bucolicraces:diet_modifiers/ghoul/ootheca": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:cockroach_ootheca" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_slime_balls_0" in power file "bucolicraces:diet_modifiers/ghoul/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_slime_balls_grow" in power file "bucolicraces:diet_modifiers/ghoul/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_slime_balls_particle" in power file "bucolicraces:diet_modifiers/ghoul/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/INFO]: Finished loading powers from data files. Registry contains 1095 powers.
-[16:16:31] [Worker-Main-5/ERROR]: There was a problem reading Origin file bucolicraces:treant (skipping): Error reading data field at icon: Identifier "biomesoplenty:mahogany_sapling" was not registered in registry "minecraft:item".
-[16:16:31] [Worker-Main-5/ERROR]: Origin "sculksieg:sculkinfection" contained unregistered power: "sculksieg:toggle"
-[16:16:31] [Worker-Main-5/ERROR]: Origin "sculksieg:sculkinfection" contained unregistered power: "sculksieg:sculk_undervision"
-[16:16:31] [Worker-Main-5/ERROR]: Origin "sculksieg:sculkinfection" contained unregistered power: "sculksieg:sculk_shader2"
-[16:16:31] [Worker-Main-5/ERROR]: Origin "bucolicraces:gunling" contained unregistered power: "bucolicraces:diet_modifiers/dietnone"
-[16:16:31] [Worker-Main-5/ERROR]: Origin "bucolicraces:demon" contained unregistered power: "bucolicraces:diet_modifiers/dietnone"
-[16:16:31] [Worker-Main-5/INFO]: Finished loading origins from data files. Registry contains 100 origins.
-[16:16:31] [Worker-Main-5/INFO]: Trying to read layer file: origins-classes:class
-[16:16:31] [Worker-Main-5/INFO]: Trying to read layer file: origins:shifttitan
-[16:16:31] [Worker-Main-5/INFO]: Trying to read layer file: requiem:soul_type
-[16:16:31] [Worker-Main-5/INFO]: Trying to read layer file: origins:origin
-[16:16:31] [Worker-Main-5/INFO]: Trying to read layer file: origins:origin
-[16:16:31] [Worker-Main-5/INFO]: Trying to read layer file: origins:origin
-[16:16:31] [Worker-Main-5/INFO]: Trying to read layer file: origins:origin
-[16:16:31] [Worker-Main-5/INFO]: Trying to read layer file: origins:origin
-[16:16:31] [Worker-Main-5/INFO]: Trying to read layer file: origins:origin
-[16:16:31] [Worker-Main-5/INFO]: Trying to read layer file: origins:origin
-[16:16:31] [Worker-Main-5/INFO]: Trying to read layer file: origins:origin
-[16:16:31] [Worker-Main-5/INFO]: Finished loading origin layers from data files. Read 4 layers.
-[16:16:31] [Worker-Main-5/INFO]: Reloading Plugin Manager [REIPlugin] stage [START], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
-[16:16:31] [Worker-Main-5/INFO]: Reloaded Plugin Manager [REIPlugin] with 2 entry types, 5 item comparators, 0 fluid comparators and 2 fluid support providers in 61ms.
-[16:16:31] [Worker-Main-5/INFO]: Reloading Plugin Manager [REIServerPlugin] stage [START], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
-[16:16:31] [Worker-Main-5/INFO]: Reloaded Plugin Manager [REIServerPlugin] with 0 menu infos in 2ms.
-[16:16:31] [Worker-Main-5/INFO]: Reloading Plugin Manager [REIPlugin] stage [END], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
-[16:16:32] [Worker-Main-5/INFO]: Reloaded Plugin Manager [REIPlugin] with 2 entry types, 5 item comparators, 0 fluid comparators and 2 fluid support providers in 48ms.
-[16:16:32] [Worker-Main-5/INFO]: Reloading Plugin Manager [REIServerPlugin] stage [END], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
-[16:16:32] [Worker-Main-5/INFO]: Reloaded Plugin Manager [REIServerPlugin] with 4 menu infos in 10ms.
-[16:16:36] [main/INFO]: Loaded 2 dynamic registry tags in 4.263 ms
-[16:16:37] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[16:16:39] [main/INFO]: Applied 1542 biome modifications to 62 of 62 new biomes in 1.823 s
-[16:16:40] [Server thread/INFO]: Loading server config for enchantinginfuser
-[16:16:40] [Server thread/INFO]: Loading server config for pickupnotifier
-[16:16:40] [Server thread/INFO]: Loading server config for tradingpost
-[16:16:40] [Server thread/INFO]: [WTHIT] Plugin config reloaded
-[16:16:40] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[16:16:40] [Server thread/INFO]: Loading properties
-[16:16:40] [Server thread/INFO]: Default game type: SURVIVAL
-[16:16:40] [Server thread/INFO]: Generating keypair
-[16:16:40] [Server thread/INFO]: Starting Minecraft server on 26.241.111.176:25565
-[16:16:40] [Server thread/INFO]: Using default channel type
-[16:16:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:16:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:16:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:16:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:16:41] [Server thread/INFO]: Preparing level "world"
-[16:16:41] [Server thread/INFO]: Automatone settings file not found, resetting.
-[16:16:41] [Server thread/INFO]: [STDOUT]: minecraft:overworld: [net.hat.gt.spawning.GoblinTraderSpawner@5fd921ea]
-[16:16:41] [Server thread/INFO]: [STDOUT]: minecraft:the_end: [net.hat.gt.spawning.GoblinTraderSpawner@309c298d]
-[16:16:41] [Server thread/INFO]: [STDOUT]: minecraft:the_nether: [net.hat.gt.spawning.GoblinTraderSpawner@86f337a]
-[16:16:41] [Server thread/INFO]: Loading Teams Data
-[16:16:41] [Server thread/INFO]: Finished Loading Teams Data
-[16:16:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:16:43] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[16:16:43] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[16:16:43] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[16:16:43] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[16:16:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[16:16:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[16:16:45] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[16:16:45] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[16:16:46] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[16:16:46] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[16:16:47] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[16:16:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[16:16:48] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[16:16:48] [Worker-Main-6/INFO]: Preparing spawn area: 1%
-[16:16:49] [Worker-Main-4/INFO]: Preparing spawn area: 2%
-[16:16:49] [Worker-Main-6/INFO]: Preparing spawn area: 4%
-[16:16:51] [Worker-Main-6/INFO]: Preparing spawn area: 4%
-[16:16:51] [Worker-Main-4/INFO]: Preparing spawn area: 4%
-[16:16:51] [Worker-Main-4/INFO]: Preparing spawn area: 4%
-[16:16:51] [Worker-Main-5/INFO]: Preparing spawn area: 4%
-[16:16:52] [Worker-Main-4/INFO]: Preparing spawn area: 4%
-[16:16:52] [Worker-Main-5/INFO]: Preparing spawn area: 4%
-[16:16:53] [Worker-Main-4/INFO]: Preparing spawn area: 4%
-[16:16:53] [Worker-Main-6/INFO]: Preparing spawn area: 5%
-[16:16:54] [Worker-Main-6/INFO]: Preparing spawn area: 7%
-[16:16:54] [Worker-Main-4/INFO]: Preparing spawn area: 10%
-[16:16:55] [Worker-Main-5/INFO]: Preparing spawn area: 12%
-[16:16:55] [Worker-Main-4/INFO]: Preparing spawn area: 30%
-[16:16:56] [Worker-Main-4/INFO]: Preparing spawn area: 33%
-[16:16:56] [Worker-Main-6/INFO]: Preparing spawn area: 37%
-[16:16:57] [Worker-Main-5/INFO]: Preparing spawn area: 45%
-[16:16:57] [Worker-Main-4/INFO]: Preparing spawn area: 55%
-[16:16:58] [Worker-Main-6/INFO]: Preparing spawn area: 65%
-[16:16:58] [Worker-Main-6/INFO]: Preparing spawn area: 80%
-[16:16:59] [Worker-Main-6/INFO]: Preparing spawn area: 86%
-[16:17:00] [Server thread/INFO]: Time elapsed: 18528 ms
-[16:17:00] [Server thread/INFO]: Done (19.269s)! For help, type "help"
-[16:17:00] [Server thread/INFO]: [STDOUT]: PREPARING FOR RELOAD
-[16:17:00] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[16:17:00] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[16:38:42] [Server thread/INFO]: Stopping the server
-[16:38:42] [Server thread/INFO]: Stopping server
-[16:38:42] [Server thread/INFO]: Saving players
-[16:38:42] [Server thread/INFO]: Saving worlds
-[16:38:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:38:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:38:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:38:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:38:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:38:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:38:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:55:52] [Worker-Main-6/ERROR]: Couldn't load tag minecraft:tick as it is missing following references: usernull:tick (from ShingekiNoCraftv2bySiegreich.zip)
+[03:55:52] [Worker-Main-6/INFO]: Loaded 2879 advancements
+[03:55:52] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/metal_bar_0" in power file "bucolicraces:diet_modifiers/irongolem/metal_bar": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "engineersdecore:metal_bar" was not registered in registry "minecraft:item".
+[03:55:52] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/metal_bar_grow" in power file "bucolicraces:diet_modifiers/irongolem/metal_bar": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "engineersdecore:metal_bar" was not registered in registry "minecraft:item".
+[03:55:52] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/metal_bar_particle" in power file "bucolicraces:diet_modifiers/irongolem/metal_bar": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "engineersdecore:metal_bar" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading power file siegreichtitans:warhammerdamage (skipping): Error reading data field at entity_action_added.source: JSON requires field: source
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_slime_balls_0" in power file "bucolicraces:diet_modifiers/vampire/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_slime_balls_grow" in power file "bucolicraces:diet_modifiers/vampire/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_slime_balls_particle" in power file "bucolicraces:diet_modifiers/vampire/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/fireelemental/blazingbucket_0" in power file "bucolicraces:diet_modifiers/fireelemental/blazingbucket": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blazing_blood_bucket" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/fireelemental/blazingbucket_grow" in power file "bucolicraces:diet_modifiers/fireelemental/blazingbucket": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blazing_blood_bucket" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/fireelemental/blazingbucket_particle" in power file "bucolicraces:diet_modifiers/fireelemental/blazingbucket": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blazing_blood_bucket" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/scortchedbrick_0" in power file "bucolicraces:diet_modifiers/relic/scortchedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:scortched_brick" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/scortchedbrick_grow" in power file "bucolicraces:diet_modifiers/relic/scortchedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:scortched_brick" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/scortchedbrick_particle" in power file "bucolicraces:diet_modifiers/relic/scortchedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:scortched_brick" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading power file sculksieg:bigresource (skipping): Error reading data field at hud_render: JSON requires field: hud_render
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/tallow_0" in power file "bucolicraces:diet_modifiers/candle/tallow": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "occultism:tallow" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/tallow_grow" in power file "bucolicraces:diet_modifiers/candle/tallow": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "occultism:tallow" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/tallow_particle" in power file "bucolicraces:diet_modifiers/candle/tallow": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "occultism:tallow" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/ashbrick_0" in power file "bucolicraces:diet_modifiers/relic/ashbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "supplementaries:ash_brick" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/ashbrick_grow" in power file "bucolicraces:diet_modifiers/relic/ashbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "supplementaries:ash_brick" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/ashbrick_particle" in power file "bucolicraces:diet_modifiers/relic/ashbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "supplementaries:ash_brick" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_heart_0" in power file "bucolicraces:diet_modifiers/poltergeist/soul_heart": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:soul_heart" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_heart_grow" in power file "bucolicraces:diet_modifiers/poltergeist/soul_heart": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:soul_heart" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_heart_particle" in power file "bucolicraces:diet_modifiers/poltergeist/soul_heart": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:soul_heart" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/inedibles_slow" in power file "bucolicraces:diet_modifiers/inedibles": Error reading data field at modifier.operation: JSON requires field: operation
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:biome_modifiers/iceelemental_largest" in power file "bucolicraces:biome_modifiers/iceelemental": Error reading data field at condition: EntityCondition json type "origins:temperature" is not defined.
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore_0" in power file "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:crushed_iron_ore" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore_grow" in power file "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:crushed_iron_ore" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore_particle" in power file "bucolicraces:diet_modifiers/irongolem/crushed_iron_ore": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:crushed_iron_ore" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/searedbrick_0" in power file "bucolicraces:diet_modifiers/relic/searedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:seared_brick" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/searedbrick_grow" in power file "bucolicraces:diet_modifiers/relic/searedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:seared_brick" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/relic/searedbrick_particle" in power file "bucolicraces:diet_modifiers/relic/searedbrick": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:seared_brick" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket1_0" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket1_grow" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket1_particle" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket2_0" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket2_grow" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bucket2_particle" in power file "bucolicraces:diet_modifiers/vampire/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/animalfat_0" in power file "bucolicraces:diet_modifiers/candle/animalfat": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:animal_fat" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/animalfat_grow" in power file "bucolicraces:diet_modifiers/candle/animalfat": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:animal_fat" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/candle/animalfat_particle" in power file "bucolicraces:diet_modifiers/candle/animalfat": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:animal_fat" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bottle_0" in power file "bucolicraces:diet_modifiers/ghoul/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bottle_grow" in power file "bucolicraces:diet_modifiers/ghoul/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bottle_particle" in power file "bucolicraces:diet_modifiers/ghoul/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_bottle_0" in power file "bucolicraces:diet_modifiers/poltergeist/soul_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "dungeonsmod:soul_bottle" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_bottle_grow" in power file "bucolicraces:diet_modifiers/poltergeist/soul_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "dungeonsmod:soul_bottle" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/poltergeist/soul_bottle_particle" in power file "bucolicraces:diet_modifiers/poltergeist/soul_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "dungeonsmod:soul_bottle" was not registered in registry "minecraft:item".
+[03:55:53] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/iron_sheet_0" in power file "bucolicraces:diet_modifiers/irongolem/iron_sheet": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:iron_sheet" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/iron_sheet_grow" in power file "bucolicraces:diet_modifiers/irongolem/iron_sheet": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:iron_sheet" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/irongolem/iron_sheet_particle" in power file "bucolicraces:diet_modifiers/irongolem/iron_sheet": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "create:iron_sheet" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket1_0" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket1_grow" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket1_particle" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket1": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "biomesoplenty:blood_bucket" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bottle_0" in power file "bucolicraces:diet_modifiers/vampire/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bottle_grow" in power file "bucolicraces:diet_modifiers/vampire/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/vampire/blood_bottle_particle" in power file "bucolicraces:diet_modifiers/vampire/blood_bottle": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bottle" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading power file bucolicraces:diet_modifiers/dietnone (skipping): Error reading data field at item_condition: ItemCondition json type "minecraft:in_tag" is not defined.
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket2_0" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket2_grow" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_bucket2_particle" in power file "bucolicraces:diet_modifiers/ghoul/blood_bucket2": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "hexerei:blood_bucket" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/ootheca_0" in power file "bucolicraces:diet_modifiers/ghoul/ootheca": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:cockroach_ootheca" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/ootheca_grow" in power file "bucolicraces:diet_modifiers/ghoul/ootheca": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:cockroach_ootheca" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/ootheca_particle" in power file "bucolicraces:diet_modifiers/ghoul/ootheca": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "alexsmobs:cockroach_ootheca" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_slime_balls_0" in power file "bucolicraces:diet_modifiers/ghoul/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_slime_balls_grow" in power file "bucolicraces:diet_modifiers/ghoul/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading sub-power "bucolicraces:diet_modifiers/ghoul/blood_slime_balls_particle" in power file "bucolicraces:diet_modifiers/ghoul/blood_slime_balls": Error reading data field at condition.conditions.[0].item_condition.conditions.[0].ingredient.item: Identifier "tconstruct:blood_slime_ball" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/INFO]: Finished loading powers from data files. Registry contains 1088 powers.
+[03:55:54] [Worker-Main-6/ERROR]: There was a problem reading Origin file bucolicraces:treant (skipping): Error reading data field at icon: Identifier "biomesoplenty:mahogany_sapling" was not registered in registry "minecraft:item".
+[03:55:54] [Worker-Main-6/ERROR]: Origin "sculksieg:sculkinfection" contained unregistered power: "sculksieg:toggle"
+[03:55:54] [Worker-Main-6/ERROR]: Origin "sculksieg:sculkinfection" contained unregistered power: "sculksieg:sculk_undervision"
+[03:55:54] [Worker-Main-6/ERROR]: Origin "sculksieg:sculkinfection" contained unregistered power: "sculksieg:sculk_shader2"
+[03:55:54] [Worker-Main-6/ERROR]: Origin "bucolicraces:gunling" contained unregistered power: "bucolicraces:diet_modifiers/dietnone"
+[03:55:54] [Worker-Main-6/ERROR]: Origin "bucolicraces:demon" contained unregistered power: "bucolicraces:diet_modifiers/dietnone"
+[03:55:54] [Worker-Main-6/INFO]: Finished loading origins from data files. Registry contains 100 origins.
+[03:55:54] [Worker-Main-6/INFO]: Trying to read layer file: origins-classes:class
+[03:55:54] [Worker-Main-6/INFO]: Trying to read layer file: origins:shifttitan
+[03:55:54] [Worker-Main-6/INFO]: Trying to read layer file: requiem:soul_type
+[03:55:54] [Worker-Main-6/INFO]: Trying to read layer file: origins:origin
+[03:55:55] [Worker-Main-6/INFO]: Trying to read layer file: origins:origin
+[03:55:55] [Worker-Main-6/INFO]: Trying to read layer file: origins:origin
+[03:55:55] [Worker-Main-6/INFO]: Trying to read layer file: origins:origin
+[03:55:55] [Worker-Main-6/INFO]: Trying to read layer file: origins:origin
+[03:55:55] [Worker-Main-6/INFO]: Trying to read layer file: origins:origin
+[03:55:55] [Worker-Main-6/INFO]: Trying to read layer file: origins:origin
+[03:55:55] [Worker-Main-6/INFO]: Trying to read layer file: origins:origin
+[03:55:55] [Worker-Main-6/INFO]: Finished loading origin layers from data files. Read 4 layers.
+[03:55:55] [Worker-Main-6/INFO]: Reloading Plugin Manager [REIPlugin] stage [START], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
+[03:55:55] [Worker-Main-6/INFO]: Reloaded Plugin Manager [REIPlugin] with 2 entry types, 5 item comparators, 0 fluid comparators and 2 fluid support providers in 56ms.
+[03:55:55] [Worker-Main-6/INFO]: Reloading Plugin Manager [REIServerPlugin] stage [START], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
+[03:55:55] [Worker-Main-6/INFO]: Reloaded Plugin Manager [REIServerPlugin] with 0 menu infos in 31ms.
+[03:55:55] [Worker-Main-6/INFO]: Reloading Plugin Manager [REIPlugin] stage [END], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
+[03:55:55] [Worker-Main-6/INFO]: Reloaded Plugin Manager [REIPlugin] with 2 entry types, 5 item comparators, 0 fluid comparators and 2 fluid support providers in 52ms.
+[03:55:55] [Worker-Main-6/INFO]: Reloading Plugin Manager [REIServerPlugin] stage [END], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], FabricFluidAPISupportPlugin, DefaultPlugin [roughlyenoughitems]
+[03:55:55] [Worker-Main-6/INFO]: Reloaded Plugin Manager [REIServerPlugin] with 4 menu infos in 44ms.
+[03:56:01] [main/INFO]: Loaded 2 dynamic registry tags in 2.642 ms
+[03:56:02] [main/WARN]: Adding observed:observedeffect to saved/remote registry.
+[03:56:02] [main/WARN]: Adding revamped_phantoms:stunned to saved/remote registry.
+[03:56:02] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[03:56:04] [main/INFO]: Applied 2790 biome modifications to 62 of 62 new biomes in 1.803 s
+[03:56:05] [Server thread/INFO]: Loading server config for enchantinginfuser
+[03:56:05] [Server thread/INFO]: Loading server config for pickupnotifier
+[03:56:05] [Server thread/INFO]: Loading server config for tradingpost
+[03:56:05] [Thread-1/INFO]: Reloading server config for enchantinginfuser
+[03:56:05] [Server thread/INFO]: [WTHIT] Plugin config reloaded
+[03:56:05] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[03:56:05] [Server thread/INFO]: Loading properties
+[03:56:05] [Server thread/INFO]: Default game type: SURVIVAL
+[03:56:05] [Server thread/INFO]: Generating keypair
+[03:56:05] [Server thread/INFO]: Starting Minecraft server on 26.241.111.176:25565
+[03:56:05] [Server thread/INFO]: Using default channel type
+[03:56:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:56:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:56:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:56:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:56:06] [Server thread/INFO]: Preparing level "world"
+[03:56:06] [Server thread/INFO]: Automatone settings file not found, resetting.
+[03:56:07] [Server thread/INFO]: [STDOUT]: minecraft:overworld: [net.hat.gt.spawning.GoblinTraderSpawner@5b2bdbe2]
+[03:56:07] [Server thread/INFO]: [STDOUT]: minecraft:the_end: [net.hat.gt.spawning.GoblinTraderSpawner@8c131f0]
+[03:56:07] [Server thread/INFO]: [STDOUT]: minecraft:the_nether: [net.hat.gt.spawning.GoblinTraderSpawner@3b1906ed]
+[03:56:07] [Server thread/INFO]: Loading Teams Data
+[03:56:07] [Server thread/INFO]: Finished Loading Teams Data
+[03:56:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:56:08] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[03:56:09] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[03:56:09] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[03:56:09] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[03:56:09] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[03:56:09] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[03:56:10] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[03:56:10] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[03:56:11] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[03:56:11] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[03:56:12] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[03:56:12] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[03:56:13] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[03:56:13] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[03:56:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[03:56:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[03:56:15] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[03:56:15] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[03:56:16] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[03:56:16] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[03:56:17] [Worker-Main-5/INFO]: Preparing spawn area: 1%
+[03:56:17] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[03:56:18] [Worker-Main-5/INFO]: Preparing spawn area: 1%
+[03:56:19] [Worker-Main-4/INFO]: Preparing spawn area: 1%
+[03:56:19] [Worker-Main-4/INFO]: Preparing spawn area: 1%
+[03:56:20] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[03:56:20] [Worker-Main-4/INFO]: Preparing spawn area: 1%
+[03:56:21] [Worker-Main-5/INFO]: Preparing spawn area: 1%
+[03:56:21] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[03:56:21] [Worker-Main-4/INFO]: Preparing spawn area: 1%
+[03:56:22] [Worker-Main-4/INFO]: Preparing spawn area: 2%
+[03:56:22] [Worker-Main-4/INFO]: Preparing spawn area: 2%
+[03:56:23] [Worker-Main-6/INFO]: Preparing spawn area: 2%
+[03:56:23] [Worker-Main-5/INFO]: Preparing spawn area: 2%
+[03:56:24] [Worker-Main-4/INFO]: Preparing spawn area: 2%
+[03:56:24] [Worker-Main-4/INFO]: Preparing spawn area: 2%
+[03:56:25] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[03:56:25] [Worker-Main-6/INFO]: Preparing spawn area: 5%
+[03:56:26] [Worker-Main-6/INFO]: Preparing spawn area: 7%
+[03:56:26] [Worker-Main-6/INFO]: Preparing spawn area: 8%
+[03:56:27] [Worker-Main-6/INFO]: Preparing spawn area: 10%
+[03:56:27] [Worker-Main-6/INFO]: Preparing spawn area: 10%
+[03:56:29] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[03:56:29] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[03:56:29] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[03:56:30] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[03:56:30] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[03:56:33] [Worker-Main-4/INFO]: Preparing spawn area: 11%
+[03:56:33] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[03:56:33] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[03:56:33] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[03:56:33] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[03:56:33] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[03:56:33] [Worker-Main-4/INFO]: Preparing spawn area: 11%
+[03:56:34] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[03:56:38] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[03:56:38] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[03:56:38] [Worker-Main-4/INFO]: Preparing spawn area: 11%
+[03:56:38] [Worker-Main-4/INFO]: Preparing spawn area: 11%
+[03:56:38] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[03:56:38] [Worker-Main-4/INFO]: Preparing spawn area: 11%
+[03:56:38] [Worker-Main-6/INFO]: Preparing spawn area: 11%
+[03:56:38] [Worker-Main-5/INFO]: Preparing spawn area: 11%
+[03:56:39] [Worker-Main-5/INFO]: Preparing spawn area: 12%
+[03:56:40] [Worker-Main-4/INFO]: Preparing spawn area: 12%
+[03:56:40] [Worker-Main-5/INFO]: Preparing spawn area: 12%
+[03:56:40] [Worker-Main-4/INFO]: Preparing spawn area: 12%
+[03:56:40] [Worker-Main-6/INFO]: Preparing spawn area: 12%
+[03:56:41] [Worker-Main-6/INFO]: Preparing spawn area: 12%
+[03:56:41] [Worker-Main-6/INFO]: Preparing spawn area: 12%
+[03:56:42] [Worker-Main-5/INFO]: Preparing spawn area: 12%
+[03:56:43] [Worker-Main-6/INFO]: Preparing spawn area: 12%
+[03:56:44] [Worker-Main-4/INFO]: Preparing spawn area: 12%
+[03:56:44] [Worker-Main-4/INFO]: Preparing spawn area: 12%
+[03:56:44] [Worker-Main-4/INFO]: Preparing spawn area: 13%
+[03:56:44] [Worker-Main-4/INFO]: Preparing spawn area: 13%
+[03:56:46] [Worker-Main-4/INFO]: Preparing spawn area: 13%
+[03:56:47] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:56:47] [Worker-Main-4/INFO]: Preparing spawn area: 13%
+[03:56:47] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:56:47] [Worker-Main-5/INFO]: Preparing spawn area: 13%
+[03:56:48] [Worker-Main-5/INFO]: Preparing spawn area: 13%
+[03:56:48] [Worker-Main-5/INFO]: Preparing spawn area: 13%
+[03:56:48] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:56:59] [Worker-Main-5/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-4/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-4/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-4/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-5/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-5/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-5/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-4/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-4/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-4/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:57:00] [Worker-Main-4/INFO]: Preparing spawn area: 13%
+[03:57:01] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:57:01] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:57:01] [Worker-Main-4/INFO]: Preparing spawn area: 13%
+[03:57:01] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:57:01] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:57:02] [Worker-Main-5/INFO]: Preparing spawn area: 13%
+[03:57:03] [Worker-Main-6/INFO]: Preparing spawn area: 13%
+[03:57:03] [Worker-Main-4/INFO]: Preparing spawn area: 13%
+[03:57:03] [Worker-Main-5/INFO]: Preparing spawn area: 13%
+[03:57:04] [Worker-Main-4/INFO]: Preparing spawn area: 15%
+[03:57:04] [Worker-Main-6/INFO]: Preparing spawn area: 16%
+[03:57:05] [Worker-Main-6/INFO]: Preparing spawn area: 18%
+[03:57:05] [Worker-Main-4/INFO]: Preparing spawn area: 20%
+[03:57:06] [Worker-Main-4/INFO]: Preparing spawn area: 25%
+[03:57:06] [Worker-Main-6/INFO]: Preparing spawn area: 27%
+[03:57:07] [Worker-Main-6/INFO]: Preparing spawn area: 28%
+[03:57:08] [Worker-Main-6/INFO]: Preparing spawn area: 30%
+[03:57:08] [Worker-Main-4/INFO]: Preparing spawn area: 30%
+[03:57:08] [Worker-Main-5/INFO]: Preparing spawn area: 31%
+[03:57:09] [Worker-Main-5/INFO]: Preparing spawn area: 31%
+[03:57:09] [Worker-Main-4/INFO]: Preparing spawn area: 31%
+[03:57:10] [Worker-Main-5/INFO]: Preparing spawn area: 32%
+[03:57:10] [Worker-Main-4/INFO]: Preparing spawn area: 34%
+[03:57:11] [Worker-Main-4/INFO]: Preparing spawn area: 38%
+[03:57:11] [Worker-Main-5/INFO]: Preparing spawn area: 44%
+[03:57:12] [Worker-Main-4/INFO]: Preparing spawn area: 44%
+[03:57:12] [Worker-Main-4/INFO]: Preparing spawn area: 44%
+[03:57:13] [Worker-Main-6/INFO]: Preparing spawn area: 44%
+[03:57:13] [Worker-Main-6/INFO]: Preparing spawn area: 44%
+[03:57:14] [Worker-Main-5/INFO]: Preparing spawn area: 44%
+[03:57:14] [Worker-Main-5/INFO]: Preparing spawn area: 44%
+[03:57:15] [Worker-Main-6/INFO]: Preparing spawn area: 44%
+[03:57:16] [Worker-Main-6/INFO]: Preparing spawn area: 53%
+[03:57:16] [Worker-Main-4/INFO]: Preparing spawn area: 53%
+[03:57:16] [Worker-Main-6/INFO]: Preparing spawn area: 64%
+[03:57:17] [Worker-Main-5/INFO]: Preparing spawn area: 77%
+[03:57:22] [Server thread/INFO]: Time elapsed: 75473 ms
+[03:57:22] [Server thread/INFO]: Done (76.268s)! For help, type "help"
+[03:57:23] [Server thread/INFO]: [STDOUT]: PREPARING FOR RELOAD
+[03:57:24] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[03:57:24] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[03:57:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2522ms or 50 ticks behind
+[04:11:45] [Server thread/INFO]: [Handshake] Sending channel query
+[04:11:45] [Netty Server IO #3/INFO]: [Handshake] Receiving client channels
+[04:11:45] [Netty Server IO #3/INFO]: [Handshake] Handshake completed successfully
+[04:11:45] [Netty Server IO #3/INFO]: [STDOUT]: Understood response from client in thonkutil:universal_packet
+[04:11:48] [Server thread/INFO]: Siegreich[/26.241.111.176:65237] logged in with entity id 115 at (7980.332693111752, 63.0, 6357.614609629426)
+[04:11:49] [Server thread/INFO]: Sent REI Loot info to Siegreich
+[04:11:49] [Server thread/INFO]: [Requiem] Synchronizing data for requiem:movement_alterer (MovementAltererManager{entityMovementConfigs=[entity.bewitchment.owl, entity.minecraft.elder_guardian, entity.minecraft.wither, entity.minecraft.blaze, entity.minecraft.salmon, entity.minecraft.squid, entity.minecraft.ender_dragon, entity.minecraft.ghast, entity.minecraft.chicken, entity.minecraft.magma_cube, entity.minecraft.rabbit, entity.minecraft.guardian, entity.minecraft.vex, entity.minecraft.bee, entity.minecraft.parrot, entity.minecraft.spider, entity.minecraft.phantom, entity.minecraft.tropical_fish, entity.minecraft.cave_spider, entity.minecraft.axolotl, entity.minecraft.iron_golem, entity.minecraft.snow_golem, entity.bewitchment.raven, entity.minecraft.dolphin, entity.minecraft.cod, entity.minecraft.slime, entity.bewitchment.ghost, entity.minecraft.bat, entity.minecraft.drowned, entity.minecraft.glow_squid, entity.minecraft.pufferfish]})
+[04:11:50] [Server thread/INFO]: Siegreich joined the game
+[04:11:54] [Server thread/INFO]: Siegreich lost connection: Disconnected
+[04:11:54] [Server thread/INFO]: Siegreich left the game
+[04:11:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8409ms or 168 ticks behind
+[04:11:54] [Server thread/WARN]: handleDisconnection() called twice
+[04:12:01] [Server thread/INFO]: [Handshake] Sending channel query
+[04:12:01] [Netty Server IO #4/INFO]: [Handshake] Receiving client channels
+[04:12:01] [Netty Server IO #4/INFO]: [Handshake] Handshake completed successfully
+[04:12:01] [Netty Server IO #4/INFO]: [STDOUT]: Understood response from client in thonkutil:universal_packet
+[04:12:02] [Server thread/INFO]: Siegreich[/26.241.111.176:65247] logged in with entity id 150 at (7980.332693111752, 63.0, 6357.614609629426)
+[04:12:02] [Server thread/INFO]: Sent REI Loot info to Siegreich
+[04:12:02] [Server thread/INFO]: [Requiem] Synchronizing data for requiem:movement_alterer (MovementAltererManager{entityMovementConfigs=[entity.bewitchment.owl, entity.minecraft.elder_guardian, entity.minecraft.wither, entity.minecraft.blaze, entity.minecraft.salmon, entity.minecraft.squid, entity.minecraft.ender_dragon, entity.minecraft.ghast, entity.minecraft.chicken, entity.minecraft.magma_cube, entity.minecraft.rabbit, entity.minecraft.guardian, entity.minecraft.vex, entity.minecraft.bee, entity.minecraft.parrot, entity.minecraft.spider, entity.minecraft.phantom, entity.minecraft.tropical_fish, entity.minecraft.cave_spider, entity.minecraft.axolotl, entity.minecraft.iron_golem, entity.minecraft.snow_golem, entity.bewitchment.raven, entity.minecraft.dolphin, entity.minecraft.cod, entity.minecraft.slime, entity.bewitchment.ghost, entity.minecraft.bat, entity.minecraft.drowned, entity.minecraft.glow_squid, entity.minecraft.pufferfish]})
+[04:12:02] [Server thread/INFO]: Siegreich joined the game
+[04:12:04] [Server thread/INFO]: Siegreich lost connection: Disconnected
+[04:12:04] [Server thread/INFO]: Siegreich left the game
+[04:12:04] [Server thread/WARN]: handleDisconnection() called twice
+[04:15:53] [Server thread/INFO]: [Handshake] Sending channel query
+[04:15:53] [Netty Server IO #6/INFO]: [Handshake] Receiving client channels
+[04:15:53] [Netty Server IO #6/INFO]: [Handshake] Handshake completed successfully
+[04:15:53] [Netty Server IO #6/INFO]: [STDOUT]: Understood response from client in thonkutil:universal_packet
+[04:15:55] [Server thread/INFO]: Siegreich[/26.241.111.176:57067] logged in with entity id 185 at (7980.332693111752, 63.0, 6357.614609629426)
+[04:15:55] [Server thread/INFO]: Sent REI Loot info to Siegreich
+[04:15:55] [Server thread/INFO]: [Requiem] Synchronizing data for requiem:movement_alterer (MovementAltererManager{entityMovementConfigs=[entity.bewitchment.owl, entity.minecraft.elder_guardian, entity.minecraft.wither, entity.minecraft.blaze, entity.minecraft.salmon, entity.minecraft.squid, entity.minecraft.ender_dragon, entity.minecraft.ghast, entity.minecraft.chicken, entity.minecraft.magma_cube, entity.minecraft.rabbit, entity.minecraft.guardian, entity.minecraft.vex, entity.minecraft.bee, entity.minecraft.parrot, entity.minecraft.spider, entity.minecraft.phantom, entity.minecraft.tropical_fish, entity.minecraft.cave_spider, entity.minecraft.axolotl, entity.minecraft.iron_golem, entity.minecraft.snow_golem, entity.bewitchment.raven, entity.minecraft.dolphin, entity.minecraft.cod, entity.minecraft.slime, entity.bewitchment.ghost, entity.minecraft.bat, entity.minecraft.drowned, entity.minecraft.glow_squid, entity.minecraft.pufferfish]})
+[04:15:55] [Server thread/INFO]: Siegreich joined the game
+[04:16:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13531ms or 270 ticks behind
+[04:16:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24187ms or 483 ticks behind
+[04:17:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[04:18:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[04:19:01] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:19:02] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:19:27] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:20:06] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:21:01] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:21:08] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:22:04] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:22:17] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:22:27] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:22:47] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:23:30] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:25:11] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:27:30] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:27:48] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:29:42] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:32:29] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:32:58] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:33:25] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:33:56] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:38:10] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:38:21] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:38:27] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:38:28] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:38:30] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:38:31] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:38:35] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:38:53] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:39:56] [Server thread/INFO]: [Siegreich: Set own game mode to Creative Mode]
+[04:40:33] [Server thread/INFO]: [Siegreich: Set own game mode to Survival Mode]
+[04:41:37] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:41:51] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:41:52] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:42:19] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:43:08] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:43:18] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:43:44] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:45:05] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:45:25] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:45:50] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:47:15] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:48:29] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:48:54] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:49:00] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:51:13] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:51:13] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:51:13] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:51:19] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:51:30] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:52:28] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:52:48] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:53:16] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:53:24] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:53:38] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:53:38] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:53:59] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:54:15] [Server thread/INFO]: [STDOUT]: Saving player: false
+[04:54:18] [Server thread/INFO]: Siegreich lost connection: Disconnected
+[04:54:18] [Server thread/INFO]: Siegreich left the game
+[05:19:04] [Server thread/INFO]: Stopping the server
+[05:19:04] [Server thread/INFO]: Stopping server
+[05:19:04] [Server thread/INFO]: Saving players
+[05:19:04] [Server thread/INFO]: Saving worlds
+[05:19:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:19:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[05:19:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[05:19:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:19:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:19:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:19:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

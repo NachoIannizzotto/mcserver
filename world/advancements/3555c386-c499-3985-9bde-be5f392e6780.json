@@ -690,6 +690,12 @@
     },
     "done": true
   },
+  "earth:earthbounds/reach_deepslate": {
+    "criteria": {
+      "requirement": "2022-04-20 04:57:50 -0300"
+    },
+    "done": true
+  },
   "croptopia:recipes/blackberry_jam": {
     "criteria": {
       "has_blackberry": "2022-04-17 22:30:05 -0300"

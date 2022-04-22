@@ -533,6 +533,12 @@
     },
     "done": true
   },
+  "corners:yearning_canal": {
+    "criteria": {
+      "entered_yearning_canal": "2022-04-21 01:35:38 -0300"
+    },
+    "done": true
+  },
   "croptopia:gather_food": {
     "criteria": {
       "baked_beans": "2022-04-14 18:35:24 -0300",
@@ -683,6 +689,12 @@
       "has_nether_bricks": "2022-04-17 04:15:45 -0300"
     },
     "done": true
+  },
+  "morevillagers:all_professions_traded": {
+    "criteria": {
+      "cartographer": "2022-04-21 02:43:18 -0300"
+    },
+    "done": false
   },
   "bewitchment:recipes/building_blocks/cypress_planks": {
     "criteria": {
@@ -2215,6 +2227,12 @@
     },
     "done": true
   },
+  "corners:root": {
+    "criteria": {
+      "impossible": "2022-04-21 01:35:39 -0300"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/spruce_pantry": {
     "criteria": {
       "has_spruce_trapdoor": "2022-04-18 01:47:31 -0300"
@@ -2395,6 +2413,12 @@
     },
     "done": true
   },
+  "morevillagers:buy_map": {
+    "criteria": {
+      "trade": "2022-04-21 02:43:18 -0300"
+    },
+    "done": true
+  },
   "repurposed_structures:temples": {
     "criteria": {
       "in_temple_nether_wasteland": "2022-04-18 00:37:11 -0300"
@@ -2488,6 +2512,12 @@
   "minecraft:recipes/decorations/purple_candle": {
     "criteria": {
       "has_purple_dye": "2022-04-16 23:33:46 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2022-04-21 02:56:46 -0300"
     },
     "done": true
   },
@@ -3014,6 +3044,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2022-04-21 02:42:48 -0300"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/farmersdelight/pie_crust": {
     "criteria": {
       "has_wheat": "2022-04-17 19:23:42 -0300"
@@ -3167,6 +3203,12 @@
   "morevillagers:first_trade": {
     "criteria": {
       "villagertrade": "2022-04-14 04:06:47 -0300"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/turntable": {
+    "criteria": {
+      "has_alt_item": "2022-04-21 03:03:04 -0300"
     },
     "done": true
   },
@@ -5571,6 +5613,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2022-04-14 01:29:02 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2022-04-21 03:02:54 -0300"
     },
     "done": true
   },

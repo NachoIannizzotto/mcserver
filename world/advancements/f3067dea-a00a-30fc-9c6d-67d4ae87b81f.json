@@ -611,6 +611,12 @@
     },
     "done": true
   },
+  "arachnids:mi_armor": {
+    "criteria": {
+      "mi_armor": "2022-04-22 23:16:47 -0300"
+    },
+    "done": true
+  },
   "croptopia:recipes/cooking_pot": {
     "criteria": {
       "has_iron_ingot": "2022-04-14 21:27:03 -0300"
@@ -638,6 +644,12 @@
   "botania:recipes/botania/light_gray_petal_block": {
     "criteria": {
       "has_item": "2022-04-14 22:48:11 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cutting_board": {
+    "criteria": {
+      "has_stick": "2022-04-22 23:16:47 -0300"
     },
     "done": true
   },
@@ -1459,6 +1471,12 @@
     },
     "done": true
   },
+  "wildlife:grant_book_on_first_join": {
+    "criteria": {
+      "tick": "2022-04-22 23:16:47 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2022-04-14 22:01:27 -0300"
@@ -1891,6 +1909,12 @@
     },
     "done": true
   },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2022-04-22 23:16:47 -0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/mushroom_15": {
     "criteria": {
       "has_alt_item": "2022-04-14 22:03:23 -0300"
@@ -2314,6 +2338,12 @@
   "botania:recipes/botania/petal_red_double": {
     "criteria": {
       "has_alt_item": "2022-04-14 22:49:19 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/flint_knife": {
+    "criteria": {
+      "has_stick": "2022-04-22 23:16:47 -0300"
     },
     "done": true
   },

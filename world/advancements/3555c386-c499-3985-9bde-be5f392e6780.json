@@ -485,6 +485,12 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2022-04-23 01:33:25 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/netherite_block": {
     "criteria": {
       "has_netherite_ingot": "2022-04-17 04:17:06 -0300"
@@ -1239,6 +1245,12 @@
   "croptopia:recipes/orange_to_orange_sapling_shapless": {
     "criteria": {
       "has_orange": "2022-04-17 04:46:14 -0300"
+    },
+    "done": true
+  },
+  "earth:earthbounds/scoop_carboranea": {
+    "criteria": {
+      "requirement": "2022-04-23 01:34:13 -0300"
     },
     "done": true
   },
@@ -2804,6 +2816,12 @@
     },
     "done": true
   },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourished": "2022-04-23 02:34:27 -0300"
+    },
+    "done": true
+  },
   "endrem:main/root": {
     "criteria": {
       "lost_eye": "2022-04-14 17:35:25 -0300"
@@ -4033,6 +4051,12 @@
   "minecraft:recipes/redstone/slime_block": {
     "criteria": {
       "has_slime_ball": "2022-04-14 17:25:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2022-04-23 00:34:11 -0300"
     },
     "done": true
   },
@@ -5353,6 +5377,12 @@
   "minecraft:recipes/building_blocks/dark_oak_stairs": {
     "criteria": {
       "has_planks": "2022-04-16 20:00:34 -0300"
+    },
+    "done": true
+  },
+  "earth:earthbounds/find_carboranea": {
+    "criteria": {
+      "requirement": "2022-04-23 01:31:36 -0300"
     },
     "done": true
   },

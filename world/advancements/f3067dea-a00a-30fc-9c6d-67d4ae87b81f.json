@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2022-04-23 01:56:06 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2022-04-14 21:27:03 -0300"
@@ -104,6 +110,12 @@
   "botania:recipes/botania/livingwood_bow": {
     "criteria": {
       "has_twig": "2022-04-14 22:51:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2022-04-23 01:28:07 -0300"
     },
     "done": true
   },
@@ -533,6 +545,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2022-04-23 01:53:24 -0300"
+    },
+    "done": true
+  },
   "bewitchment:recipes/transportation/dragons_blood_boat": {
     "criteria": {
       "in_water": "2022-04-14 21:28:30 -0300"
@@ -700,6 +718,7 @@
       "minecraft:skeleton": "2022-04-14 21:21:37 -0300",
       "minecraft:spider": "2022-04-14 21:28:50 -0300",
       "minecraft:zombie": "2022-04-14 21:26:22 -0300",
+      "minecraft:drowned": "2022-04-23 00:18:35 -0300",
       "minecraft:zombie_villager": "2022-04-14 21:29:03 -0300"
     },
     "done": false
@@ -725,6 +744,18 @@
   "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2022-04-14 21:29:05 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cooking_pot": {
+    "criteria": {
+      "has_iron_ingot": "2022-04-23 01:57:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2022-04-23 01:28:07 -0300"
     },
     "done": true
   },
@@ -767,6 +798,12 @@
   "croptopia:getseeds": {
     "criteria": {
       "has_seeds": "2022-04-14 22:09:57 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/fried_egg_from_smoking": {
+    "criteria": {
+      "fried_egg": "2022-04-23 01:14:49 -0300"
     },
     "done": true
   },
@@ -842,6 +879,12 @@
     },
     "done": true
   },
+  "earth:earthbounds/root": {
+    "criteria": {
+      "belowDeepslate": "2022-04-23 00:17:59 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/moss_carpet": {
     "criteria": {
       "has_moss_block": "2022-04-14 21:31:50 -0300"
@@ -896,9 +939,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2022-04-23 01:15:10 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/amethyst_block": {
     "criteria": {
       "has_amethyst_shard": "2022-04-14 21:32:53 -0300"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/fried_egg": {
+    "criteria": {
+      "fried_egg": "2022-04-23 01:14:49 -0300"
     },
     "done": true
   },
@@ -1046,6 +1101,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/iron_knife": {
+    "criteria": {
+      "has_iron_ingot": "2022-04-23 01:57:50 -0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/conversions/yellow_petal_block_deconstruct": {
     "criteria": {
       "has_item": "2022-04-14 22:22:00 -0300"
@@ -1182,6 +1243,8 @@
     "criteria": {
       "minecraft:taiga": "2022-04-14 18:11:14 -0300",
       "minecraft:frozen_river": "2022-04-14 21:28:36 -0300",
+      "minecraft:birch_forest": "2022-04-23 01:14:50 -0300",
+      "minecraft:river": "2022-04-23 00:18:02 -0300",
       "minecraft:snowy_taiga": "2022-04-14 18:01:40 -0300",
       "minecraft:forest": "2022-04-16 19:46:45 -0300",
       "minecraft:lush_caves": "2022-04-14 21:05:23 -0300",
@@ -1222,6 +1285,12 @@
   "croptopia:recipes/food_press": {
     "criteria": {
       "has_the_recipe": "2022-04-14 21:27:03 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2022-04-23 01:53:24 -0300"
     },
     "done": true
   },
@@ -1489,6 +1558,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2022-04-23 01:28:07 -0300"
+    },
+    "done": true
+  },
   "bewitchment:recipes/decorations/crystal_ball": {
     "criteria": {
       "has_item": "2022-04-14 21:32:53 -0300"
@@ -1573,6 +1648,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2022-04-23 01:25:12 -0300"
+    },
+    "done": true
+  },
   "requiem:adventure/the_choice": {
     "criteria": {
       "remnant_choice": "2022-04-14 18:04:42 -0300"
@@ -1594,6 +1675,12 @@
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2022-04-14 21:28:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2022-04-23 01:28:07 -0300"
     },
     "done": true
   },
@@ -1627,9 +1714,16 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/steak_and_potatoes": {
+    "criteria": {
+      "has_baked_potato": "2022-04-23 00:40:04 -0300"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "baked_potato": "2022-04-14 19:56:54 -0300"
+      "baked_potato": "2022-04-14 19:56:54 -0300",
+      "apple": "2022-04-23 00:31:30 -0300"
     },
     "done": false
   },
@@ -1666,6 +1760,18 @@
   "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
       "has_cobblestone": "2022-04-14 20:05:16 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2022-04-23 01:28:07 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2022-04-23 01:53:24 -0300"
     },
     "done": true
   },
@@ -1747,6 +1853,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/fried_egg_from_campfire_cooking": {
+    "criteria": {
+      "fried_egg": "2022-04-23 01:14:49 -0300"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2022-04-14 20:05:16 -0300"
@@ -1807,6 +1919,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2022-04-23 01:53:24 -0300"
+    },
+    "done": true
+  },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2022-04-14 19:56:54 -0300"
@@ -1816,6 +1934,12 @@
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2022-04-14 21:28:16 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2022-04-23 01:28:07 -0300"
     },
     "done": true
   },
@@ -1963,6 +2087,12 @@
     },
     "done": true
   },
+  "earth:earthbounds/find_carboranea": {
+    "criteria": {
+      "requirement": "2022-04-23 01:31:37 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate": {
     "criteria": {
       "has_cobbled_deepslate": "2022-04-14 21:29:05 -0300"
@@ -2013,7 +2143,8 @@
   },
   "morevillagers:all_workstations_get": {
     "criteria": {
-      "brewingstand": "2022-04-14 21:33:41 -0300"
+      "brewingstand": "2022-04-14 21:33:41 -0300",
+      "stonecutter": "2022-04-23 01:42:13 -0300"
     },
     "done": false
   },
@@ -2059,6 +2190,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2022-04-23 01:28:07 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2022-04-14 22:43:56 -0300"
@@ -2086,6 +2223,12 @@
   "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
       "has_planks": "2022-04-14 20:01:22 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2022-04-23 01:53:24 -0300"
     },
     "done": true
   },
@@ -2125,6 +2268,12 @@
     },
     "done": true
   },
+  "immersive_weathering:recipes/stone_bricks": {
+    "criteria": {
+      "has_copper_block": "2022-04-23 01:28:07 -0300"
+    },
+    "done": true
+  },
   "croptopia:recipes/apricot_jam": {
     "criteria": {
       "has_apricot": "2022-04-14 22:05:25 -0300"
@@ -2134,6 +2283,18 @@
   "croptopia:recipes/potato_chips": {
     "criteria": {
       "has_potato": "2022-04-14 21:33:53 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2022-04-23 01:28:07 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2022-04-23 01:28:07 -0300"
     },
     "done": true
   },
@@ -2353,6 +2514,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/farmersdelight/stuffed_potato": {
+    "criteria": {
+      "has_baked_potato": "2022-04-23 00:40:04 -0300"
+    },
+    "done": true
+  },
   "ratsmischief:recipes/tools/purpur_rat_pouch": {
     "criteria": {
       "has_material": "2022-04-14 18:14:04 -0300"
@@ -2362,6 +2529,12 @@
   "botania:recipes/botania/petal_white": {
     "criteria": {
       "has_item": "2022-04-14 22:06:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2022-04-23 01:53:24 -0300"
     },
     "done": true
   },
@@ -2392,6 +2565,12 @@
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_wood_slab": "2022-04-16 20:20:59 -0300"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/virus_nullodermal": {
+    "criteria": {
+      "has_alt_item": "2022-04-23 01:13:07 -0300"
     },
     "done": true
   },
@@ -2561,6 +2740,12 @@
   "croptopia:recipes/fruit_salad": {
     "criteria": {
       "has_grapes": "2022-04-16 19:56:42 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2022-04-23 01:25:12 -0300"
     },
     "done": true
   },
